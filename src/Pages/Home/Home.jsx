@@ -1,3 +1,4 @@
+import Banner from "../../Components/HomeComponents/Banner";
 import "./Home.css";
 
 const Home = () => {
@@ -15,8 +16,8 @@ const Home = () => {
         //         >
         //             <h1>This is home.</h1>
         //         </div>
-        <div className=" h-screen" style={{ background: 'url("/public/Half Round BG.png") no-repeat center center / cover' }}>
-            <h1>This is a div with a background image.</h1>
+        <div>
+            <Banner />
         </div>
 
     );

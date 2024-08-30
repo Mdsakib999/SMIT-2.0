@@ -2,7 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-
+.section-container {
+  @apply w-[95%] md:w-[90%] xl:w-[1240px] 2xl:w-[1320px] mx-auto;
+}
 
 .b {
   border: 2px solid;
@@ -12,8 +14,18 @@
   border: 2px solid red;
 }
 
+.background-gradient {
+  background: radial-gradient(
+    circle,
+    rgba(255, 192, 203, 0.5) 0%,
+    rgba(255, 255, 255, 0) 70%
+  );
+}
 
-
-
-
-
+.background-gradient-blue {
+  background: radial-gradient(
+    circle,
+    rgba(247, 185, 41, 0.4) 0%,
+    rgba(255, 255, 255, 0) 70%
+  );
+}
