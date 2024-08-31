@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "blogTitle": "The Future of Artificial Intelligence",
+        "content": "Artificial Intelligence (AI) is transforming the way we live and work. From automation to personalized experiences, AI is at the forefront of technological advancement. In this blog, we explore the future potential of AI and its impact on various industries.",
+        "Image": "https://example.com/image1.png",
+        "postingDate": "June 9, 2023",
+        "category": "Technology"
+    },
+    {
+        "id": 2,
+        "blogTitle": "5 Tips for a Healthy Lifestyle",
+        "content": "Maintaining a healthy lifestyle is crucial for overall well-being. In this blog, we provide five practical tips to help you stay healthy, including balanced nutrition, regular exercise, adequate sleep, stress management, and hydration.",
+        "Image": "https://example.com/image2.png",
+        "postingDate": "July 15, 2023",
+        "category": "Health & Wellness"
+    },
+    {
+        "id": 3,
+        "blogTitle": "The Ultimate Guide to Remote Work",
+        "content": "Remote work has become the new norm for many professionals around the globe. This guide covers everything you need to know about remote work, from setting up a productive workspace to managing your time effectively.",
+        "Image": "https://example.com/image3.png",
+        "postingDate": "August 22, 2023",
+        "category": "Career & Development"
+    },
+    {
+        "id": 4,
+        "blogTitle": "Exploring the World: Top Travel Destinations for 2024",
+        "content": "Ready to pack your bags and explore the world? Discover the top travel destinations for 2024, ranging from exotic beaches to bustling cities, and learn tips for making the most out of your travel experiences.",
+        "Image": "https://example.com/image4.png",
+        "postingDate": "September 10, 2023",
+        "category": "Travel"
+    }
+]
