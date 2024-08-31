@@ -22,7 +22,7 @@ const Contact = () => {
         </div> */}
 
 
-    <div class="background-gradient w-72 h-72 absolute top-[-50px] right-[-50px] rounded-full">
+    <div class="background-gradient w-[450px] h-96 absolute top-[-50px] right-[-50px] rounded-full">
        
     </div>
     <div class="background-gradient-blue w-80 h-80 absolute top-[50%] left-[-10%] rounded-full"></div>
