@@ -1,4 +1,5 @@
-import React, { useRef } from "react";
+/* eslint-disable react/prop-types */
+import { useRef } from "react";
 
 const Modal = ({ isOpen, onClose, children }) => {
     const dialogRef = useRef(null);
@@ -42,7 +43,7 @@ const Modal = ({ isOpen, onClose, children }) => {
                         <dialog
                             ref={dialogRef}
                             open
-                            className={` h-auto overflow-y-auto text-white rounded-lg shadow-lg  max-w-xl  relative transform transition-transform duration-300 ${isOpen ? 'scale-100 opacity-100' : 'scale-95 opacity-0'
+                            className={` h-auto overflow-y-auto text-white rounded-lg shadow-lg  max-w-4xl  relative transform transition-transform duration-300 ${isOpen ? 'scale-100 opacity-100' : 'scale-95 opacity-0'
                                 }`}
                         >
                             <div>

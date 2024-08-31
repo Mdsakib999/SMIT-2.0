@@ -25,7 +25,7 @@ export const navData = [
       },
       {
         id: "3",
-        title: "Home",
+        title: "About",
         link: "/",
       },
     ],
