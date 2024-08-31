@@ -1,6 +1,7 @@
-import { useState } from "react";
 import "./App.css";
 import { Outlet } from "react-router-dom";
+// import Demo from "./Components/Demo";
+import Navbar from "./Components/Shared/Navbar";
 import Footer from "./Components/Footer/Footer";
 
 function App() {
@@ -9,8 +10,8 @@ function App() {
     <div>
 
       {/* header  */}
-
-
+      <Navbar />
+      {/* <Demo /> */}
       <div className='min-h-[calc(100vh-196px)] '>
         <Outlet></Outlet>
       </div>
