@@ -1,4 +1,4 @@
-import img1 from "../../public/pexels-pixabay-327533.jpg";
+import img1 from "../assets/pexels-pixabay-327533.jpg";
 
 export const blogData = [
   {
