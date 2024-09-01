@@ -13,6 +13,8 @@ const SectionTitle = ({ title, description }) => {
             <h1 className="text-2xl md:text-4xl font-bold text-center">
                 {words.join(' ')}{' '}
                 <span style={{ color: '#FF5733' }}>{lastWord}</span>
+
+
             </h1>
         </div>
     );
