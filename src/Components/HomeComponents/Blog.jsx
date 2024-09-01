@@ -49,7 +49,7 @@ const Blog = () => {
                                     </div>
                                     <h1 className='text-base md:text-lg font-bold mt-2'>{item.title}</h1>
                                 </div>
-                                <img src={item.img} alt="" className='size-[100px] rounded-xl' />
+                                <img src={item.img} alt="" className='size-[88px] rounded-xl' />
                             </div>
                         ))
                     }

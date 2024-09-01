@@ -3,6 +3,7 @@ import OurTeam from "../../Components/OurTeam";
 import Augment from "../../Components/HomeComponents/Augment";
 import Banner from "../../Components/HomeComponents/Banner";
 import Blog from "../../Components/HomeComponents/Blog";
+import SectionTitle from "../../Components/Shared/SectionTitle";
 import useDocumentTitle from "../../Hooks/useDocumentTitle";
 import "./Home.css";
 
@@ -14,7 +15,7 @@ const Home = () => {
 
 
             
-
+            <SectionTitle title={'Our Process'} description={'Thoughtful digital strategies'} />
             
             <Augment />
 
@@ -26,6 +27,7 @@ const Home = () => {
 
             {/* Contact */}
             <Contact></Contact>
+           
         </div>
 
     );
