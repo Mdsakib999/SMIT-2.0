@@ -23,7 +23,7 @@ const Banner = () => {
                             <p className="text-sm mt-4">At SM IT SOLUTION, you can discover state-of-the-art technological solutions that will propel your company to new heights. Our goal is to help businesses succeed in the digital world by solving their challenges and providing them with innovative IT services.</p>
                             <div className="mt-8 flex  justify-center md:justify-normal space-x-6">
                                 <button className="bg-[#FD9F48] px-4 py-2 rounded-2xl text-base font-semibold text-white">Start Now</button>
-                                <button onClick={openModal} className="px-4 py-2 border hover:rounded-md flex items-center gap-2 border-black">
+                                <button onClick={openModal} className="px-4 py-2 border hover:rounded-xl flex items-center gap-2 border-black">
                                     <img className="size-6" src={videoLogo} alt="" />
                                     Watch Now</button>
                             </div>
