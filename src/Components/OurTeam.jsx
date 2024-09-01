@@ -16,7 +16,7 @@ const OurTeam = () => {
   }, []);
 
   return (
-    <div className=" w-[90%] mx-auto">
+    <div className=" w-[90%] mx-auto ">
       <p className="md:text-5xl text-3xl font-semibold md:mb-5 mb-6 text-center">
         Our Expert Team
       </p>
@@ -56,13 +56,13 @@ const OurTeam = () => {
       >
         {membersData.map((members) => (
           <SwiperSlide key={members.id}>
-            <div className="my-20">
+            <div className="my-20 hover:-translate-y-2 duration-500 ">
               <Link
                 to="/"  
-                className="bg-white dark:bg-slate-800 shadow-xl hover:shadow-orange-200 hover:shadow-lg relative flex items-end justify-center min-h-[185px] rounded-t-[30px] rounded-b-[5px] border dark:border-slate-700 "
+                className="bg-white dark:bg-slate-800 shadow-xl shadow-orange-100 hover:shadow-orange-200 hover:shadow-lg relative flex items-end justify-center min-h-[185px] rounded-t-[30px] rounded-b-[5px] border dark:border-slate-700 "
               >
                 <div>
-                  <div className="absolute -top-[75px] z-10 left-1/2 -translate-x-1/2 bg-white dark:bg-slate-800 shadow border dark:border-slate-700 rounded-full flex justify-center items-center h-36 w-36 ">
+                  <div className="absolute -top-[75px] z-10 left-1/2 -translate-x-1/2 bg-white dark:bg-slate-800 border-2 dark:border-slate-700 rounded-full flex justify-center items-center h-32 w-32  ">
                     <img
                       src="https://media.licdn.com/dms/image/v2/D5603AQFUkPFXrhh8yQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1681406507415?e=1730332800&v=beta&t=TCy989yvAswrs31tZKccDV4ctFQiMyjrO6pWwdHwHF8"
                       alt=""
@@ -74,7 +74,7 @@ const OurTeam = () => {
                   </p>
                   <p className="text-lg font-normal mb-1 text-center">{members.designation}</p>
                   <hr className="w-full border-b-2" />
-                  <div className="my-2 text-xl flex justify-evenly">
+                  <div className="my-3 text-xl flex justify-evenly">
                     <FaLinkedin className="hover:text-blue-600" />
                     <FaTwitter className="hover:text-blue-600" />
                   </div>

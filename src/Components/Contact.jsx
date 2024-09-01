@@ -3,8 +3,10 @@
 import { FaLocationDot } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { BiSolidPhoneCall } from "react-icons/bi";
+import useDocumentTitle from "../Hooks/useDocumentTitle";
 
 const Contact = () => {
+  useDocumentTitle('Contact | Sm It Solution')
   return (
     <div>
       <div className="text-center mt-16 mb-10">

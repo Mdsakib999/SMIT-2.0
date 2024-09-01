@@ -9,23 +9,23 @@
     },
     {
         "id": 2,
-        "name": "Bob Smith",
-        "designation": "Project Manager",
+        "name": "Shahriar Rahaman",
+        "designation": "CEO",
         "Image": "https://cdn.easyfrontend.com/pictures/testimonial/testimonial_square_1.jpeg  ",
         "linkedinLink": "https://www.linkedin.com/in/bobsmith",
         "twiterLink": "https://twitter.com/bobsmith"
     },
     {
         "id": 3,
-        "name": "Charlie Brown",
-        "designation": "Data Analyst",
+        "name": "Tariqul Islam",
+        "designation": "Manager",
         "Image": "https://cdn.easyfrontend.com/pictures/testimonial/testimonial_square_1.jpeg  ",
         "linkedinLink": "https://www.linkedin.com/in/charliebrown",
         "twiterLink": "https://twitter.com/charliebrown"
     },
     {
         "id": 4,
-        "name": "Diana White",
+        "name": "Saiful Islam",
         "designation": "UI/UX Designer",
         "Image": "https://cdn.easyfrontend.com/pictures/testimonial/testimonial_square_1.jpeg  ",
         "linkedinLink": "https://www.linkedin.com/in/dianawhite",
@@ -33,7 +33,7 @@
     },
     {
         "id": 5,
-        "name": "Evan Davis",
+        "name": "Prantica ",
         "designation": "Marketing Specialist",
         "Image": "https://cdn.easyfrontend.com/pictures/testimonial/testimonial_square_1.jpeg ",
         "linkedinLink": "https://www.linkedin.com/in/evandavis",
@@ -41,8 +41,8 @@
     },
     {
         "id": 6,
-        "name": "Fiona Green",
-        "designation": "HR Manager",
+        "name": "Tushar Imran",
+        "designation": "Eeam Lead",
         "Image": "https://cdn.easyfrontend.com/pictures/testimonial/testimonial_square_1.jpeg ",
         "linkedinLink": "https://www.linkedin.com/in/fionagreen",
         "twiterLink": "https://twitter.com/fionagreen"
