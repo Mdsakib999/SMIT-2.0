@@ -1,5 +1,5 @@
 import { HiMiniCheckBadge } from "react-icons/hi2";
-import videoLogo from '/public/icons8-video-50.png'
+import videoLogo from '/src/assets/icons8-video-50.png'
 import Modal from "../Shared/Modal";
 import { useState } from "react";
 
@@ -15,7 +15,7 @@ const Banner = () => {
     };
     return (
         <>
-            <div className=" h-[calc(100vh-10px)] scale-x-[-1] mt-14 md:mt-0 " style={{ background: 'url("/public/Half Round BG.png") no-repeat center center / cover' }} >
+            <div className=" h-[calc(100vh-10px)] scale-x-[-1] mt-14 md:mt-0 " style={{ background: 'url("/src/assets/Half Round BG.png") no-repeat center center / cover' }} >
                 <div className="grid grid-cols-1 md:grid-cols-2  h-full section-container scale-x-[-1]">
                     <div className=" flex items-center ">
                         <div className="text-center md:text-left">
