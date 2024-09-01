@@ -1,4 +1,4 @@
-import img from '/public/pexels-alimadad-997512_prev_ui.png'
+import img from '../../assets/pexels-alimadad-997512_prev_ui.png'
 const Augment = () => {
     return (
         <div className='mb-24 md:mb-44'>
