@@ -1,3 +1,5 @@
+import Contact from "../../Components/Contact";
+import OurTeam from "../../Components/OurTeam";
 import Augment from "../../Components/HomeComponents/Augment";
 import Banner from "../../Components/HomeComponents/Banner";
 import Blog from "../../Components/HomeComponents/Blog";
@@ -10,9 +12,22 @@ const Home = () => {
     return (
         <div>
             <Banner />
-            <Augment />
-            <Blog />
+
+
+            
             <SectionTitle title={'Our Process'} description={'Thoughtful digital strategies'} />
+            
+            <Augment />
+
+            {/* Out team */}
+            <OurTeam></OurTeam>
+
+            
+            <Blog />
+
+            {/* Contact */}
+            <Contact></Contact>
+           
         </div>
 
     );
