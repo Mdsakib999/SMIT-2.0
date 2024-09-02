@@ -3,6 +3,7 @@ import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import { navData } from '../../utils/navData';
 import { Link } from 'react-router-dom';
 import { IoIosArrowDown } from "react-icons/io";
+import logo from '../../assets/SM IT Solution LOGO PNG.png';
 
 
 const Navbar = () => {
@@ -21,7 +22,7 @@ const Navbar = () => {
                 {/* Logo */}
                 {/* <h1 className='w-full text-3xl font-bold text-[#00df9a]'>REACT.</h1> */}
                 <div className='flex justify-center items-center gap-2'>
-                    <img src="" alt="img" className='size-10 border-2 rounded-full' />
+                    <img src={logo} alt="img" className='size-10  rounded-full' />
                     <p>SM IT SOLUTION</p>
                 </div>
 
@@ -96,7 +97,7 @@ const Navbar = () => {
                 >
                     {/* Mobile Logo */}
                     <div className='flex justify-center text-white items-center gap-2'>
-                        <img src="" alt="img" className='size-10 border-2 rounded-full' />
+                        <img src={logo} alt="img" className='size-10  rounded-full' />
                         <p>SM IT SOLUTION</p>
                     </div>
 

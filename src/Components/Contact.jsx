@@ -8,7 +8,7 @@ import useDocumentTitle from "../Hooks/useDocumentTitle";
 const Contact = () => {
   useDocumentTitle('Contact | Sm It Solution')
   return (
-    <div>
+    <div className="overflow-x-hidden relative">
       <div className="text-center mt-16 mb-10">
         <h1 className="text-3xl lg:text-5xl font-bold animate-fade-up">Contact Us</h1>
         <p className="text-lg text-gray-500 pt-4  lg:w-[50%] w-[95%] m-auto ">
@@ -25,7 +25,7 @@ const Contact = () => {
         </div> */}
 
 
-      <div className="background-gradient w-72 h-72 absolute top-[-50px] right-[-50px] rounded-full">
+      <div className="background-gradient w-72 h-72 absolute top-[-10px] right-[-50px] rounded-full">
 
       </div>
       <div className="background-gradient-blue w-80 h-80 absolute top-[50%] left-[-10%] rounded-full"></div>

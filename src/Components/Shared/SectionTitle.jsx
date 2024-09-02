@@ -14,7 +14,6 @@ const SectionTitle = ({ title, description }) => {
                 {words.join(' ')}{' '}
                 <span style={{ color: '#FF5733' }}>{lastWord}</span>
 
-
             </h1>
         </div>
     );
