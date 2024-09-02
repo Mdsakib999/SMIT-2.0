@@ -10,7 +10,7 @@ const Contact = () => {
   return (
     <div className="overflow-x-hidden relative">
       <div className="text-center mt-16 mb-10">
-        <h1 className="text-3xl lg:text-5xl font-bold animate-fade-up">Contact Us</h1>
+        <h1 className="text-3xl lg:text-5xl font-bold animate-fade-up tracking-wide">Contact Us</h1>
         <p className="text-lg text-gray-500 pt-4  lg:w-[50%] w-[95%] m-auto ">
           From Seed to Success, We're Here to Help. To make the future brighter and more connected, let's work together to bring out the best in your company.
 
@@ -24,14 +24,13 @@ const Contact = () => {
             />
         </div> */}
 
+      {/* Gradient div */}
+      <div className="background-gradient w-72 h-72 absolute top-[10px] right-[-50px] rounded-full "></div>
 
-      <div className="background-gradient w-72 h-72 absolute top-[-10px] right-[-50px] rounded-full">
-
-      </div>
-      <div className="background-gradient-blue w-80 h-80 absolute top-[50%] left-[-10%] rounded-full"></div>
+      <div className="background-gradient-blue w-80 h-80 absolute top-[30%] left-[-10%] rounded-full"></div>
 
 
-      {/* exprment */}
+      {/* experiment */}
 
       <div className=" w-[90%] mx-auto ">
 
