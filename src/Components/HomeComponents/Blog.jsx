@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { blogData } from '../../utils/BlogData';
 
 const Blog = () => {
@@ -24,7 +25,7 @@ const Blog = () => {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 mt-8 gap-4">
                 <div>
-                    <div className='shadow-md rounded-xl'>
+                    <Link to={`/blog/${mainData.id}`} className='shadow-md rounded-xl'>
                         <img src={mainData.img} alt="" className='max-h-[200px] rounded-t-xl w-full' />
                         <div className='mt-3 space-y-3 px-4 pb-4'>
                             <div>
@@ -36,12 +37,12 @@ const Blog = () => {
                                 <p className='text-sm text-slate-400 '>{mainData.description}</p>
                             </div>
                         </div>
-                    </div>
+                    </Link>
                 </div>
                 <div className='space-y-4'>
                     {
                         mainData2.map((item, index) => (
-                            <div key={index} className='shadow-md rounded-xl flex justify-between p-2 md:p-4'>
+                            <Link to={`/blog/${item.id}`} key={index} className='shadow-md rounded-xl flex justify-between p-2 md:p-4'>
                                 <div>
                                     <div>
                                         <p className={`inline-block ${backgroundColors[index % backgroundColors.length]} text-[#3f3285] text-sm font-semibold px-4 rounded-full py-1`}>{item.department}</p>
@@ -50,7 +51,7 @@ const Blog = () => {
                                     <h1 className='text-base md:text-lg font-bold mt-2'>{item.title}</h1>
                                 </div>
                                 <img src={item.img} alt="" className='size-[88px] rounded-xl' />
-                            </div>
+                            </Link>
                         ))
                     }
                 </div>
