@@ -15,7 +15,7 @@ const Home = () => {
 
 
             
-            <SectionTitle title={'Our Process'} description={'Thoughtful digital strategies'} />
+            <SectionTitle title={'Our Process'} description={'Thoughtful Digital Strategies'} />
             
             <Augment />
 

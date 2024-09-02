@@ -16,7 +16,7 @@ const OurTeam = () => {
   }, []);
 
   return (
-    <div className=" w-[90%] mx-auto ">
+    <div className=" w-[85%] mx-auto ">
       <p className="md:text-5xl text-3xl font-semibold md:mb-5 mb-6 text-center">
         Our Expert Team
       </p>
