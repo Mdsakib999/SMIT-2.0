@@ -12,6 +12,7 @@ const Blog = () => {
         // 'bg-[#D1C1FF]',  // Light lavender
         'bg-[#FFC1D1]'   // Light pink
     ];
+    const description = mainData.description[0].split(' ').slice(0, 20).join(' ')
     return (
         <div
             // style={{ background: 'url("/public/Round BG.png") no-repeat center center / cover' }} 
@@ -25,7 +26,7 @@ const Blog = () => {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 mt-8 gap-4">
                 <div>
-                    <Link to={`/blog/${mainData.id}`} className='shadow-md rounded-xl'>
+                    <div className='shadow-md rounded-xl'>
                         <img src={mainData.img} alt="" className='max-h-[200px] rounded-t-xl w-full' />
                         <div className='mt-3 space-y-3 px-4 pb-4'>
                             <div>
@@ -34,10 +35,10 @@ const Blog = () => {
                             </div>
                             <div className='space-y-3'>
                                 <h1 className='text-xl md:text-3xl font-bold'>{mainData.title}</h1>
-                                <p className='text-sm text-slate-400 '>{mainData.description}</p>
+                                <p className='text-sm text-slate-400 '>{description}... <Link to={`/blog/${mainData.id}`} className='text-black'>see more</Link></p>
                             </div>
                         </div>
-                    </Link>
+                    </div>
                 </div>
                 <div className='space-y-4'>
                     {
