@@ -6,11 +6,14 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <footer className="overflow-hidden relative z-10 bg-black text-white pb-10 pt-20 lg:pt-[80px] ">
-      <div className="background-gradient-footer w-80 h-80 absolute top-[45%] left-[-8%] rounded-full "></div>
+
+      {/* Gradient circle */}
+      <div className="background-gradient-footer w-56 h-56 md:w-80 md:h-80 absolute top-[50%] right-[-25%]  md:top-[50%] md:left-[-8%] rounded-full "></div>
 
       <div className="container  lg:w-[90%] mx-auto ">
         <div className="mx-4 flex justify-between flex-wrap border-b border-zinc-600 ">
@@ -36,7 +39,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="w-5/12  flex justify-evenly">
+          <div className="w-full md:w-5/12 px-4 flex md:justify-evenly justify-between mb-8 ">
             <div>
               <p className="mb-6 text-lg font-semibold text-dark dark:text-white ">
                 Company
@@ -48,7 +51,7 @@ const Footer = () => {
             </div>
 
             <div>
-              <p className="mb-6 text-lg font-semibold text-dark dark:text-white ">
+              <p className="mb-6  text-lg font-semibold text-dark dark:text-white ">
                 Quick Links
               </p>
               <p className="mt-3">Premium Support</p>
@@ -84,8 +87,12 @@ const Footer = () => {
               </div>
 
               <div className="flex mt-5 gap-x-4">
-                <FaFacebookF className="border rounded-full p-1 text-3xl hover:border-blue-500"></FaFacebookF>
-                <FaLinkedin className="border rounded-full p-1 text-3xl hover:border-blue-500"></FaLinkedin>
+                <Link to="https://www.facebook.com/smitsolution.uae" target="_blank">
+                  <FaFacebookF className="border rounded-full p-1 text-3xl hover:border-blue-500"></FaFacebookF>
+                </Link>
+                <Link to="https://www.linkedin.com/company/smitsolution/" target="_blank">
+                  <FaLinkedin className="border rounded-full p-1 text-3xl hover:border-blue-500"></FaLinkedin>
+                </Link>
                 <FaTwitter className="border rounded-full p-1 text-3xl hover:border-blue-500"></FaTwitter>
                 <FaInstagram className="border rounded-full p-1 text-3xl hover:border-orange-500"></FaInstagram>
               </div>
@@ -122,7 +129,7 @@ const Footer = () => {
           </svg>
         </span>
       </div>
-      <p className="text-center lg:mt-5 font-semibold">
+      <p className="text-center lg:mt-5 mt-3 font-semibold">
         Copyright © SM IT Solution 2024
       </p>
     </footer>
