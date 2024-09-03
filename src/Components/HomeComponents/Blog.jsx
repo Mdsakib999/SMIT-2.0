@@ -12,6 +12,7 @@ const Blog = () => {
         // 'bg-[#D1C1FF]',  // Light lavender
         'bg-[#FFC1D1]'   // Light pink
     ];
+    const description = mainData.description[0].split(' ').slice(0, 20).join(' ')
     return (
         <div
             // style={{ background: 'url("/public/Round BG.png") no-repeat center center / cover' }} 
@@ -23,24 +24,22 @@ const Blog = () => {
                 </p>
                 <p className="text-xl md:text-3xl font-bold mt-3">Latest From <span className=' font-manrope  leading-snug text-transparent bg-clip-text bg-gradient-to-r from-orange-400 via-orange-600 to-amber-400'>SM IT Solution</span> </p>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 mt-8 gap-8 ">
-                <div className=' bg-gray-50 rounded-xl shadow-md'>
-                    <Link to={`/blog/${mainData.id}`} className='shadow-md rounded-xl'>
-                        <div className="h-[200px]">
-                        <img src={mainData.img} alt="" className='h-full rounded-t-xl w-full ' />
-                        </div>
-                        <div className='mt-3 space-y-3 px-4 pb-4 '>
+            <div className="grid grid-cols-1 md:grid-cols-2 mt-8 gap-4">
+                <div>
+                    <div className='shadow-md rounded-xl'>
+                        <img src={mainData.img} alt="" className='max-h-[200px] rounded-t-xl w-full' />
+                        <div className='mt-3 space-y-3 px-4 pb-4'>
                             <div>
                                 <p className='inline-block bg-[#C0B1FF] text-[#3f3285] text-sm font-semibold px-4 rounded-full py-1'>{mainData.department}</p>
                                 <span className='text-xs ms-4'>{mainData.date}</span>
                             </div>
                             <div className='space-y-3'>
                                 <h1 className='text-xl md:text-3xl font-bold'>{mainData.title}</h1>
-                                <p className='text-sm text-slate-500 '>{mainData.description}</p>
-                            </div>
-                        </div>
-                    </Link>
-                </div>
+                                <p className='text-sm text-slate-400 '>{description}... <Link to={`/blog/${mainData.id}`} className='text-black'>see more</Link></p>
+                            </div >
+                        </div >
+                    </div >
+                </div >
                 <div className='space-y-4 '>
                     {
                         mainData2.map((item, index) => (
@@ -58,8 +57,8 @@ const Blog = () => {
                     }
                 </div>
 
-            </div>
-        </div>
+            </div >
+        </div >
     );
 };
 
