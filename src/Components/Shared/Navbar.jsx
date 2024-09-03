@@ -3,6 +3,7 @@ import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import { navData } from '../../utils/navData';
 import { Link } from 'react-router-dom';
 import { IoIosArrowDown } from "react-icons/io";
+import logo from '../../assets/SMIT_LOGO.png';
 
 
 const Navbar = () => {
@@ -16,14 +17,14 @@ const Navbar = () => {
     };
 
     return (
-        <div className='shadow-md w-full fixed top-0 bg-white z-30'>
+        <div className='shadow-md w-full fixed top-0 bg-gray-50 z-30'>
             <div className='   flex justify-between items-center h-20 max-w-[1240px] mx-auto px-4 text-black '>
                 {/* Logo */}
                 {/* <h1 className='w-full text-3xl font-bold text-[#00df9a]'>REACT.</h1> */}
-                <div className='flex justify-center items-center gap-2'>
-                    <img src="" alt="img" className='size-10 border-2 rounded-full' />
+                <Link to="/" className='flex justify-center items-center gap-2'>
+                    <img src={logo} alt="img" className='size-10  rounded-full' />
                     <p>SM IT SOLUTION</p>
-                </div>
+                </Link>
 
                 {/* Desktop Navigation */}
                 <ul className='hidden md:flex'>
@@ -38,15 +39,15 @@ const Navbar = () => {
                         <li key={item.id} className="relative group px-3 py-2">
                             <Link
                                 to={item.link}
-                                className="hover:opacity-50 cursor-pointer"
+                                className="hover:opacity-70 cursor-pointer font-semibold lg:text-lg"
                             // aria-haspopup="true"
                             >
                                 {item.title}
                             </Link>
                             {
                                 item.children && <div className="absolute top-2 -left-0 transition group-hover:translate-y-5 translate-y-0 opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-500 ease-in-out group-hover:transform z-50 min-w-[160px] transform">
-                                    <div className="relative top-6 p-6 bg-white rounded-xl shadow-xl w-fit">
-                                        <div className="w-10 h-10 bg-white transform rotate-45 absolute top-0 z-0 translate-x-0 transition-transform group-hover:translate-x-[-1rem] duration-500 ease-in-out rounded-sm"></div>
+                                    <div className="relative top-5 p-6 bg-white rounded-xl shadow-xl w-fit ">
+                                        <div className="w-10 h-10 bg-white transform rotate-45 absolute -top-1 z-0 translate-x-0 transition-transform group-hover:translate-x-[-1rem] duration-500 ease-in-out rounded-sm "></div>
 
                                         <div className="relative px-8 z-10">
                                             <div className=" gap-6">
@@ -96,7 +97,7 @@ const Navbar = () => {
                 >
                     {/* Mobile Logo */}
                     <div className='flex justify-center text-white items-center gap-2'>
-                        <img src="" alt="img" className='size-10 border-2 rounded-full' />
+                        <img src={logo} alt="img" className='size-10  rounded-full' />
                         <p>SM IT SOLUTION</p>
                     </div>
 

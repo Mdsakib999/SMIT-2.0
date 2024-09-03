@@ -1,9 +1,10 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { FaLinkedin, FaTwitter } from "react-icons/fa";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
+import "swiper/css/autoplay"
 import { Pagination, Autoplay } from "swiper/modules";
 
 const OurTeam = () => {
@@ -14,25 +15,28 @@ const OurTeam = () => {
       .then((res) => res.json())
       .then((data) => setMembersData(data));
   }, []);
+  console.log(membersData);
 
   return (
-    <div className=" w-[85%] mx-auto ">
+    <div className="bg-gradient-to-b from-[#fff] via-[#f3cf9434] to-[#fff]]">
+      <div className=" w-[85%] mx-auto ">
       <p className="md:text-5xl text-3xl font-semibold md:mb-5 mb-6 text-center">
         Our Expert Team
       </p>
-      <p className="md:w-[50%] w-[90%] mx-auto mb-10 text-center text-slate-500 ">
+      <p className="md:w-[50%] w-[90%] mx-auto mb-20 text-center text-slate-500 ">
         Service is professional offerings provided by businesses to meet
         specific needs or solve problems for their customers. Services can range
         from your budget.
       </p>
 
       <Swiper
-        slidesPerView={2}  
+        slidesPerView={2}
         spaceBetween={50}
         loop={true}
         autoplay={{
           delay: 2500,
           disableOnInteraction: false,
+
         }}
         pagination={{
           clickable: true,
@@ -48,17 +52,17 @@ const OurTeam = () => {
             slidesPerView: 2,
             spaceBetween: 40,
           },
-          1024: {  
+          1024: {
             slidesPerView: 4,
             spaceBetween: 50,
           },
         }}
       >
-        {membersData.map((members) => (
-          <SwiperSlide key={members.id}>
+        {membersData?.map((members, index) => (
+          <SwiperSlide key={index}>
             <div className="my-20 hover:-translate-y-2 duration-500 ">
               <Link
-                to="/"  
+                to="/"
                 className="bg-white dark:bg-slate-800 shadow-xl shadow-orange-100 hover:shadow-orange-200 hover:shadow-lg relative flex items-end justify-center min-h-[185px] rounded-t-[30px] rounded-b-[5px] border dark:border-slate-700 "
               >
                 <div>
@@ -84,6 +88,7 @@ const OurTeam = () => {
           </SwiperSlide>
         ))}
       </Swiper>
+    </div>
     </div>
   );
 };

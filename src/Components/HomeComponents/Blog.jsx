@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { blogData } from '../../utils/BlogData';
 
 const Blog = () => {
@@ -15,42 +16,44 @@ const Blog = () => {
         <div
             // style={{ background: 'url("/public/Round BG.png") no-repeat center center / cover' }} 
 
-            className="section-container pb-8  md:py-8">
+            className="section-container pb-8  md:py-10 ">
             <div>
-                <p className="bg-[#A0E2FB] inline-block px-4 py-1 rounded-full">
-                    <span className="size bg-orange-400 size-3 inline-block  rotate-45"></span> <span className="text-sm font-semibold">Block</span>
+                <p className="bg-[#a0e3fbb7] inline-block px-4 py-1 rounded-full">
+                    <span className="size bg-orange-400 size-3 inline-block  rotate-45"></span> <span className="text-sm font-semibold ml-1">BLOG</span>
                 </p>
-                <p className="text-xl md:text-3xl font-bold mt-1">Latest From SM It Solution</p>
+                <p className="text-xl md:text-3xl font-bold mt-3">Latest From <span className=' font-manrope  leading-snug text-transparent bg-clip-text bg-gradient-to-r from-orange-400 via-orange-600 to-amber-400'>SM IT Solution</span> </p>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 mt-8 gap-4">
-                <div>
-                    <div className='shadow-md rounded-xl'>
-                        <img src={mainData.img} alt="" className='max-h-[200px] rounded-t-xl w-full' />
-                        <div className='mt-3 space-y-3 px-4 pb-4'>
+            <div className="grid grid-cols-1 md:grid-cols-2 mt-8 gap-8 ">
+                <div className=' bg-gray-50 rounded-xl shadow-md'>
+                    <Link to={`/blog/${mainData.id}`} className='shadow-md rounded-xl'>
+                        <div className="h-[200px]">
+                        <img src={mainData.img} alt="" className='h-full rounded-t-xl w-full ' />
+                        </div>
+                        <div className='mt-3 space-y-3 px-4 pb-4 '>
                             <div>
                                 <p className='inline-block bg-[#C0B1FF] text-[#3f3285] text-sm font-semibold px-4 rounded-full py-1'>{mainData.department}</p>
                                 <span className='text-xs ms-4'>{mainData.date}</span>
                             </div>
                             <div className='space-y-3'>
                                 <h1 className='text-xl md:text-3xl font-bold'>{mainData.title}</h1>
-                                <p className='text-sm text-slate-400 '>{mainData.description}</p>
+                                <p className='text-sm text-slate-500 '>{mainData.description}</p>
                             </div>
                         </div>
-                    </div>
+                    </Link>
                 </div>
-                <div className='space-y-4'>
+                <div className='space-y-4 '>
                     {
                         mainData2.map((item, index) => (
-                            <div key={index} className='shadow-md rounded-xl flex justify-between p-2 md:p-4'>
+                            <Link to={`/blog/${item.id}`} key={index} className='shadow-md rounded-lg flex justify-between p-2 md:p-4 bg-slate-50'>
                                 <div>
                                     <div>
                                         <p className={`inline-block ${backgroundColors[index % backgroundColors.length]} text-[#3f3285] text-sm font-semibold px-4 rounded-full py-1`}>{item.department}</p>
-                                        <span className='text-xs ms-4 text-slate-500'>{item.date}</span>
+                                        <span className='text-xs ms-4 text-slate-700'>{item.date}</span>
                                     </div>
-                                    <h1 className='text-base md:text-lg font-bold mt-2'>{item.title}</h1>
+                                    <p className='text-base md:text-lg font-bold mt-4'>{item.title}</p>
                                 </div>
-                                <img src={item.img} alt="" className='size-[88px] rounded-xl' />
-                            </div>
+                                <img src={item.img} alt="" className='w-36 rounded-xl' />
+                            </Link>
                         ))
                     }
                 </div>
