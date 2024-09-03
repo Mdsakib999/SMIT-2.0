@@ -18,7 +18,7 @@ const OurTeam = () => {
   console.log(membersData);
 
   return (
-    <div className="bg-gradient-to-b from-[#fff] via-[#f3cf9434] to-[#fff]]">
+    <div className="bg-gradient-to-b from-[#fff] via-[#f3cf9427] to-[#fff]]">
       <div className=" w-[85%] mx-auto ">
       <p className="md:text-5xl text-3xl font-semibold md:mb-5 mb-6 text-center">
         Our Expert Team
@@ -63,7 +63,7 @@ const OurTeam = () => {
             <div className="my-20 hover:-translate-y-2 duration-500 ">
               <Link
                 to="/"
-                className="bg-white dark:bg-slate-800 shadow-xl shadow-orange-100 hover:shadow-orange-200 hover:shadow-lg relative flex items-end justify-center min-h-[185px] rounded-t-[30px] rounded-b-[5px] border dark:border-slate-700 "
+                className="bg-white dark:bg-slate-800 shadow-xl  hover:shadow-orange-200 hover:shadow-lg relative flex items-end justify-center min-h-[185px] rounded-t-[30px] rounded-b-[5px] border dark:border-slate-700 "
               >
                 <div>
                   <div className="absolute -top-[75px] z-10 left-1/2 -translate-x-1/2 bg-white dark:bg-slate-800 border-2 dark:border-slate-700 rounded-full flex justify-center items-center h-32 w-32  ">
