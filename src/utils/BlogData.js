@@ -5,7 +5,7 @@ export const blogData = [
     id: "1",
     img: img1,
     department: "Marketing",
-    date: "June 6, 2023",
+    date: "June 6, 2024",
     title: "Understanding the Role of CMS in Sales and Marketing",
     description: [
       "A Content Management System (CMS) plays a crucial role in modern marketing by enabling businesses to manage and deliver content across various digital platforms efficiently. By centralizing content creation and distribution, a CMS allows marketing teams to maintain consistency in messaging and branding, which is vital in building a strong online presence. Furthermore, a CMS can streamline the process of updating and optimizing content based on customer feedback and analytics, allowing for more targeted and personalized marketing efforts. This not only enhances customer engagement but also improves conversion rates, as customers are more likely to interact with content that is relevant to their needs and preferences. In addition, a CMS supports collaboration within the marketing team, making it easier to coordinate efforts across different channels and campaigns.",
@@ -18,7 +18,7 @@ export const blogData = [
     id: "2",
     img: img1,
     department: "Sales",
-    date: "July 15, 2023",
+    date: "July 15, 2024",
     title: "How Sales Automation Can Boost Your Revenue",
     description: [
       "Sales automation refers to the use of software tools and technologies to streamline and optimize various sales processes, such as lead generation, customer relationship management, and sales forecasting. By automating repetitive and time-consuming tasks, sales teams can focus more on building relationships with customers and closing deals. This shift in focus is crucial for improving sales efficiency and increasing revenue. For instance, automation tools can automatically capture and categorize leads from various sources, such as social media, websites, and email campaigns. This ensures that sales teams have access to up-to-date information on potential customers, allowing them to prioritize their efforts and engage with the most promising leads. Additionally, automation can help reduce errors and inconsistencies in the sales process, ensuring that customers receive accurate and timely information.",
@@ -30,8 +30,8 @@ export const blogData = [
   {
     id: "3",
     img: img1,
-    department: "Development",
-    date: "August 10, 2023",
+    department: "IT",
+    date: "August 10, 2024",
     title: "The Future of Web Development: Trends to Watch",
     description: [
       "The field of web development is constantly evolving, driven by advancements in technology and changes in user behavior. As businesses increasingly rely on digital platforms to engage with customers and deliver services, staying ahead of web development trends is crucial. One of the most significant trends in web development is the rise of progressive web apps (PWAs). PWAs combine the best features of web and mobile apps, offering users a seamless and responsive experience across devices. They are designed to work offline, load quickly, and provide native app-like features such as push notifications and home screen icons. This makes them an attractive option for businesses looking to improve user engagement and retention. Additionally, PWAs are cost-effective to develop and maintain, as they do not require separate versions for different operating systems.",
@@ -44,7 +44,7 @@ export const blogData = [
     id: "4",
     img: img1,
     department: "Design",
-    date: "September 1, 2023",
+    date: "September 1, 2024",
     title: "The Importance of UX/UI in Modern Web Design",
     description: [
       "User experience (UX) and user interface (UI) design have become essential components of modern web design, as businesses recognize the impact of good design on customer engagement and satisfaction. UX design focuses on creating a seamless and enjoyable experience for users as they navigate a website or application. This involves understanding the needs and behaviors of users and designing interfaces that are intuitive, easy to use, and visually appealing. UI design, on the other hand, deals with the aesthetic aspects of a website or application, such as layout, color schemes, typography, and imagery. Together, UX and UI design ensure that users can interact with a digital product in a way that is both efficient and enjoyable. This is particularly important in today's competitive digital landscape, where a poor user experience can lead to high bounce rates and lost sales.",

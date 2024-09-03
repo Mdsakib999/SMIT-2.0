@@ -14,9 +14,9 @@ const Home = () => {
             <Banner />
 
 
-
-            <SectionTitle title={'Our Process'} description={'Thoughtful digital strategies'} />
-
+            
+            <SectionTitle title={'Our Process'} description={'Thoughtful Digital Strategies'} />
+            
             <Augment />
 
             {/* Out team */}
@@ -26,7 +26,7 @@ const Home = () => {
             <Blog />
 
             {/* Contact */}
-            <Contact></Contact>
+            <Contact></Contact> 
 
         </div>
 
