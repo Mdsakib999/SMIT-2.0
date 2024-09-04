@@ -1,7 +1,7 @@
 import { FaDatabase, FaReact, FaNodeJs, FaLock } from "react-icons/fa";
 import { SiExpress, SiRedux, SiMongodb, } from "react-icons/si";
 import logo from './../../../public/Animation - 1725398925591.json';
-import Lottie, { useLottie } from "lottie-react";
+import Lottie from "lottie-react";
 const ServiceSection = () => {
     const mernFeatures = [
         {

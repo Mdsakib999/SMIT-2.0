@@ -10,8 +10,15 @@ const BlogDetails = () => {
     const relatedData = blogData.filter(item => item.id !== id)
     const [liked, setLiked] = useState(false);
     useEffect(() => {
-        window.scrollTo({ top: 0 });
+        // window.scrollTo({ top: 0 });
     }, [])
+    const backgroundColors = [
+        // 'bg-[#C0B1FF]',  // Light purple
+        'bg-[#FFD1C1]',  // Light coral
+        'bg-[#C1FFD1]',  // Light green
+        // 'bg-[#D1C1FF]',  // Light lavender
+        'bg-[#FFC1D1]'   // Light pink
+    ];
     const handelClick = () => {
         window.scrollTo({ top: 0, behavior: 'smooth' });
         setLiked(false)
@@ -60,23 +67,22 @@ const BlogDetails = () => {
                     </div>
                 </div>
             </div>
+            <div className="w-[60%] mx-auto mt-16">
+                <div className=" border-t-2 relative  mb-10">
+                    <h1 className="text-2xl  font-bold mt-7">Related <span className="text-orange-400 " >Blog</span></h1>
+                    <span className="inline-block bg-orange-400 size-8 rounded-full bg-opacity-50 absolute top-3 left-[-20px] animate-pulse "></span>
 
-
-            <div className="w-[95%] lg:w-[60%] mx-auto mt-16">
-                <div>
-                    <h1 className="text-lg md:text-2xl  font-bold">Related <span className="text-orange-400" >Blog</span></h1>
-                    <span className="inline-block bg-orange-200 size-8 rounded-full -mt-96 bg-opacity-50 "></span>
                 </div>
                 <div className="mt-4 ms-3 md:ms-8 space-y-8">
                     {
                         relatedData.map((item, index) => (
-                            <Link to={`/blog/${item.id}`} onClick={handelClick} key={index} className=" shadow-md flex gap-4 md:max-w-[80%] rounded-xl">
-                                <img src={item.img} className="size-28 rounded-xl " alt="" />
+                            <Link to={`/blog/${item.id}`} onClick={handelClick} key={index} className=" shadow-md flex gap-4 items-center max-w-[80%] rounded-xl py-3 px-2 bg-white">
+                                <img src={item.img} className="w-36 rounded-lg " alt="" />
                                 <div>
                                     <p className="">
-                                        <span className="text-black text-base md:text-xl font-bold">{item.department}</span> -
+                                        <span className={`inline-block ${backgroundColors[index % backgroundColors.length]} text-[#160f3a] text-sm font-semibold px-4 rounded-full py-1`}>{item.department}</span> -
                                         <small> {item.date}</small></p>
-                                    <h1 className="text-lg md:text-xl font-bold mt-2">{item.title}</h1>
+                                    <h1 className="text-xl font-bold">{item.title}</h1>
                                 </div>
                             </Link>
                         ))

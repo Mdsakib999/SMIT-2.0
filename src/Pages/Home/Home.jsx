@@ -1,10 +1,9 @@
-import Contact from "../../Components/Contact";
 import Augment from "../../Components/HomeComponents/Augment";
 import Banner from "../../Components/HomeComponents/Banner";
 import Blog from "../../Components/HomeComponents/Blog";
-import OurTeam from "../../Components/HomeComponents/OurTeam";
-import ServiceSection from "../../Components/HomeComponents/ServiceSection";
-import SectionTitle from "../../Components/Shared/SectionTitle";
+import CountIngDiv from "../../Components/HomeComponents/CountIngDiv";
+import HomeContact from "../../Components/HomeComponents/HomeContact";
+import OurTeam from "../../Components/HomeComponents/OurTeam"
 import useDocumentTitle from "../../Hooks/useDocumentTitle";
 import "./Home.css";
 
@@ -16,10 +15,10 @@ const Home = () => {
 
 
 
-            <SectionTitle title={'Our Process'} description={'Thoughtful Digital Strategies'} />
 
-            <Augment />
-            <ServiceSection />
+            {/* Dynamic countup number */}
+            <CountIngDiv></CountIngDiv>
+
             {/* Out team */}
             <OurTeam></OurTeam>
 
@@ -27,7 +26,8 @@ const Home = () => {
             <Blog />
 
             {/* Contact */}
-            <Contact></Contact>
+            <HomeContact></HomeContact>
+
 
         </div>
 
