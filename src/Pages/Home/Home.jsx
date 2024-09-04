@@ -3,6 +3,7 @@ import Augment from "../../Components/HomeComponents/Augment";
 import Banner from "../../Components/HomeComponents/Banner";
 import Blog from "../../Components/HomeComponents/Blog";
 import OurTeam from "../../Components/HomeComponents/OurTeam";
+import ServiceSection from "../../Components/HomeComponents/ServiceSection";
 import SectionTitle from "../../Components/Shared/SectionTitle";
 import useDocumentTitle from "../../Hooks/useDocumentTitle";
 import "./Home.css";
@@ -14,11 +15,11 @@ const Home = () => {
             <Banner />
 
 
-            
-            <SectionTitle title={'Our Process'} description={'Thoughtful Digital Strategies'} />
-            
-            <Augment />
 
+            <SectionTitle title={'Our Process'} description={'Thoughtful Digital Strategies'} />
+
+            <Augment />
+            <ServiceSection />
             {/* Out team */}
             <OurTeam></OurTeam>
 
@@ -26,7 +27,7 @@ const Home = () => {
             <Blog />
 
             {/* Contact */}
-            <Contact></Contact> 
+            <Contact></Contact>
 
         </div>
 

@@ -3,12 +3,13 @@ import { Outlet } from "react-router-dom";
 // import Demo from "./Components/Demo";
 import Navbar from "./Components/Shared/Navbar";
 import Footer from "./Components/Footer/Footer";
+import CustomCursor from "./Components/CustomCursor";
 
 function App() {
 
   return (
     <div>
-
+      <CustomCursor />
       {/* header  */}
       <Navbar />
       {/* <Demo /> */}
