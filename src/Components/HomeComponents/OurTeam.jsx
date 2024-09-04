@@ -18,7 +18,7 @@ const OurTeam = () => {
   console.log(membersData);
 
   return (
-    <div className="bg-gradient-to-b from-[#fff] via-[#f3cf9427] to-[#fff]]">
+    <div className="bg-gradient-to-b from-[#fff] via-[#f3cf9427] to-[#fff]  my-12">
       <div className=" w-[85%] mx-auto ">
       <p className="md:text-5xl text-3xl font-semibold md:mb-5 mb-6 text-center">
         Our Expert Team
