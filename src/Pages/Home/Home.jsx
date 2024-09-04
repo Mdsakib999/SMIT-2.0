@@ -1,7 +1,8 @@
-import Contact from "../../Components/Contact";
 import Augment from "../../Components/HomeComponents/Augment";
 import Banner from "../../Components/HomeComponents/Banner";
 import Blog from "../../Components/HomeComponents/Blog";
+import CountIngDiv from "../../Components/HomeComponents/CountIngDiv";
+import HomeContact from "../../Components/HomeComponents/HomeContact";
 import OurTeam from "../../Components/HomeComponents/OurTeam";
 import SectionTitle from "../../Components/Shared/SectionTitle";
 import useDocumentTitle from "../../Hooks/useDocumentTitle";
@@ -19,6 +20,10 @@ const Home = () => {
             
             <Augment />
 
+
+            {/* Dynamic countup number */}
+           <CountIngDiv></CountIngDiv>
+
             {/* Out team */}
             <OurTeam></OurTeam>
 
@@ -26,7 +31,8 @@ const Home = () => {
             <Blog />
 
             {/* Contact */}
-            <Contact></Contact> 
+            <HomeContact></HomeContact>
+ 
 
         </div>
 

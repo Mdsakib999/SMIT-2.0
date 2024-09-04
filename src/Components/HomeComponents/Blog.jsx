@@ -31,10 +31,10 @@ const Blog = () => {
                         <div className='mt-3 space-y-3 px-4 pb-4'>
                             <div>
                                 <p className='inline-block bg-[#C0B1FF] text-[#3f3285] text-sm font-semibold px-4 rounded-full py-1'>{mainData.department}</p>
-                                <span className='text-xs ms-4'>{mainData.date}</span>
+                                <span className='text-xs ms-4 '>{mainData.date}</span>
                             </div>
                             <div className='space-y-3'>
-                                <h1 className='text-xl md:text-3xl font-bold'>{mainData.title}</h1>
+                                <h1 className='text-xl md:text-3xl font-bold '>{mainData.title}</h1>
                                 <p className='text-sm text-slate-400 '>{description}... <Link to={`/blog/${mainData.id}`} className='text-black'>see more</Link></p>
                             </div >
                         </div >
@@ -46,7 +46,7 @@ const Blog = () => {
                             <Link to={`/blog/${item.id}`} key={index} className='shadow-md rounded-lg flex justify-between p-2 md:p-4 bg-slate-50'>
                                 <div>
                                     <div>
-                                        <p className={`inline-block ${backgroundColors[index % backgroundColors.length]} text-[#3f3285] text-sm font-semibold px-4 rounded-full py-1`}>{item.department}</p>
+                                        <p className={`inline-block ${backgroundColors[index % backgroundColors.length]} text-[#160f3a] text-sm font-semibold px-4 rounded-full py-1`}>{item.department}</p>
                                         <span className='text-xs ms-4 text-slate-700'>{item.date}</span>
                                     </div>
                                     <p className='text-base md:text-lg font-bold mt-4'>{item.title}</p>
