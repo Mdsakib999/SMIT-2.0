@@ -3,8 +3,7 @@ import Banner from "../../Components/HomeComponents/Banner";
 import Blog from "../../Components/HomeComponents/Blog";
 import CountIngDiv from "../../Components/HomeComponents/CountIngDiv";
 import HomeContact from "../../Components/HomeComponents/HomeContact";
-import OurTeam from "../../Components/HomeComponents/OurTeam";
-import SectionTitle from "../../Components/Shared/SectionTitle";
+import OurTeam from "../../Components/HomeComponents/OurTeam"
 import useDocumentTitle from "../../Hooks/useDocumentTitle";
 import "./Home.css";
 
@@ -15,14 +14,10 @@ const Home = () => {
             <Banner />
 
 
-            
-            <SectionTitle title={'Our Process'} description={'Thoughtful Digital Strategies'} />
-            
-            <Augment />
 
 
             {/* Dynamic countup number */}
-           <CountIngDiv></CountIngDiv>
+            <CountIngDiv></CountIngDiv>
 
             {/* Out team */}
             <OurTeam></OurTeam>
@@ -32,7 +27,7 @@ const Home = () => {
 
             {/* Contact */}
             <HomeContact></HomeContact>
- 
+
 
         </div>
 
