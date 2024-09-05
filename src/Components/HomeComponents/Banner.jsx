@@ -14,15 +14,15 @@ const Banner = () => {
           background: `url("") no-repeat center center / cover opacity-5`,
         }}>
 
-            {/* Gradient div */}
-            <div className="background-gradient-blue w-80 h-80 absolute top-0 right-[-10%] rounded-full"></div>
+        {/* Gradient div */}
+        <div className="background-gradient-blue w-80 h-80 absolute top-0 right-[-10%] rounded-full"></div>
 
 
         <div className="grid grid-cols-1 md:grid-cols-2  h-full section-container scale-x-[-1]">
           <div className=" flex items-center ">
             <div className="text-center md:text-left">
               <h1 className="text-xl md:text-3xl font-bold ">
-              <span className=' font-manrope  leading-snug text-transparent bg-clip-text bg-gradient-to-r from-orange-400 via-orange-600 to-amber-400'>SM IT Solution</span> Your Trusted Partner in Digital Innovation!
+                <span className=' font-manrope  leading-snug text-transparent bg-clip-text bg-gradient-to-r from-orange-400 via-orange-600 to-amber-400'>SM IT Solution</span> Your Trusted Partner in Digital Innovation!
               </h1>
               <p className="text-sm mt-4">
                 At SM IT SOLUTION, you can discover state-of-the-art
@@ -72,20 +72,20 @@ const Banner = () => {
           id="svg"
           viewBox="0 0 1440 390"
           xmlns="http://www.w3.org/2000/svg"
-          class="transition duration-300 ease-in-out delay-150"
+          className="transition duration-300 ease-in-out delay-150"
         >
           <defs>
             <linearGradient id="gradient" x1="50%" y1="100%" x2="50%" y2="0%">
-              <stop offset="5%" stop-color="#ffffff"></stop>
-              <stop offset="95%" stop-color="#f2d174"></stop>
+              <stop offset="5%" stopColor="#ffffff"></stop>
+              <stop offset="95%" stopColor="#f2d174"></stop>
             </linearGradient>
           </defs>
           <path
             d="M 0,400 L 0,0 C 112.07655502392345,51.473684210526315 224.1531100478469,102.94736842105263 302,133 C 379.8468899521531,163.05263157894737 423.46411483253587,171.68421052631578 526,147 C 628.5358851674641,122.3157894736842 789.9904306220094,64.3157894736842 887,68 C 984.0095693779906,71.6842105263158 1016.5741626794259,137.05263157894737 1098,136 C 1179.4258373205741,134.94736842105263 1309.712918660287,67.47368421052632 1440,0 L 1440,400 L 0,400 Z"
             stroke="none"
-            stroke-width="0"
+            strokeWidth="0"
             fill="url(#gradient)"
-            fill-opacity="0.53"
+            fillOpacity="0.53"
           >
             <animate
               attributeName="d"
@@ -102,9 +102,9 @@ const Banner = () => {
           <path
             d="M 0,400 L 0,0 C 115.45454545454547,116.99521531100478 230.90909090909093,233.99043062200957 326,277 C 421.09090909090907,320.00956937799043 495.81818181818176,289.0334928229665 573,274 C 650.1818181818182,258.9665071770335 729.8181818181819,259.87559808612446 817,253 C 904.1818181818181,246.12440191387557 998.909090909091,231.46411483253587 1104,188 C 1209.090909090909,144.53588516746413 1324.5454545454545,72.26794258373207 1440,0 L 1440,400 L 0,400 Z"
             stroke="none"
-            stroke-width="0"
+            strokeWidth="0"
             fill="url(#gradient)"
-            fill-opacity="1"
+            fillOpacity="1"
           >
             <animate
               attributeName="d"

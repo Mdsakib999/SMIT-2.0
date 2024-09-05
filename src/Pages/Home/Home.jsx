@@ -8,7 +8,6 @@ import HomeContact from "../../Components/HomeComponents/HomeContact";
 import HomeFAQ from "../../Components/HomeComponents/HomeFAQ";
 import OurTeam from "../../Components/HomeComponents/OurTeam";
 import ServiceSection from "../../Components/HomeComponents/ServiceSection";
-import SectionTitle from "../../Components/Shared/SectionTitle";
 import useDocumentTitle from "../../Hooks/useDocumentTitle";
 import "./Home.css";
 
