@@ -11,7 +11,7 @@ const HomeFAQ = () => {
 
 
     return (
-        <section className="py-24 bg-neutral-50">
+        <section className="py-20 bg-neutral-50 ">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mb-16">
           <h6 className="text-lg text-indigo-600 font-medium text-center mb-2">
@@ -22,7 +22,12 @@ const HomeFAQ = () => {
           </h2>
         </div>
 
-        <div className="accordion-group">
+       <div className='flex items-center gap-6'>
+       <div className='w-[40%] '>
+            <img src="https://www.shutterstock.com/image-vector/flat-con…ometric-illustration-looking-260nw-1856335144.jpg" alt="" />
+        </div>
+
+        <div className="accordion-group  w-[60%]">
           {[
             {
               question: "How do I update my billing information?",
@@ -47,11 +52,11 @@ const HomeFAQ = () => {
           ].map((item, index) => (
             <div
               key={index}
-              className="accordion py-4 px-6 border-b bg-white border-solid border-gray-200 transition-all duration-500 rounded-xl hover:bg-indigo-50 my-3 "
+              className="accordion py-4 px-6 border-b bg-white border-solid border-gray-200 transition-all duration-500 rounded-xl shadow-md hover:shadow-lg shadow-orange-100 my-5 "
               id={`basic-heading-${index}`}
             >
               <button
-                className="accordion-toggle group inline-flex items-center justify-between leading-8 text-gray-900 w-full transition duration-500 text-left hover:text-indigo-600"
+                className="accordion-toggle group inline-flex items-center justify-between leading-8 text-gray-900 w-full transition duration-500 text-left "
                 aria-controls={`basic-collapse-${index}`}
                 onClick={() => toggleFAQ(index)}
               >
@@ -90,6 +95,8 @@ const HomeFAQ = () => {
             </div>
           ))}
         </div>
+       </div>
+
       </div>
     </section>
                                               

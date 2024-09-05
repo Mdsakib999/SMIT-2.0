@@ -1,36 +1,44 @@
 import React from 'react';
 import CountUp from 'react-countup';
 
+const CountItem = ({ end, label }) => (
+  <div className="flex flex-col items-center justify-center">
+    <p className="text-4xl font-bold text-orange-500 mb-2">
+      <CountUp enableScrollSpy={true} end={end} duration={2.5} />+
+    </p>
+    <p className="text-lg font-medium text-gray-500">{label}</p>
+  </div>
+);
+
 const CountIngDiv = () => {
+  const counts = [
+    { end: 50, label: 'Happy Clients' },
+    { end: 15, label: 'Finished Projects' },
+    { end: 14, label: 'Team Members' },
+    { end: 5, label: 'Years Of Experience' },
+  ];
+
   return (
-    <div className="  my-10 bg-neutral-50 bg-[url('https://i.ibb.co/NmnMFs6/WorldMap.png')] bg-cover bg-center ">
-      <div className="w-[90%] h-96 py-5 mx-auto flex justify-evenly items-center text-center">
-        <div>
-          <p className="text-6xl text-orange-500 mb-2">
-            <CountUp enableScrollSpy={true} end={50}></CountUp>+
-          </p>
-          <p className="lg:text-xl text-lg font-semibold">Happy Clients</p>
+    <section className="my-16 py-10 bg-white text-center">
+      <div className="max-w-4xl mx-auto">
+        {/* Header Section */}
+        <h2 className="text-3xl font-bold text-gray-800 mb-4">
+          We Always Try To Understand Users Expectation
+        </h2>
+        <div className="flex justify-center items-center mb-6">
+          <span className="w-12 h-1 bg-orange-500 inline-block"></span>
         </div>
-        <div>
-          <p className="text-6xl text-orange-500 mb-2">
-            <CountUp enableScrollSpy={true} end={15}></CountUp>+
-          </p>
-          <p className="lg:text-xl text-lg font-semibold">Finished Project</p>
-        </div>
-        <div>
-          <p className="text-6xl text-orange-500 mb-2">
-            <CountUp enableScrollSpy={true} end={14}></CountUp>+
-          </p>
-          <p className="lg:text-xl text-lg font-semibold">Team Members</p>
-        </div>
-        <div>
-          <p className="text-6xl text-orange-500 mb-2">
-            <CountUp enableScrollSpy={true} end={5}></CountUp>+
-          </p>
-          <p className="lg:text-xl text-lg font-semibold">Years Of Experience</p>
+        <p className="text-gray-500 mb-12 max-w-xl mx-auto">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+        {/* Count Items Section */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+          {counts.map((count, index) => (
+            <CountItem key={index} end={count.end} label={count.label} />
+          ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

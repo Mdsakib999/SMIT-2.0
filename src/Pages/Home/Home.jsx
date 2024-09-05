@@ -6,6 +6,7 @@ import HomeAbout from "../../Components/HomeComponents/HomeAbout";
 import HomeContact from "../../Components/HomeComponents/HomeContact";
 import HomeFAQ from "../../Components/HomeComponents/HomeFAQ";
 import OurTeam from "../../Components/HomeComponents/OurTeam";
+import ServiceSection from "../../Components/HomeComponents/ServiceSection";
 import SectionTitle from "../../Components/Shared/SectionTitle";
 import useDocumentTitle from "../../Hooks/useDocumentTitle";
 import "./Home.css";
@@ -19,17 +20,16 @@ const Home = () => {
 
             <HomeAbout></HomeAbout>
 
-
+            <ServiceSection></ServiceSection>
             
-            <SectionTitle title={'Our Process'} description={'Thoughtful Digital Strategies'} />
+            {/* Dynamic countup number */}
+            <CountIngDiv></CountIngDiv>
             
             <Augment />
 
             <HomeFAQ></HomeFAQ>
 
 
-            {/* Dynamic countup number */}
-           <CountIngDiv></CountIngDiv>
 
             {/* Out team */}
             <OurTeam></OurTeam>
@@ -39,7 +39,6 @@ const Home = () => {
 
             {/* Contact */}
             <HomeContact></HomeContact>
- 
 
         </div>
 
