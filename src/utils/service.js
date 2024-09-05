@@ -124,7 +124,7 @@ export const services = [
     ],
   },
   {
-    title: "E-commerce Solutions",
+    title: "E commerce Solutions",
     logo: FaShoppingCart,
     category: "Development",
     description:
