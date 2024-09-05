@@ -5,6 +5,7 @@ import Home from './Pages/Home/Home';
 import BlogDetails from './Pages/Blog/BlogDetails';
 import Service from './Pages/Service/Service';
 import ServiceDetails from './Pages/Service/ServiceDetails';
+import About from './Pages/About/About';
 
 
 export const router = createBrowserRouter([
@@ -14,7 +15,11 @@ export const router = createBrowserRouter([
         children: [
             {
                 path: "/",
-                element: <Home></Home>
+                element: <Home></Home>,
+            },
+            {
+                path: "/about",
+                element: <About></About>
             },
 
             {

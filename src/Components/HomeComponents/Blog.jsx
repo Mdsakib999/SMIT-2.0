@@ -34,7 +34,7 @@ const Blog = () => {
                                 <span className='text-xs ms-4 '>{mainData.date}</span>
                             </div>
                             <div className='space-y-3'>
-                                <h1 className='text-xl md:text-3xl font-bold '>{mainData.title}</h1>
+                                <Link to={`/blog/${mainData.id}`} className='text-xl md:text-3xl font-bold '>{mainData.title}</Link>
                                 <p className='text-sm text-slate-400 '>{description}... <Link to={`/blog/${mainData.id}`} className='text-black'>see more</Link></p>
                             </div >
                         </div >
