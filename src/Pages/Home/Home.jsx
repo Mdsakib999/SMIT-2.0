@@ -1,3 +1,4 @@
+// import Augment from "../../Components/HomeComponents/Augment";
 import Augment from "../../Components/HomeComponents/Augment";
 import Banner from "../../Components/HomeComponents/Banner";
 import Blog from "../../Components/HomeComponents/Blog";
@@ -21,10 +22,10 @@ const Home = () => {
             <HomeAbout></HomeAbout>
 
             <ServiceSection></ServiceSection>
-            
+
             {/* Dynamic countup number */}
             <CountIngDiv></CountIngDiv>
-            
+
             <Augment />
 
             <HomeFAQ></HomeFAQ>
