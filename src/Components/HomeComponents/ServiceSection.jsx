@@ -50,6 +50,11 @@ const ServiceSection = () => {
                 </div>
             </div>
             <div>
+            <div className="relative  mb-1">
+                    <h1 className="text-2xl  font-bold mt-7">Our Ser<span className="text-orange-400 " >vic</span>e</h1>
+                    <span className="inline-block bg-orange-400 size-8 rounded-full bg-opacity-60 absolute top-[-10px] left-[-23px] animate-pulse "></span>
+
+                </div>
                 <h1 className="text-4xl font-bold">Design & Development</h1>
                 <p className="mt-6 text-sm text-gray-500">Web development is the process of building and maintaining websites, involving coding, design, and ensuring functionality and user experience</p>
                 <div className="grid grid-cols-2 mt-10 gap-3">
