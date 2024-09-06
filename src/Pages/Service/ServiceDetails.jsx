@@ -12,14 +12,17 @@ const ServiceDetails = () => {
     if (!service) {
         return <p>Service not found.</p>;
     }
+    const handelClick = () => {
+        window.scrollTo({ top: 0 });
+    }
 
     return (
-        <div className="bg-gray-100 min-h-screen p-8 -mt-32 py-32">
-            <div className="max-w-6xl mx-auto bg-white shadow-lg rounded-lg p-8">
+        <div className="bg-gray-100 min-h-screen p-4 md:p-8 -mt-32 py-32">
+            <div className="max-w-6xl  mx-auto bg-white shadow-lg rounded-lg p-8">
                 {/* Service Overview */}
                 <div className="flex items-center mb-8">
                     <service.logo className="text-orange-400 text-5xl mr-4" />
-                    <h1 className="text-4xl font-bold text-gray-800">{service.title}</h1>
+                    <h1 className="text-xl md:text-4xl font-bold text-gray-800">{service.title}</h1>
                 </div>
                 <p className="text-lg text-gray-600 mb-6">{service.description}</p>
                 <p className="text-base text-gray-700 leading-relaxed mb-8">{service.details}</p>
@@ -43,7 +46,7 @@ const ServiceDetails = () => {
                         {service.relatedServices.map((relatedService, index) => (
                             <div key={index} className="flex items-center p-4 bg-white shadow-md rounded-lg hover:bg-gray-100 transition-all duration-300">
                                 <relatedService.logo className="text-orange-400 text-3xl mr-4" />
-                                <a href={relatedService.link} className="text-gray-800 text-lg font-semibold hover:underline">{relatedService.title}</a>
+                                <Link onClick={handelClick} to={relatedService.link} className="text-gray-800 text-lg font-semibold hover:underline">{relatedService.title}</Link>
                             </div>
                         ))}
                     </div>

@@ -1,3 +1,5 @@
+import { FaLinkedin, FaTwitter } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Demo = () => {
   return (
@@ -265,29 +267,29 @@ export default Demo;
 
 
 // Team design card
-<div className=" col-span-12 sm:col-span-6 md:col-span-3 my-12">
-              <Link to="/"
-                href="#!"
-                className="bg-white dark:bg-slate-800 shadow-xl hover:shadow-orange-200 hover:shadow-lg relative flex items-end justify-center min-h-[185px] rounded-t-[90px] rounded-b-[15px] border dark:border-slate-700 border-orange-00"
-              >
-                <div>
-                <div className=" absolute -top-[75px] left-1/2 -translate-x-1/2 bg-white dark:bg-slate-800 shadow border-2  dark:border-slate-700 rounded-full flex justify-center items-center h-36 w-36 border2">
-                  <img src="https://cdn.easyfrontend.com/pictures/testimonial/testimonial_square_1.jpeg " alt="" className="w-full rounded-full" />
-                </div>
-                <p className="text-xl font-medium text-center">MD Sakib</p>
-                <p className="text-lg font-normal mb-1 text-center">Software Engineer</p>
-                <hr className='w-full ' />
-                <div className='my-2 text-xl hover:text-blue-600 flex justify-evenly'>
-                <FaLinkedin/>
-                <FaTwitter/>
-                </div>
+{/* <div className=" col-span-12 sm:col-span-6 md:col-span-3 my-12">
+  <Link to="/"
+    href="#!"
+    className="bg-white dark:bg-slate-800 shadow-xl hover:shadow-orange-200 hover:shadow-lg relative flex items-end justify-center min-h-[185px] rounded-t-[90px] rounded-b-[15px] border dark:border-slate-700 border-orange-00"
+  >
+    <div>
+      <div className=" absolute -top-[75px] left-1/2 -translate-x-1/2 bg-white dark:bg-slate-800 shadow border-2  dark:border-slate-700 rounded-full flex justify-center items-center h-36 w-36 border2">
+        <img src="https://cdn.easyfrontend.com/pictures/testimonial/testimonial_square_1.jpeg " alt="" className="w-full rounded-full" />
+      </div>
+      <p className="text-xl font-medium text-center">MD Sakib</p>
+      <p className="text-lg font-normal mb-1 text-center">Software Engineer</p>
+      <hr className='w-full ' />
+      <div className='my-2 text-xl hover:text-blue-600 flex justify-evenly'>
+        <FaLinkedin />
+        <FaTwitter />
+      </div>
 
-                </div>
-              </Link>
-            </div>
+    </div>
+  </Link>
+</div> */}
 
 
-// title 
+// title
 /* eslint-disable react/prop-types */
 // import { PiArrowElbowRightDown } from "react-icons/pi";
 
