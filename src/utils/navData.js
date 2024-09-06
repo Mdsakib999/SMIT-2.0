@@ -33,7 +33,7 @@ export const navData = [
   {
     id: "3",
     title: "Service",
-    link: "/Service",
+    link: "/services",
   },
   {
     id: "4",
