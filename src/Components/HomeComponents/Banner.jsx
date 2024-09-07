@@ -1,15 +1,11 @@
 import { HiMiniCheckBadge } from "react-icons/hi2";
-import videoLogo from "../../assets/icons8-video-50.png";
-import Modal from "../Shared/Modal";
-import { useState } from "react";
-import bgImg from "../../assets/Half Round BG.png";
 import { FaArrowRightLong } from "react-icons/fa6";
 
 const Banner = () => {
   return (
     <>
       <div
-        className=" h-[calc(100vh-10px)] scale-x-[-1] mt-14 md:-mt-[65px] relative overflow-hidden"
+        className=" h-[calc(100vh-10px)] scale-x-[-1] -mt-[50px]  md:-mt-[65px] relative overflow-hidden"
         style={{
           background: `url("") no-repeat center center / cover opacity-5`,
         }}>
@@ -18,7 +14,7 @@ const Banner = () => {
         <div className="background-gradient-blue w-80 h-80 absolute top-0 right-[-10%] rounded-full"></div>
 
 
-        <div className="grid grid-cols-1 md:grid-cols-2  h-full section-container scale-x-[-1]">
+        <div className="grid grid-cols-1 place-items-center md:grid-cols-2  h-full section-container scale-x-[-1]">
           <div className=" flex items-center ">
             <div className="text-center md:text-left">
               <h1 className="text-xl md:text-3xl font-bold ">
@@ -31,7 +27,7 @@ const Banner = () => {
                 world by solving their challenges and providing them with
                 innovative IT services.
               </p>
-              <div className="mt-8 flex  justify-center md:justify-normal items-center space-x-6">
+              <div className="mt-8 flex  flex-col md:flex-row  justify-start md:justify-normal items-center space-x-6">
                 <button
                   type="submit"
                   className="group mt-2 border-orange-400 hover:border-2 relative h-12 w-44 overflow-hidden rounded-ss-xl rounded-ee-xl font-bold text-lg shadow-lg shadow-orange-100 hover:shadow-lg"
@@ -42,7 +38,7 @@ const Banner = () => {
                   </span>
                 </button>
 
-                <p className="flex items-center gap-2 font-bold text-base cursor-pointer">Learn More <FaArrowRightLong className="text-orange-400"></FaArrowRightLong></p>
+                <p className="flex items-center justify-center gap-2 mt-4 md:mt-0 font-bold text-base cursor-pointer">Learn More <FaArrowRightLong className="text-orange-400"></FaArrowRightLong></p>
               </div>
               <div className="mt-6 flex justify-center md:justify-normal gap-3">
                 <span className="flex text-sm font-semibold items-center ">
@@ -58,14 +54,14 @@ const Banner = () => {
               </div>
             </div>
           </div>
-          <div className="">
+          <div className="hidden md:inline-block">
             {/* here include image */}
-            <img src="https://i.ibb.co/jZNcNy6/webPic.jpg" alt="" />
+            <img src="https://i.ibb.co/jZNcNy6/webPic.jpg" className=" max-h-[450px] " alt="" />
           </div>
         </div>
       </div>
 
-      <div className="mt-[-160px] ">
+      <div className="mt-[-50px] md:mt-[-100px] ">
         <svg
           width="100%"
           height="100%"

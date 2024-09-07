@@ -76,7 +76,7 @@ const ServiceSection = () => {
 
     return (
         <div>
-            <div className="grid grid-cols-1 md:grid-cols-2 section-container py-20">
+            <div className="grid grid-cols-1 md:grid-cols-2 section-container gap-y-2 py-20">
                 <div className="h-fit">
                     {/* here include image  */}
                     <div className="flex justify-center items-center">
@@ -89,7 +89,7 @@ const ServiceSection = () => {
                 <div>
                     <h1 className="text-4xl font-bold">Design & Development</h1>
                     <p className="mt-6 text-sm text-gray-500">Web development is the process of building and maintaining websites, involving coding, design, and ensuring functionality and user experience</p>
-                    <div className="grid grid-cols-2 mt-10 gap-3">
+                    <div className="grid grid-cols-1 md:grid-cols-2 mt-10 gap-3">
                         {mernFeatures.map((item, index) => (
                             <div
                                 key={index}
@@ -106,14 +106,14 @@ const ServiceSection = () => {
 
                 </div>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2  section-container py-20">
+            <div className="grid grid-cols-1 md:grid-cols-2  section-container md:py-20">
 
                 <div>
                     <h1 className="text-4xl font-bold">Digital Marketing</h1>
                     <p className="mt-6 text-sm text-gray-500">
                         Digital marketing involves leveraging data and technology to promote brands, engage audiences, and drive business growth through various online channels.
                     </p>
-                    <div className="grid grid-cols-2 mt-10 gap-3">
+                    <div className="grid grid-cols-1 md:grid-cols-2 mt-10 gap-3">
                         {marketingFeatures.map((item, index) => (
                             <div
                                 key={index}

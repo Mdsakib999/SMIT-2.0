@@ -1,11 +1,12 @@
-import React from "react";
-import { FaLocationDot } from "react-icons/fa6";
-import { MdEmail } from "react-icons/md";
-import { BiSolidPhoneCall } from "react-icons/bi";
+/* eslint-disable react/no-unescaped-entities */
+// import React from "react";
+// import { FaLocationDot } from "react-icons/fa6";
+// import { MdEmail } from "react-icons/md";
+// import { BiSolidPhoneCall } from "react-icons/bi";
 
 const HomeContact = () => {
   return (
-    <div className="overflow-x-hidden relative ">
+    <div className="overflow-x-hidden relative section-container ">
       {/* Gradient div */}
       <div className="background-gradient hidden md:block w-72 h-72 absolute top-[10px] right-[-50px] rounded-full "></div>
 
@@ -13,7 +14,7 @@ const HomeContact = () => {
 
       <div className="text-center mt-16 mb-10 ">
         <h1 className="text-3xl lg:text-5xl font-bold animate-fade-up tracking-wide">
-        Have Any Project ? <span className="leading-snug text-transparent bg-clip-text bg-gradient-to-r from-orange-400 via-orange-600 to-amber-400">Let’s Talk </span>
+          Have Any Project ? <span className="leading-snug text-transparent bg-clip-text bg-gradient-to-r from-orange-400 via-orange-600 to-amber-400">Let’s Talk </span>
         </h1>
         <p className="text-lg text-gray-500 pt-4  lg:w-[50%] w-[95%] m-auto ">
           Have any idea or project, Let your dreams code true. From Seed to Success, We're Here to Help. To make the future brighter
@@ -22,7 +23,7 @@ const HomeContact = () => {
         </p>
       </div>
 
-      
+
 
       {/* Address part */}
       <div className=" lg:w-[90%] md:w-[95%] mx-auto flex flex-col md:flex-row items-center gap-7 lg:gap-8 justify-between my-16">
@@ -94,9 +95,9 @@ const HomeContact = () => {
           <iframe
             className="w-full h-full"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d922.4512217194696!2d91.8140612695338!3d22.360994938988757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30acd88d0af07d61%3A0xbbf9590c4e77a64d!2sRoad%20No.%201%2C%20Chittagong!5e0!3m2!1sen!2sbd!4v1714885505967!5m2!1sen!2sbd"
-            allowfullscreen=""
+            allowFullscreen=""
             loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
+            referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
       </div>

@@ -9,9 +9,9 @@ const BlogDetails = () => {
     const filterData = blogData.find(item => item.id == id)
     const relatedData = blogData.filter(item => item.id !== id)
     const [liked, setLiked] = useState(false);
-    useEffect(() => {
-        window.scrollTo({ top: 0 });
-    }, [])
+    // useEffect(() => {
+    //     window.scrollTo({ top: 0 });
+    // }, [])
     const backgroundColors = [
         // 'bg-[#C0B1FF]',  // Light purple
         'bg-[#FFD1C1]',  // Light coral
@@ -67,17 +67,17 @@ const BlogDetails = () => {
                     </div>
                 </div>
             </div>
-            <div className="w-[60%] mx-auto mt-16">
+            <div className="md:w-[60%] px-6 mx-auto mt-16">
                 <div className=" border-t-2 relative  mb-10">
                     <h1 className="text-2xl  font-bold mt-7">Related <span className="text-orange-400 " >Blog</span></h1>
                     <span className="inline-block bg-orange-400 size-8 rounded-full bg-opacity-50 absolute top-3 left-[-20px] animate-pulse "></span>
 
                 </div>
-                <div className="mt-4 ms-3 md:ms-8 space-y-8">
+                <div className="mt-4 ms-0 md:ms-8 space-y-8">
                     {
                         relatedData.map((item, index) => (
-                            <Link to={`/blog/${item.id}`} onClick={handelClick} key={index} className=" shadow-md flex gap-4 items-center max-w-[80%] rounded-xl py-3 px-2 bg-white">
-                                <img src={item.img} className="w-36 rounded-lg " alt="" />
+                            <Link to={`/blog/${item.id}`} onClick={handelClick} key={index} className=" shadow-md flex flex-col md:flex-row gap-4 items-center md:max-w-[80%] rounded-xl md:py-3 md:px-2 p-4 md:p-0 bg-white">
+                                <img src={item.img} className="w-full md:w-36 rounded-lg " alt="" />
                                 <div>
                                     <p className="">
                                         <span className={`inline-block ${backgroundColors[index % backgroundColors.length]} text-[#160f3a] text-sm font-semibold px-4 rounded-full py-1`}>{item.department}</span> -
