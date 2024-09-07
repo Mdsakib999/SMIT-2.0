@@ -12,7 +12,7 @@ import useDocumentTitle from "../../Hooks/useDocumentTitle";
 import "./Home.css";
 
 const Home = () => {
-    useDocumentTitle('Home | Sm It Solution')
+    useDocumentTitle('Home | SM IT Solution')
     return (
         <div>
             <Banner />
