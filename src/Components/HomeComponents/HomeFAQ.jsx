@@ -14,11 +14,11 @@ const HomeFAQ = () => {
     <section className="py-20 bg-neutral-50 ">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mb-16">
-          <h6 className="text-lg text-indigo-600 font-medium text-center mb-2">
-            FAQs
+          <h6 className="text-2xl text-orange-600 font-semibold text-center mb-2">
+          Your Queries, Our Priority
           </h6>
-          <h2 className="text-4xl font-manrope text-center font-bold text-gray-900 leading-[3.25rem]">
-            Frequently asked questions
+          <h2 className="text-lg font-manrope text-center font-semibold text-gray-900 leading-[3.25rem]">
+          Quick and Clear Answers to Help You Navigate Our Tech Services
           </h2>
         </div>
 

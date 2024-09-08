@@ -84,7 +84,7 @@ const Navbar = () => {
                 <ul
                     className={
                         nav
-                            ? 'fixed md:hidden left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500'
+                            ? 'fixed md:hidden left-0 top-0 w-[60%] h-full overflow-y-auto border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500'
                             : 'ease-in-out w-[60%] duration-500 fixed top-0 bottom-0 left-[-100%]'
                     }
                 >
@@ -123,7 +123,7 @@ const Navbar = () => {
                                 {
                                     item.children && (
                                         <ul
-                                            className={`overflow-hidden transition-all space-y-2 duration-300 ease-in-out ms-3 ${index === item.id ? 'max-h-40 py-2 opacity-100' : 'max-h-0 opacity-0'
+                                            className={`overflow-hidden transition-all space-y-2 duration-300 ease-in-out ms-3 ${index === item.id ? ' py-2 opacity-100' : 'max-h-0 opacity-0'
                                                 }`}
                                         >
                                             {item.children.map(i => (

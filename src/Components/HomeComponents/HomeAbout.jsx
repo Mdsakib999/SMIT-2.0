@@ -3,28 +3,28 @@ import { Link } from "react-router-dom";
 
 const HomeAbout = () => {
   return (
-    <div className="w-full ">
+    <div className="w-full  md:mt-[-70px]">
       <section className="overflow-hidden w-[90%] mx-auto pt-20 pb-4 lg:pt-0 ">
         <div className="container mx-auto">
           <div className="flex flex-wrap items-center justify-between -mx-4">
             <div className="w-full px-4 lg:w-6/12">
               <div className="flex items-center -mx-3 sm:-mx-4 relative ">
                 {/* Circle */}
-                <span className=" bg-orange-400 size-20 rounded-full bg-opacity-50 absolute top-[45%] right-[48%] animate-pulse z-0"></span>
+                <span className=" bg-orange-400 size-24 rounded-full bg-opacity-50 absolute top-[45%] left-[-6%] animate-pulse z-[-5]"></span>
 
                 <div className="w-full px-3 sm:px-4 xl:w-1/2">
                   <div className="py-3 sm:py-4 ">
                     <img
                       src="https://i.ibb.co/gFb3ns6/image-1.jpg"
                       alt=""
-                      className="w-full rounded-2xl "
+                      className="w-full rounded-2xl rounded-tr-[200px]"
                     />
                   </div>
                   <div className="py-3 sm:py-4">
                     <img
                       src="https://i.ibb.co/rfHFq15/image-2.jpg"
                       alt=""
-                      className="w-full rounded-2xl"
+                      className="w-full rounded-2xl rounded-bl-[160px]"
                     />
                   </div>
                 </div>
@@ -47,12 +47,12 @@ const HomeAbout = () => {
                   <h1 className="text-2xl  font-bold mt-7">
                     ABOUT{" "}
                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 via-orange-600 to-amber-500 ">
-                      US
+                      US_
                     </span>
                   </h1>
                   <span className="inline-block bg-orange-400 size-8 rounded-full bg-opacity-60 absolute top-[-10px] left-[-23px] animate-pulse "></span>
                 </div>
-                <h2 className="mb-5 text-xl lg:text-3xl font-bold text-dark dark:text-white sm:text-[40px]/[48px] animate-fade-right animate-once animate-delay-1000 animate-ease-in">
+                <h2 className="mb-5 text-xl lg:text-3xl font-bold text-dark dark:text-black sm:text-[40px]/[48px] animate-fade-right animate-once animate-delay-1000 animate-ease-in">
                   Empowering your digital journey with precision solutions.
                 </h2>
                 <p className="mb-5 text-base text-body-color dark:text-dark-6">
