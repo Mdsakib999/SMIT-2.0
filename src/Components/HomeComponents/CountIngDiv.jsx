@@ -1,4 +1,5 @@
-import React from "react";
+/* eslint-disable react/prop-types */
+
 import CountUp from "react-countup";
 import { FaRegDotCircle } from "react-icons/fa";
 import img from "../../assets/WorldMapPNG.png";
