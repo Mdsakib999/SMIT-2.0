@@ -3,17 +3,17 @@ import { Outlet } from "react-router-dom";
 // import Demo from "./Components/Demo";
 import Navbar from "./Components/Shared/Navbar";
 import Footer from "./Components/Footer/Footer";
-import CustomCursor from "./Components/CustomCursor";
+// import CustomCursor from "./Components/CustomCursor";
 
 function App() {
 
   return (
     <div>
-      <CustomCursor />
+      {/* <CustomCursor /> */}
       {/* header  */}
       <Navbar />
       {/* <Demo /> */}
-      <div className='min-h-[calc(100vh-196px)] pt-32 '>
+      <div className='min-h-[calc(100vh-196px)] pt-32  '>
         <Outlet></Outlet>
       </div>
 

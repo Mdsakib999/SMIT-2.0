@@ -1,14 +1,14 @@
-/* eslint-disable react/no-unescaped-entities */
+import React from "react";
+import { Link } from "react-router-dom";
 
 const HomeAbout = () => {
   return (
-    <div className='w-full '>
+    <div className="w-full ">
       <section className="overflow-hidden w-[90%] mx-auto pt-20 pb-4 lg:pt-0 ">
         <div className="container mx-auto">
           <div className="flex flex-wrap items-center justify-between -mx-4">
             <div className="w-full px-4 lg:w-6/12">
               <div className="flex items-center -mx-3 sm:-mx-4 relative ">
-
                 {/* Circle */}
                 <span className=" bg-orange-400 size-20 rounded-full bg-opacity-50 absolute top-[45%] right-[48%] animate-pulse z-0"></span>
 
@@ -43,30 +43,50 @@ const HomeAbout = () => {
 
             <div className="w-full px-4 lg:w-1/2 xl:w-5/12 ">
               <div className="mt-10 lg:mt-0">
-                <span className="block mb-4 text-2xl text-primary font-bold text-transparent bg-clip-text bg-gradient-to-r from-orange-400 via-orange-600 to-amber-500 to-10% animate-fade-down animate-once animate-delay-1000 animate-ease-in">
-                  -- ABOUT US --
-                </span>
-                <h2 className="mb-5 text-xl lg:text-3xl font-bold text-dark dark:text-black sm:text-[40px]/[48px] animate-fade-right animate-once animate-delay-1000 animate-ease-in">
+                <div className="relative   mb-4  text-primary font-bold">
+                  <h1 className="text-2xl  font-bold mt-7">
+                    ABOUT{" "}
+                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 via-orange-600 to-amber-500 ">
+                      US
+                    </span>
+                  </h1>
+                  <span className="inline-block bg-orange-400 size-8 rounded-full bg-opacity-60 absolute top-[-10px] left-[-23px] animate-pulse "></span>
+                </div>
+                <h2 className="mb-5 text-xl lg:text-3xl font-bold text-dark dark:text-white sm:text-[40px]/[48px] animate-fade-right animate-once animate-delay-1000 animate-ease-in">
                   Empowering your digital journey with precision solutions.
                 </h2>
                 <p className="mb-5 text-base text-body-color dark:text-dark-6">
-                  At SM IT Solutions, we believe that innovation drives success. We specialize in specialized IT services that utilize cutting-edge technologies. Our devoted teams collaborate closely with customers to understand their requirements and provide dependable, effective solutions that surpass expectations. Our passion for finding solutions and our commitment to providing innovative IT services drive us as a quick-witted company, ensuring companies thrive in the modern digital landscape.
-
+                  At SM IT Solutions, we believe that innovation drives success.
+                  We specialize in specialized IT services that utilize
+                  cutting-edge technologies. Our devoted teams collaborate
+                  closely with customers to understand their requirements and
+                  provide dependable, effective solutions that surpass
+                  expectations. Our passion for finding solutions and our
+                  commitment to providing innovative IT services drive us as a
+                  quick-witted company, ensuring companies thrive in the modern
+                  digital landscape.
                 </p>
                 <p className="mb-8 text-base text-body-color dark:text-dark-6">
-                  We are more than just service providers, we are also partners in digital transformation. Join us and discover the power of innovation firsthand. Join us on this exciting journey as we transform the way businesses use technology. Let's bring out the best in your business together, so that the future is brighter and more interconnected.
+                  We are more than just service providers, we are also partners
+                  in digital transformation. Join us and discover the power of
+                  innovation firsthand. Join us on this exciting journey as we
+                  transform the way businesses use technology. Let's bring out
+                  the best in your business together, so that the future is
+                  brighter and more interconnected.
                 </p>
 
                 {/* <button className="my-5 bg-gradient-to-r from-orange-500 to-yellow-300 hover:from-yellow-300 hover:to-orange-500 text-white font-bold py-2 px-6 rounded-ss-xl rounded-ee-xl focus:outline-none focus:shadow-outline" >Get In Touch</button> */}
-                <button
-                  type="submit"
-                  className="group mt-2 border-orange-400 hover:border-2 relative h-12 w-44 overflow-hidden rounded-ss-xl rounded-ee-xl font-bold text-lg shadow-lg shadow-orange-100 hover:shadow-lg"
-                >
-                  <div className="absolute inset-0 group-hover:w-3 bg-gradient-to-r from-orange-500 to-yellow-300 transition-all duration-[350ms] ease-out w-full"></div>
-                  <span className="relative group-hover:text-black text-white">
-                    Learn More
-                  </span>
-                </button>
+                <Link to="/about">
+                  <button
+                    type="submit"
+                    className="group mt-2 border-orange-400 hover:border-2 relative h-12 w-44 overflow-hidden rounded-ss-xl rounded-ee-xl font-bold text-lg shadow-lg shadow-orange-100 hover:shadow-lg"
+                  >
+                    <div className="absolute inset-0 group-hover:w-3 bg-gradient-to-r from-orange-500 to-yellow-300 transition-all duration-[350ms] ease-out w-full"></div>
+                    <span className="relative group-hover:text-black text-white">
+                      Learn More
+                    </span>
+                  </button>
+                </Link>
               </div>
             </div>
           </div>

@@ -75,8 +75,8 @@ const ServiceSection = () => {
     ];
 
     return (
-        <div>
-            <div className="grid grid-cols-1 md:grid-cols-2 section-container gap-y-2 py-20">
+        <div className="  bg-gray-50">
+            <div className="grid grid-cols-1 md:grid-cols-2 section-container py-20">
                 <div className="h-fit">
                     {/* here include image  */}
                     <div className="flex justify-center items-center">
@@ -87,16 +87,21 @@ const ServiceSection = () => {
                     </div>
                 </div>
                 <div>
+                    <div className="relative  mb-1">
+                        <h1 className="text-2xl  font-bold mt-7">Our Ser<span className="text-orange-400 " >vic</span>e</h1>
+                        <span className="inline-block bg-orange-400 size-8 rounded-full bg-opacity-60 absolute top-[-10px] left-[-23px] animate-pulse "></span>
+
+                    </div>
                     <h1 className="text-4xl font-bold">Design & Development</h1>
                     <p className="mt-6 text-sm text-gray-500">Web development is the process of building and maintaining websites, involving coding, design, and ensuring functionality and user experience</p>
-                    <div className="grid grid-cols-1 md:grid-cols-2 mt-10 gap-3">
+                    <div className="grid grid-cols-2 mt-10 gap-5">
                         {mernFeatures.map((item, index) => (
                             <div
                                 key={index}
-                                className="flex items-center group shadow-md hover:bg-orange-400 hover:shadow-lg transform hover:scale-105 transition-all duration-300 ease-in-out space-x-3 p-3 rounded-xl"
+                                className="flex items-center bg-white group shadow-md hover:bg-orange-400 hover:shadow-lg transform hover:scale-105 transition-all duration-300 ease-in-out space-x-3 p-3 rounded-xl "
                             >
                                 <item.icon className="text-xl text-orange-400 group-hover:text-white transition-all duration-300 ease-in-out" />
-                                <p className="text-gray-500 group-hover:text-white transition-all duration-300 ease-in-out">
+                                <p className="text-black group-hover:text-white transition-all duration-300 ease-in-out">
                                     {item.feature}
                                 </p>
                             </div>
@@ -106,21 +111,26 @@ const ServiceSection = () => {
 
                 </div>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2  section-container md:py-20">
+            <div className="grid grid-cols-1 md:grid-cols-2  section-container py-20 ">
 
                 <div>
+                    <div className="relative  mb-3 ">
+                        <h1 className="text-2xl  font-bold mt-7">Our Ser<span className="text-orange-400 " >vic</span>e</h1>
+                        <span className="inline-block bg-orange-400 size-8 rounded-full bg-opacity-60 absolute top-[-10px] left-[-23px] animate-pulse "></span>
+
+                    </div>
                     <h1 className="text-4xl font-bold">Digital Marketing</h1>
-                    <p className="mt-6 text-sm text-gray-500">
+                    <p className="mt-6 text-sm text-black">
                         Digital marketing involves leveraging data and technology to promote brands, engage audiences, and drive business growth through various online channels.
                     </p>
-                    <div className="grid grid-cols-1 md:grid-cols-2 mt-10 gap-3">
+                    <div className="grid grid-cols-2 mt-10 gap-5">
                         {marketingFeatures.map((item, index) => (
                             <div
                                 key={index}
-                                className="flex items-center group shadow-md hover:bg-orange-400 hover:shadow-lg transform hover:scale-105 transition-all duration-300 ease-in-out space-x-3 p-3 rounded-xl"
+                                className="flex items-center group bg-white shadow-md hover:bg-orange-400 hover:shadow-lg transform hover:scale-105 transition-all duration-300 ease-in-out space-x-3 p-3 rounded-xl"
                             >
                                 <item.icon className="text-xl text-orange-400 group-hover:text-white transition-all duration-300 ease-in-out" />
-                                <p className="text-gray-500 group-hover:text-white transition-all duration-300 ease-in-out">
+                                <p className="text-black group-hover:text-white transition-all duration-300 ease-in-out">
                                     {item.feature}
                                 </p>
                             </div>

@@ -19,7 +19,11 @@ const CountIngDiv = () => {
   ];
 
   return (
-    <section className="my-16 py-10 bg-white text-center">
+    <section className="my-16 py-10 bg-white text-center relative ">
+
+      {/* <div className="background-gradient-count hidden md:block w-96 h-96 absolute top-[-120px] right-[0px] rounded-full "></div>
+      <div className="background-gradient-count w-56 h-56 md:w-80 md:h-80 absolute top-[50%] right-[-25%]  md:top-[20%] md:left-[0%] rounded-full "></div> */}
+
       <div className="max-w-4xl mx-auto">
         {/* Header Section */}
         <h2 className="text-3xl font-bold text-gray-800 mb-4">

@@ -42,10 +42,10 @@ const BlogDetails = () => {
                         alt=""
                     />
 
-                    <div className="flex justify-between items-center mt-4">
+                    <div className="flex justify-between items-center mt-4 pb-4 border-b ">
                         <div className="flex items-center space-x-2">
                             <div
-                                className={`cursor-pointer rounded-full p-2 ${liked ? 'bg-red-100' : 'bg-gray-100'}`}
+                                className={`cursor-pointer rounded-full p-2 ${liked ? 'bg-red-100' : 'bg-orange-100'}`}
                                 onClick={handleLikeClick}
                             >
                                 <FaHeart
