@@ -9,7 +9,7 @@ const Banner = () => {
     <>
       {/* h-[calc(100vh-100px)] */}
       <div
-        className=" lg:h-[70vh] scale-x-[-1] mt-14 md:-mt-[65px] relative overflow-hidden "
+        className=" lg:h-[70vh] scale-x-[-1] mt-0 md:-mt-[65px] relative overflow-hidden "
         style={{
           background: `url("") no-repeat center center / cover opacity-5`,
         }}

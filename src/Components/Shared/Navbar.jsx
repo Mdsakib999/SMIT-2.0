@@ -70,9 +70,18 @@ const Navbar = () => {
                                 </div>
                             }
                         </li>
-                        // </>
+
 
                     ))}
+                    <Link
+                        className="ms-6 -mb-[6px] rounded-lg flex justify-center items-center text-orange-500 px-6 py-2 border border-orange-500 bg-white shadow-md hover:bg-orange-500 hover:text-white transition-colors duration-300 ease-in-out transform hover:translate-y-[-2px] focus:outline-none"
+                        to={`/contact`}
+                    >
+                        <span className="mr-2">Contact</span>
+                        <span className="text-lg">→</span>
+                    </Link>
+
+
                 </ul>
 
                 {/* Mobile Navigation Icon */}
@@ -91,7 +100,7 @@ const Navbar = () => {
                     {/* Mobile Logo */}
                     <Link to="/" className='flex justify-center items-center gap-2'>
                         <img src={logo} alt="img" className='size-10  rounded-full' />
-                        <p className='font-manrope font-bold leading-snug text-transparent bg-clip-text bg-gradient-to-r from-orange-400 via-orange-600 to-amber-400 font-Dancing'>SM IT SOLUTION</p>
+                        <p className='font-manrope font-bold leading-snug text-transparent bg-clip-text bg-gradient-to-r from-orange-400 via-orange-600 to-amber-400'>SM IT SOLUTION</p>
                     </Link>
 
                     {/* Mobile Navigation Items */}
@@ -136,12 +145,22 @@ const Navbar = () => {
                                                     {i.title}
                                                 </Link>
                                             ))}
+
+
+
                                         </ul>
                                     )
                                 }
 
                             </li>
                         ))}
+                        <Link
+                            className="lg:ms-6 lg:-mb-[6px] rounded-lg flex justify-center items-center text-orange-500 px-6 py-2 border border-orange-500 bg-white shadow-md hover:bg-orange-500 hover:text-white transition-colors duration-300 ease-in-out transform hover:translate-y-[-2px] focus:outline-none"
+                            to={`/contact`}
+                        >
+                            <span className="mr-2">Contact</span>
+                            <span className="text-lg">→</span>
+                        </Link>
                     </div>
                 </ul>
             </div>
