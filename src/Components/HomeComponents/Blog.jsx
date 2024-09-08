@@ -51,7 +51,7 @@ const Blog = () => {
                                     </div>
                                     <p className='text-base md:text-lg font-bold mt-4'>{item.title}</p>
                                 </div>
-                                <img src={item.img} alt="" className='w-36 rounded-xl' />
+                                <img src={item.img} alt="" className='w-28 md:w-36 rounded-xl' />
                             </Link>
                         ))
                     }

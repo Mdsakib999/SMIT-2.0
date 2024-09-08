@@ -13,7 +13,7 @@ function App() {
       {/* header  */}
       <Navbar />
       {/* <Demo /> */}
-      <div className='min-h-[calc(100vh-196px)] pt-32 '>
+      <div className='min-h-[calc(100vh-196px)] pt-32  '>
         <Outlet></Outlet>
       </div>
 

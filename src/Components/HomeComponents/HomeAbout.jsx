@@ -52,7 +52,7 @@ const HomeAbout = () => {
                   </h1>
                   <span className="inline-block bg-orange-400 size-8 rounded-full bg-opacity-60 absolute top-[-10px] left-[-23px] animate-pulse "></span>
                 </div>
-                <h2 className="mb-5 text-xl lg:text-3xl font-bold text-dark dark:text-white sm:text-[40px]/[48px] animate-fade-right animate-once animate-delay-1000 animate-ease-in">
+                <h2 className="mb-5 text-xl lg:text-3xl font-bold text-dark dark:text-black sm:text-[40px]/[48px] animate-fade-right animate-once animate-delay-1000 animate-ease-in">
                   Empowering your digital journey with precision solutions.
                 </h2>
                 <p className="mb-5 text-base text-body-color dark:text-dark-6">

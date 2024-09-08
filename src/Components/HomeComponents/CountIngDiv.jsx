@@ -22,7 +22,7 @@ const CountIngDiv = () => {
 
   return (
     <section className=" py-24 bg-white text-center relative bg-cover bg-center overflow-hidden md:overflow-visible"
-    style={{ backgroundImage: `url(${img})` }}>
+      style={{ backgroundImage: `url(${img})` }}>
 
       {/* gradient */}
       <div className="background-gradient-count hidden md:block w-80 h-96 absolute top-[0px] right-[0px] rounded-full "></div>
