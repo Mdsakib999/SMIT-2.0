@@ -130,7 +130,7 @@ const Footer = () => {
         </span>
       </div>
       <p className="text-center lg:mt-5 mt-3 font-semibold">
-        Copyright © SM IT Solution 2024
+        Copyright © SM IT Solution 2024. All rights reserved.
       </p>
     </footer>
   );
