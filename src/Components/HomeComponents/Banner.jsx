@@ -74,7 +74,7 @@ const Banner = () => {
         </div>
       </div>
 
-      <div className="mt-[-100px] ">
+      <div className="mdmt-[-100px] ">
       <svg
   width="100%"
   height="10%"
