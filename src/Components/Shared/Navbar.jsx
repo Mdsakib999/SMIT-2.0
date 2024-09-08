@@ -22,7 +22,7 @@ const Navbar = () => {
                 {/* Logo */}
                 <Link to="/" className='flex justify-center items-center gap-2'>
                     <img src={logo} alt="img" className='size-10  rounded-full' />
-                    <p className='font-manrope font-bold leading-snug text-transparent bg-clip-text bg-gradient-to-r from-orange-400 via-orange-600 to-amber-400 font-Dancing'>SM IT SOLUTION</p>
+                    <p className='font-manrope font-extrabold leading-snug text-transparent bg-clip-text bg-gradient-to-r from-orange-400 via-orange-600 to-amber-400 font-Dancing'>SM IT SOLUTION</p>
                 </Link>
 
                 {/* Desktop Navigation */}

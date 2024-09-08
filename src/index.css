@@ -4,6 +4,13 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@layer utilities {
+  .spin-slow {
+    animation: spin 10s linear infinite;
+  }
+}
+
 .section-container {
   @apply w-[95%] md:w-[90%] xl:w-[1240px] 2xl:w-[1320px] mx-auto;
 }

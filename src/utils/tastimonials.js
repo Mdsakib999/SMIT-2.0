@@ -1,13 +1,5 @@
 export const testimonials = [
-  {
-    id: 1,
-    name: "John Doe",
-    position: "CEO, Tech Innovators",
-    image:
-      "https://as1.ftcdn.net/v2/jpg/02/43/12/34/1000_F_243123463_zTooub557xEWABDLk0jJklDyLSGl2jrr.jpg",
-    testimonial:
-      "Their social media IT solutions have significantly boosted our online presence. The team is highly professional and delivers exceptional results!",
-  },
+  
   {
     id: 2,
     name: "Jane Smith",
@@ -42,7 +34,7 @@ export const testimonials = [
     image:
       "https://as1.ftcdn.net/v2/jpg/02/43/12/34/1000_F_243123463_zTooub557xEWABDLk0jJklDyLSGl2jrr.jpg",
     testimonial:
-      "A highly skilled team that understands the nuances of social media IT. Our collaboration has been extremely fruitful.",
+      "Their IT solutions have streamlined our social media management. We’ve seen a marked increase in engagement and efficiency.",
   },
   {
     id: 6,
@@ -51,7 +43,7 @@ export const testimonials = [
     image:
       "https://as2.ftcdn.net/v2/jpg/03/83/25/83/1000_F_383258331_D8imaEMl8Q3lf7EKU2Pi78Cn0R7KkW9o.jpg",
     testimonial:
-      "Their IT solutions have streamlined our social media management. We’ve seen a marked increase in engagement and efficiency.",
+      "A highly skilled team that understands the nuances of social media IT. Our collaboration has been extremely fruitful.",
   },
   {
     id: 7,

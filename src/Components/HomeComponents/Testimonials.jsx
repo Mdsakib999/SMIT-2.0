@@ -11,7 +11,7 @@ import { testimonials } from "../../utils/tastimonials";
 
 const Testimonials = () => {
     return (
-        <div className="section-container">
+        <div className="section-container ">
             <SectionTitle
                 title={"Testimonials"}
                 description={"What our client say (Review)"}
@@ -49,9 +49,9 @@ const Testimonials = () => {
                 >
                     {testimonials.map(({ id, name, position, image, testimonial }) => (
                         <SwiperSlide key={id}>
-                            <div className=" p-8 rounded-xl shadow-xl h-[380px] flex flex-col justify-between transform transition-transform hover:-translate-y-2">
-                                <div className="mb-6">
-                                    <FaQuoteLeft className="text-orange-500 mb-4" size={36} />
+                            <div className="border p-8 my-10 mx-3 rounded-xl shadow-xl flex flex-col justify-between transform transition-transform hover:-translate-y-2 h-[370px]  ">
+                                <div className="mb-6 ">
+                                    <FaQuoteLeft className="text-[#f6682782] mb-4 animate-shake" size={36} />
                                     <p className="text-gray-700 font-light italic leading-relaxed text-lg">
                                         "{testimonial}"
                                     </p>
@@ -59,8 +59,8 @@ const Testimonials = () => {
                                 <div className="flex items-center">
                                     <img src={image} className="w-16 h-16 rounded-full object-cover mr-4 shadow-lg border-2 border-indigo-100" alt={name} />
                                     <div>
-                                        <p className="text-xl font-bold text-gray-800">{name}</p>
-                                        <p className="text-sm text-indigo-600">{position}</p>
+                                        <p className="text-lg font-bold text-gray-800">{name}</p>
+                                        <p className="text-sm text-orange-600">{position}</p>
                                     </div>
                                 </div>
                             </div>

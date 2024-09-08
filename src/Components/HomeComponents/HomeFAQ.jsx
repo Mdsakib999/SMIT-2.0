@@ -1,4 +1,8 @@
 import { useState } from 'react';
+import SectionTitle from '../Shared/SectionTitle';
+import img from "../../assets/Question.png";
+import img1 from "../../assets/Question2.png";
+
 
 const HomeFAQ = () => {
 
@@ -12,19 +16,20 @@ const HomeFAQ = () => {
 
   return (
     <section className="py-20 bg-neutral-50 ">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 ">
         <div className="mb-16">
-          <h6 className="text-2xl text-orange-600 font-semibold text-center mb-2">
-          Your Queries, Our Priority
-          </h6>
-          <h2 className="text-lg font-manrope text-center font-semibold text-gray-900 leading-[3.25rem]">
-          Quick and Clear Answers to Help You Navigate Our Tech Services
-          </h2>
+          <SectionTitle title={"Your Queries, Our Priority"}
+        description={"Quick and Clear Answers to Help You Navigate Our Tech Services."}>
+
+          </SectionTitle>
+          
         </div>
 
         <div className='flex items-center gap-6'>
-          <div className='hidden md:inline-block md:w-[40%] '>
-            <img src="https://www.shutterstock.com/image-vector/flat-con…ometric-illustration-looking-260nw-1856335144.jpg" alt="" />
+
+          <div className=' md:w-[40%] relative'>
+            <img className='animate-pulse' src={img} alt="" />
+            <img className='absolute animate-ping top-0 left-[-19%]' src={img1} alt="" />
           </div>
 
           <div className="accordion-group  md:w-[60%]">

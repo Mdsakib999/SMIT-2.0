@@ -4,6 +4,9 @@ import { FaChartLine, FaBullhorn, FaSearchDollar, FaHandshake } from "react-icon
 import { SiGoogleanalytics, SiMailchimp, SiSocialblade, SiAdobexd } from "react-icons/si"
 import img from "../../assets/DevelopmentImg.png";
 import img2 from "../../assets/Digital.png";
+import img4 from "../../assets/RoundPNG.png";
+
+
 const ServiceSection = () => {
     const marketingFeatures = [
         {
@@ -79,8 +82,9 @@ const ServiceSection = () => {
             <div className="grid items-center grid-cols-1 md:grid-cols-2 section-container py-20 gap-x-5 ">
                 <div className="h-fit">
                     {/* here include image  */}
-                    <div className="flex justify-center items-center">
-                        <img src={img} alt="Development" />
+                    <div className="flex justify-center items-center relative ">
+                        <img className="z-10" src={img} alt="Development" />
+                        <img className="absolute spin-slow " src={img4} alt="spin" />
                     </div>
                 </div>
                 <div>
@@ -137,7 +141,8 @@ const ServiceSection = () => {
                 <div className="h-fit">
                     {/* Lottie animation for digital marketing */}
                     <div className="flex justify-center items-center">
-                        <img src={img2} alt="Digital Marketing" />
+                        <img className="z-10" src={img2} alt="Digital Marketing" />
+                        <img className="absolute spin-slow w-[33%]" src={img4} alt="spin" />
                     </div>
                 </div>
             </div>

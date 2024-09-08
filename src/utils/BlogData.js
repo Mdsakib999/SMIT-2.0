@@ -3,7 +3,7 @@ import img1 from "../assets/pexels-pixabay-327533.jpg";
 export const blogData = [
   {
     id: "1",
-    img: img1,
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTC2vApRnjV8ve3yBvoP_ar-Dtm87tIdm7LXQ_KUPA6hAzWEbid0NpOu6quyBD-CUvCDY&usqp=CAU",
     department: "Marketing",
     date: "June 6, 2024",
     title: "Understanding the Role of CMS in Sales and Marketing",
