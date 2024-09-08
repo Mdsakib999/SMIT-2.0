@@ -4,7 +4,6 @@ import { FaChartLine, FaBullhorn, FaSearchDollar, FaHandshake } from "react-icon
 import { SiGoogleanalytics, SiMailchimp, SiSocialblade, SiAdobexd } from "react-icons/si"
 import img from "../../assets/DevelopmentImg.png";
 import img2 from "../../assets/Digital.png";
-import Lottie from "lottie-react";
 const ServiceSection = () => {
     const marketingFeatures = [
         {

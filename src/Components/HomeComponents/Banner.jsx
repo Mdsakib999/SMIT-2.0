@@ -1,7 +1,4 @@
 import { HiMiniCheckBadge } from "react-icons/hi2";
-import Modal from "../Shared/Modal";
-import { useState } from "react";
-import bgImg from "../../assets/Half Round BG.png";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { FaCode } from "react-icons/fa6";
 import animation from "./../../../public/NtA1Pn0jDI.json";
