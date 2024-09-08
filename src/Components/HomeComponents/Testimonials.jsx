@@ -49,7 +49,7 @@ const Testimonials = () => {
                 >
                     {testimonials.map(({ id, name, position, image, testimonial }) => (
                         <SwiperSlide key={id}>
-                            <div className="border p-8 my-10 mx-3 rounded-xl shadow-xl flex flex-col justify-between transform transition-transform hover:-translate-y-2 h-[370px]  ">
+                            <div className="border h-[400px] p-6 my-10 mx-3 rounded-xl shadow-xl flex flex-col justify-between transform transition-transform hover:-translate-y-2   ">
                                 <div className="mb-6 ">
                                     <FaQuoteLeft className="text-[#f6682782] mb-4 animate-shake" size={36} />
                                     <p className="text-gray-700 font-light italic leading-relaxed text-lg">

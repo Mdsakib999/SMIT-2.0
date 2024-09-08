@@ -2,11 +2,12 @@ import { Link } from 'react-router-dom';
 import bgImage from '../../assets/pexels-pixabay-327533.jpg';
 import { services } from '../../utils/service';
 import { useEffect } from 'react';
+import useDocumentTitle from '../../Hooks/useDocumentTitle';
 
 
 
 const Service = () => {
-
+    useDocumentTitle(`Service | SM IT Solution `)
     useEffect(() => {
         window.scrollTo({ top: 0 });
     }, [])

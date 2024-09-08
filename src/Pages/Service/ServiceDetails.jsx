@@ -1,9 +1,11 @@
 import { Link, useParams } from "react-router-dom";
 import { services } from "../../utils/service";
 import { useEffect } from "react";
+import useDocumentTitle from "../../Hooks/useDocumentTitle";
 
 const ServiceDetails = () => {
     const { title } = useParams(); // Assuming you are using React Router for navigation
+    useDocumentTitle(`Service | SM IT Solution | ${title}`)
     const plainTitle = title.split('-').join(' ')
     const service = services.find((service) => service.title.toLowerCase() == plainTitle.toLowerCase());
     useEffect(() => {
