@@ -1,5 +1,7 @@
-import React from 'react';
-import CountUp from 'react-countup';
+import React from "react";
+import CountUp from "react-countup";
+import { FaRegDotCircle } from "react-icons/fa";
+import img from "../../assets/WorldMapPNG.png";
 
 const CountItem = ({ end, label }) => (
   <div className="flex flex-col items-center justify-center">
@@ -12,17 +14,19 @@ const CountItem = ({ end, label }) => (
 
 const CountIngDiv = () => {
   const counts = [
-    { end: 50, label: 'Happy Clients' },
-    { end: 15, label: 'Finished Projects' },
-    { end: 14, label: 'Team Members' },
-    { end: 5, label: 'Years Of Experience' },
+    { end: 50, label: "Happy Clients" },
+    { end: 15, label: "Finished Projects" },
+    { end: 14, label: "Team Members" },
+    { end: 5, label: "Years Of Experience" },
   ];
 
   return (
-    <section className="my-16 py-10 bg-white text-center relative ">
+    <section className=" py-24 bg-white text-center relative bg-cover bg-center"
+    style={{ backgroundImage: `url(${img})` }}>
 
-<div className="background-gradient-count hidden md:block w-96 h-96 absolute top-[-120px] right-[0px] rounded-full "></div>
-<div className="background-gradient-count w-56 h-56 md:w-80 md:h-80 absolute top-[50%] right-[-25%]  md:top-[20%] md:left-[0%] rounded-full "></div>
+      {/* gradient */}
+      <div className="background-gradient-count hidden md:block w-80 h-96 absolute top-[0px] right-[0px] rounded-full "></div>
+      <div className="background-gradient-count w-56 h-56 md:w-80 md:h-80 absolute top-[50%] right-[-25%]  md:bottom-0 md:left-[0%] rounded-full "></div>
 
       <div className="max-w-4xl mx-auto">
         {/* Header Section */}
@@ -30,10 +34,12 @@ const CountIngDiv = () => {
           We Always Try To Understand Users Expectation
         </h2>
         <div className="flex justify-center items-center mb-6">
-          <span className="w-12 h-1 bg-orange-500 inline-block"></span>
+          <FaRegDotCircle className="text-2xl text-orange-600"></FaRegDotCircle>
+          <span className="w-24 h-1 bg-orange-500 inline-block"></span>
         </div>
         <p className="text-gray-500 mb-12 max-w-xl mx-auto">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
         {/* Count Items Section */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">

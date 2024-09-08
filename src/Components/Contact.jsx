@@ -20,12 +20,12 @@ const Contact = () => {
         </p>
       </div>
 
-      {/* <div className="lg:w-[35%]  mx-auto">
+      <div className="lg:w-[35%]  mx-auto">
             <img
               src="https://i.ibb.co/k9ybqq6/flat-man-illustration-customer-support-23-2148889244.jpg"
               alt=""
             />
-        </div> */}
+        </div>
 
       {/* Gradient div */}
       <div className="background-gradient w-72 h-72 absolute top-[10px] right-[-50px] rounded-full "></div>

@@ -2,7 +2,8 @@ import { FaDatabase, FaReact, FaNodeJs, FaLock } from "react-icons/fa";
 import { SiExpress, SiRedux, SiMongodb, } from "react-icons/si";
 import { FaChartLine, FaBullhorn, FaSearchDollar, FaHandshake } from "react-icons/fa";
 import { SiGoogleanalytics, SiMailchimp, SiSocialblade, SiAdobexd } from "react-icons/si"
-import logo from './../../../public/Animation - 1725398925591.json';
+import img from "../../assets/DevelopmentImg.png";
+import img2 from "../../assets/Digital.png";
 import Lottie from "lottie-react";
 const ServiceSection = () => {
     const marketingFeatures = [
@@ -75,15 +76,12 @@ const ServiceSection = () => {
     ];
 
     return (
-        <div className="  bg-gray-50">
-            <div className="grid grid-cols-1 md:grid-cols-2 section-container py-20">
+        <div className="  bg-neutral-50">
+            <div className="grid items-center grid-cols-1 md:grid-cols-2 section-container py-20 gap-x-5 ">
                 <div className="h-fit">
                     {/* here include image  */}
                     <div className="flex justify-center items-center">
-                        <Lottie
-                            animationData={logo}
-                            className=" h-fit"
-                        />
+                        <img src={img} alt="Development" />
                     </div>
                 </div>
                 <div>
@@ -111,7 +109,7 @@ const ServiceSection = () => {
 
                 </div>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2  section-container py-20 ">
+            <div className="grid grid-cols-1 md:grid-cols-2  section-container py-20 items-center gap-x-5">
 
                 <div>
                 <div className="relative  mb-3 ">
@@ -140,10 +138,7 @@ const ServiceSection = () => {
                 <div className="h-fit">
                     {/* Lottie animation for digital marketing */}
                     <div className="flex justify-center items-center">
-                        <Lottie
-                            animationData={logo}
-                            className="h-fit"
-                        />
+                        <img src={img2} alt="Digital Marketing" />
                     </div>
                 </div>
             </div>
