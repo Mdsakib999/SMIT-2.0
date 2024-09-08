@@ -9,7 +9,6 @@ const servicesChildren = services.map((item, index) => {
   }
 })
 
-
 export const navData = [
   {
     id: "1",
@@ -49,9 +48,10 @@ export const navData = [
     // ],
   },
 
-  {
-    id: "4",
-    title: "Contact",
-    link: "/contact",
-  },
+  // {
+  //   id: "4",
+  //   title: "Contact",
+  //   link: "/contact",
+  //   isButton: true,
+  // },
 ];
