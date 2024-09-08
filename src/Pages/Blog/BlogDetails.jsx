@@ -9,9 +9,9 @@ const BlogDetails = () => {
     const filterData = blogData.find(item => item.id == id)
     const relatedData = blogData.filter(item => item.id !== id)
     const [liked, setLiked] = useState(false);
-    // useEffect(() => {
-    //     window.scrollTo({ top: 0 });
-    // }, [])
+    useEffect(() => {
+        window.scrollTo({ top: 0 });
+    }, [])
     const backgroundColors = [
         // 'bg-[#C0B1FF]',  // Light purple
         'bg-[#FFD1C1]',  // Light coral
