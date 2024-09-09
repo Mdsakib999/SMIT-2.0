@@ -7,10 +7,10 @@ const SectionTitle = ({ title, description }) => {
     return (
         <div className="flex justify-center items-center flex-col py-8">
             <div className="flex gap-1  md:gap-4">
-                <p className="text-sm md:text-5xl font-bold uppercase tracking-widest ">{title}</p>
-                <PiArrowElbowRightDown className="text-2xl md:text-5xl font-thin " />
+                <p className="text-base md:text-4xl font-bold uppercase tracking-widest ">{title}</p>
+                <PiArrowElbowRightDown className="text-2xl md:text-5xl font-thin" />
             </div>
-            <p className="text-2xl md:text-2xl font-semibold text-center tracking-widest mt-2">
+            <p className="text-lg text-gray-600 md:text-2xl font-semibold text-center tracking-widest mt-2">
                 {words.join(' ')}{' '}
                 <span style={{ color: '#FF5733' }}>{lastWord}</span>
 

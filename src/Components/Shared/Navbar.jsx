@@ -22,7 +22,7 @@ const Navbar = () => {
                 {/* Logo */}
                 <Link to="/" className='flex justify-center items-center gap-2'>
                     <img src={logo} alt="img" className='size-10  rounded-full' />
-                    <p className='font-manrope font-bold leading-snug text-transparent bg-clip-text bg-gradient-to-r from-orange-400 via-orange-600 to-amber-400'>SM IT SOLUTION</p>
+                    <p className='font-manrope font-extrabold leading-snug text-transparent bg-clip-text bg-gradient-to-r from-orange-400 via-orange-600 to-amber-400 font-Dancing'>SM IT SOLUTION</p>
                 </Link>
 
                 {/* Desktop Navigation */}
@@ -70,9 +70,18 @@ const Navbar = () => {
                                 </div>
                             }
                         </li>
-                        // </>
+
 
                     ))}
+                    <Link
+                        className="ms-6 -mb-[6px] rounded-lg flex justify-center items-center text-orange-500 px-6 py-2 border border-orange-500 bg-white shadow-md hover:bg-orange-500 hover:text-white transition-colors duration-300 ease-in-out transform hover:translate-y-[-2px] focus:outline-none"
+                        to={`/contact`}
+                    >
+                        <span className="mr-2">Contact</span>
+                        <span className="text-lg">→</span>
+                    </Link>
+
+
                 </ul>
 
                 {/* Mobile Navigation Icon */}
@@ -84,7 +93,7 @@ const Navbar = () => {
                 <ul
                     className={
                         nav
-                            ? 'fixed md:hidden left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500'
+                            ? 'fixed md:hidden left-0 top-0 w-[60%] h-full overflow-y-auto border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500'
                             : 'ease-in-out w-[60%] duration-500 fixed top-0 bottom-0 left-[-100%]'
                     }
                 >
@@ -123,7 +132,7 @@ const Navbar = () => {
                                 {
                                     item.children && (
                                         <ul
-                                            className={`overflow-hidden transition-all space-y-2 duration-300 ease-in-out ms-3 ${index === item.id ? 'max-h-40 py-2 opacity-100' : 'max-h-0 opacity-0'
+                                            className={`overflow-hidden transition-all space-y-2 duration-300 ease-in-out ms-3 ${index === item.id ? ' py-2 opacity-100' : 'max-h-0 opacity-0'
                                                 }`}
                                         >
                                             {item.children.map(i => (
@@ -136,12 +145,22 @@ const Navbar = () => {
                                                     {i.title}
                                                 </Link>
                                             ))}
+
+
+
                                         </ul>
                                     )
                                 }
 
                             </li>
                         ))}
+                        <Link
+                            className="lg:ms-6 lg:-mb-[6px] rounded-lg flex justify-center items-center text-orange-500 px-6 py-2 border border-orange-500 bg-white shadow-md hover:bg-orange-500 hover:text-white transition-colors duration-300 ease-in-out transform hover:translate-y-[-2px] focus:outline-none"
+                            to={`/contact`}
+                        >
+                            <span className="mr-2">Contact</span>
+                            <span className="text-lg">→</span>
+                        </Link>
                     </div>
                 </ul>
             </div>

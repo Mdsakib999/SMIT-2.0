@@ -1,4 +1,5 @@
-import React from "react";
+/* eslint-disable react/prop-types */
+
 import CountUp from "react-countup";
 import { FaRegDotCircle } from "react-icons/fa";
 import img from "../../assets/WorldMapPNG.png";
@@ -22,7 +23,7 @@ const CountIngDiv = () => {
 
   return (
     <section className=" py-24 bg-white text-center relative bg-cover bg-center overflow-hidden md:overflow-visible"
-    style={{ backgroundImage: `url(${img})` }}>
+      style={{ backgroundImage: `url(${img})` }}>
 
       {/* gradient */}
       <div className="background-gradient-count hidden md:block w-80 h-96 absolute top-[0px] right-[0px] rounded-full "></div>

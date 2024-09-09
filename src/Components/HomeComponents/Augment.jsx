@@ -1,4 +1,3 @@
-import img from "../../assets/pexels-alimadad-997512_prev_ui.png";
 import SectionTitle from "../Shared/SectionTitle";
 const Augment = () => {
 
@@ -38,7 +37,7 @@ const Augment = () => {
 
   
   return (
-    <div>
+    <div className=" pt-10 pb-6">
       <SectionTitle
         title={"Our Features"}
         description={"What Makes Us The Preferred Choice?"}

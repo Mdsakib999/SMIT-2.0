@@ -4,7 +4,9 @@ import { FaChartLine, FaBullhorn, FaSearchDollar, FaHandshake } from "react-icon
 import { SiGoogleanalytics, SiMailchimp, SiSocialblade, SiAdobexd } from "react-icons/si"
 import img from "../../assets/DevelopmentImg.png";
 import img2 from "../../assets/Digital.png";
-import Lottie from "lottie-react";
+import img4 from "../../assets/RoundPNG.png";
+
+
 const ServiceSection = () => {
     const marketingFeatures = [
         {
@@ -80,19 +82,20 @@ const ServiceSection = () => {
             <div className="grid items-center grid-cols-1 md:grid-cols-2 section-container py-20 gap-x-5 ">
                 <div className="h-fit">
                     {/* here include image  */}
-                    <div className="flex justify-center items-center">
-                        <img src={img} alt="Development" />
+                    <div className="flex justify-center items-center relative ">
+                        <img className="z-10" src={img} alt="Development" />
+                        <img className="absolute spin-slow " src={img4} alt="spin" />
                     </div>
                 </div>
                 <div>
-                <div className="relative  mb-1">
-                    <h1 className="text-2xl  font-bold mt-7">Our Ser<span className="text-orange-400 " >vic</span>e</h1>
-                    <span className="inline-block bg-orange-400 size-8 rounded-full bg-opacity-60 absolute top-[-10px] left-[-23px] animate-pulse "></span>
+                    <div className="relative  mb-1">
+                        <h1 className="text-2xl  font-bold mt-7">Our Ser<span className="text-orange-400 " >vic</span>e</h1>
+                        <span className="inline-block bg-orange-400 size-8 rounded-full bg-opacity-60 absolute top-[-10px] left-[-23px] animate-pulse "></span>
 
-                </div>
+                    </div>
                     <h1 className="text-4xl font-bold">Design & Development</h1>
                     <p className="mt-6 text-sm text-gray-500">Web development is the process of building and maintaining websites, involving coding, design, and ensuring functionality and user experience</p>
-                    <div className="grid grid-cols-2 mt-10 gap-5">
+                    <div className="grid grid-cols-1 md:grid-cols-2 mt-10 gap-5">
                         {mernFeatures.map((item, index) => (
                             <div
                                 key={index}
@@ -109,19 +112,19 @@ const ServiceSection = () => {
 
                 </div>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2  section-container py-20 items-center gap-x-5">
+            <div className="grid grid-cols-1 md:grid-cols-2 place-items-center section-container py-20  gap-x-5">
 
                 <div>
-                <div className="relative  mb-3 ">
-                    <h1 className="text-2xl  font-bold mt-7">Our Ser<span className="text-orange-400 " >vic</span>e</h1>
-                    <span className="inline-block bg-orange-400 size-8 rounded-full bg-opacity-60 absolute top-[-10px] left-[-23px] animate-pulse "></span>
+                    <div className="relative  mb-3 ">
+                        <h1 className="text-2xl  font-bold mt-7">Our Ser<span className="text-orange-400 " >vic</span>e</h1>
+                        <span className="inline-block bg-orange-400 size-8 rounded-full bg-opacity-60 absolute top-[-10px] left-[-23px] animate-pulse "></span>
 
-                </div>
+                    </div>
                     <h1 className="text-4xl font-bold">Digital Marketing</h1>
                     <p className="mt-6 text-sm text-black">
                         Digital marketing involves leveraging data and technology to promote brands, engage audiences, and drive business growth through various online channels.
                     </p>
-                    <div className="grid grid-cols-2 mt-10 gap-5">
+                    <div className="grid grid-cols-1 md:grid-cols-2 mt-10 gap-5">
                         {marketingFeatures.map((item, index) => (
                             <div
                                 key={index}
@@ -138,7 +141,8 @@ const ServiceSection = () => {
                 <div className="h-fit">
                     {/* Lottie animation for digital marketing */}
                     <div className="flex justify-center items-center">
-                        <img src={img2} alt="Digital Marketing" />
+                        <img className="z-10" src={img2} alt="Digital Marketing" />
+                        <img className="absolute spin-slow w-[33%]" src={img4} alt="spin" />
                     </div>
                 </div>
             </div>

@@ -15,6 +15,9 @@ export default {
       animation: {
         shake: "shake 0.5s infinite",
       },
+      fontFamily: {
+        Dancing: ["Dancing Script", "cursive"],
+      },
     },
   },
   plugins: [],
