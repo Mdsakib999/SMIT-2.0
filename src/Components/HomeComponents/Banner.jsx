@@ -66,10 +66,16 @@ const Banner = () => {
           <div className="relative">
             {/* here include image */}
             <Lottie animationData={animation} className=" h-fit" />
-            <span className="absolute right-[10%] top-[15%] animate-bounce"><FaCode className="text-4xl"></FaCode></span>
+            <span className="absolute right-[10%] top-[15%] animate-bounce"><FaCode className="text-4xl text-orange-500"></FaCode></span>
           </div>
         </div>
       </div >
+
+      <div className="w-40 absolute left-[40%] top-[50%] ">
+      <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <path fill="#D0E2FF" d="M40.6,-52.2C54.8,-45.5,70,-36.6,77,-23.1C84,-9.6,82.8,8.4,74.8,21.6C66.8,34.8,52.1,43.1,38.5,54.2C24.9,65.3,12.5,79.3,-1.2,80.9C-14.8,82.5,-29.6,71.8,-43.7,60.8C-57.8,49.9,-71.2,38.7,-79.4,23.4C-87.7,8.1,-90.8,-11.2,-83.1,-24.6C-75.5,-38.1,-57,-45.6,-41.4,-51.8C-25.7,-58,-12.9,-62.8,0.2,-63C13.2,-63.3,26.4,-58.8,40.6,-52.2Z" transform="translate(100 100)" />
+</svg>
+      </div>
 
       <div className="mdmt-[-100px] ">
         <svg

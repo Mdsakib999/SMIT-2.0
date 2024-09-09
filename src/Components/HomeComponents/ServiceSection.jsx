@@ -82,7 +82,7 @@ const ServiceSection = () => {
     const sliceServiceData = services.slice(2, 5)
     console.log(sliceServiceData);
     return (
-        <div className="md:mb-28">
+        <div className="md:mb-12 ">
             <div className="  bg-neutral-50 pb-36">
                 <div className="grid items-center grid-cols-1 md:grid-cols-2 section-container py-20 gap-x-5 ">
                     <div className="h-fit">
@@ -147,17 +147,17 @@ const ServiceSection = () => {
                         {/* Lottie animation for digital marketing */}
                         <div className="flex justify-center items-center">
                             <img className="z-10" src={img2} alt="Digital Marketing" />
-                            <img className="absolute spin-slow w-[33%]" src={img4} alt="spin" />
+                            <img className="absolute animate-spin spin-slow w-[33%]" src={img4} alt="spin" />
                         </div>
                     </div>
                 </div>
 
             </div>
-            <div className="section-container -mt-[170px]">
+            <div className="section-container -mt-[120px] ">
                 <div className=" grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid gap-4">
                     {
                         sliceServiceData.map((item, index) => (
-                            <div key={index} className=" border bg-white shadow-xl p-8 rounded-lg hover:shadow-lg hover:shadow-orange-300">
+                            <div key={index} className=" border bg-white shadow-xl p-8 rounded-lg hover:shadow-lg hover:shadow-orange-300 hover:-translate-y-4 duration-500">
                                 {/* <TbWorldDollar className="lg:text-6xl text-5xl text-orange-500" /> */}
                                 <item.logo className="lg:text-6xl text-5xl text-orange-500" />
                                 <h1 className="my-5  font-bold text-2xl lg:text-3xl">{item.title}</h1>
@@ -166,14 +166,14 @@ const ServiceSection = () => {
                                 </p>
 
                                 <Link to={`/service/${item.title.split(' ').join('-').toLowerCase()}`} className=" mt-4 flex items-center gap-x-2 font-bold text-transparent bg-clip-text bg-gradient-to-r from-orange-500 from-10%  to-yellow-300 to-90% ">
-                                    Read More{" "}
+                                    View Details{" "}
                                     <FaArrowRightLong className="text-orange-400 mt-[0.20rem]" />
                                 </Link>
                             </div>
                         ))
                     }
                 </div>
-                <Link to={'/services'} className="flex items-center gap-2 justify-end mt-4">See more <FaArrowRightLong className="text-orange-400  mt-[0.20rem]" /></Link>
+                <Link to={'/services'} className="flex items-center gap-2 justify-end text-lg font-bold mt-8">See All <FaArrowRightLong className="text-orange-400  mt-[0.20rem]" /></Link>
             </div>
         </div>
     );

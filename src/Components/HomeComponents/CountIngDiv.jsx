@@ -26,7 +26,7 @@ const CountIngDiv = () => {
       style={{ backgroundImage: `url(${img})` }}>
 
       {/* gradient */}
-      <div className="background-gradient-count hidden md:block w-80 h-96 absolute top-[0px] right-[0px] rounded-full "></div>
+      <div className="background-gradient-count hidden md:block w-80 h-96 absolute top-[60px] right-[0px] rounded-full "></div>
       <div className=" background-gradient-count w-56 h-56 md:w-80 md:h-80 absolute top-[50%] right-[-25%]  md:bottom-0 md:left-[0%] rounded-full "></div>
 
       <div className="max-w-4xl mx-auto">

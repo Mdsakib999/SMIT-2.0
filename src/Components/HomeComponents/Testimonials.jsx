@@ -49,7 +49,7 @@ const Testimonials = () => {
                 >
                     {testimonials.map(({ id, name, position, image, testimonial }) => (
                         <SwiperSlide key={id}>
-                            <div className="border h-[400px] p-6 my-10 mx-3 rounded-xl shadow-xl flex flex-col justify-between transform transition-transform hover:-translate-y-2   ">
+                            <div className="border h-[360px] p-6 my-10 mx-3 rounded-xl shadow-xl flex flex-col justify-between transform transition-transform hover:-translate-y-3 duration-500  hover:shadow-orange-100 ">
                                 <div className="mb-6 ">
                                     <FaQuoteLeft className="text-[#f6682782] mb-4 animate-shake" size={36} />
                                     <p className="text-gray-700 font-light italic leading-relaxed text-lg">
@@ -57,7 +57,7 @@ const Testimonials = () => {
                                     </p>
                                 </div>
                                 <div className="flex items-center">
-                                    <img src={image} className="w-16 h-16 rounded-full object-cover mr-4 shadow-lg border-2 border-indigo-100" alt={name} />
+                                    <img src={image} className="w-16 h-16 rounded-full object-cover mr-4 shadow-lg border-2 border-orange-100" alt={name} />
                                     <div>
                                         <p className="text-lg font-bold text-gray-800">{name}</p>
                                         <p className="text-sm text-orange-600">{position}</p>
