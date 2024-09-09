@@ -36,7 +36,7 @@ const OurTeam = () => {
           autoplay={{
             delay: 2500,
             disableOnInteraction: false,
-
+            pauseOnMouseEnter: true
           }}
           pagination={{
             clickable: true,
@@ -61,32 +61,54 @@ const OurTeam = () => {
           {membersData?.map((members, index) => (
             <SwiperSlide key={index}>
               <div className="my-20 hover:-translate-y-2 duration-500 ">
-                <Link
-                  to="/"
-                  className="bg-white dark:bg-slate-800 shadow-xl  hover:shadow-orange-200 hover:shadow-lg relative flex items-end justify-center min-h-[185px] rounded-t-[30px] rounded-b-[5px] border dark:border-slate-700 "
-                >
-                  <div>
-                    <div className="absolute -top-[75px] z-10 left-1/2 -translate-x-1/2 bg-white dark:bg-slate-800 border-2 dark:border-slate-700 rounded-full flex justify-center items-center h-32 w-32  ">
+                <div className="bg-white dark:bg-slate-800 shadow-xl hover:shadow-orange-200 hover:shadow-lg relative flex items-end justify-center min-h-[185px] rounded-t-[30px] rounded-b-[5px] border dark:border-slate-700">
+                  <Link
+                    to="/"
+                    className="absolute inset-0 z-0"
+                  >
+                    {/* Invisible layer to make the entire card clickable for internal navigation */}
+                  </Link>
+                  <div className="relative z-10">
+                    <div className="absolute -top-[100px] z-10 left-1/2 -translate-x-1/2 bg-white dark:bg-slate-800 border-2 dark:border-slate-700 rounded-full flex justify-center items-center h-32 w-32">
                       <img
-                        src="https://media.licdn.com/dms/image/v2/D5603AQFUkPFXrhh8yQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1681406507415?e=1730332800&v=beta&t=TCy989yvAswrs31tZKccDV4ctFQiMyjrO6pWwdHwHF8"
-                        alt=""
+                        src={members.Image}
+                        alt={members.name}
                         className="w-full rounded-full"
                       />
                     </div>
-                    <p className="text-xl font-medium text-center">
+                    <p className="text-xl font-medium text-center mt-10">
                       {members.name}
                     </p>
-                    <p className="text-lg font-normal mb-1 text-center">{members.designation}</p>
+                    <p className="text-lg font-normal mb-1 text-center">
+                      {members.designation}
+                    </p>
                     <hr className="w-full border-b-2" />
                     <div className="my-3 text-xl flex justify-evenly">
-                      <FaLinkedin className="hover:text-blue-600" />
-                      <FaTwitter className="hover:text-blue-600" />
+                      <a
+                        href={members.linkedinLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="LinkedIn Profile"
+                        className="hover:text-blue-600 transition-colors duration-300"
+                      >
+                        <FaLinkedin />
+                      </a>
+                      <a
+                        href={members.twiterLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Twitter Profile"
+                        className="hover:text-blue-600 transition-colors duration-300"
+                      >
+                        <FaTwitter />
+                      </a>
                     </div>
                   </div>
-                </Link>
+                </div>
               </div>
             </SwiperSlide>
           ))}
+
         </Swiper>
       </div>
     </div>
