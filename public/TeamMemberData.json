@@ -1,50 +1,90 @@
 [
     {
         "id": 1,
-        "name": "MD Sakib",
-        "designation": "Software Engineer",
-        "Image": "https://media.licdn.com/dms/image/v2/D5603AQFUkPFXrhh8yQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1681406507415?e=1730332800&v=beta&t=TCy989yvAswrs31tZKccDV4ctFQiMyjrO6pWwdHwHF8 ",
-        "linkedinLink": "https://www.linkedin.com/in/alicejohnson",
-        "twiterLink": "https://twitter.com/alicejohnson"
-    },
-    {
-        "id": 2,
         "name": "Shahriar Rahaman",
         "designation": "CEO",
-        "Image": "https://cdn.easyfrontend.com/pictures/testimonial/testimonial_square_1.jpeg  ",
+        "Image": " ",
         "linkedinLink": "https://www.linkedin.com/in/bobsmith",
         "twiterLink": "https://twitter.com/bobsmith"
     },
     {
-        "id": 3,
+        "id": 2,
         "name": "Tariqul Hayat Shuvo",
         "designation": "Senior Executive",
-        "Image": "https://cdn.easyfrontend.com/pictures/testimonial/testimonial_square_1.jpeg  ",
+        "Image": "https://i.ibb.co.com/kqpnftH/Tariqul.jpg ",
+        "linkedinLink": "https://www.linkedin.com/in/charliebrown",
+        "twiterLink": "https://twitter.com/charliebrown"
+    },
+    {
+        "id": 3,
+        "name": "Abdul Nur Tushar ",
+        "designation": "Tech Team Lead",
+        "Image": "https://i.ibb.co.com/zGtWJKh/tushar.jpg",
         "linkedinLink": "https://www.linkedin.com/in/charliebrown",
         "twiterLink": "https://twitter.com/charliebrown"
     },
     {
         "id": 4,
-        "name": "Saiful Islam",
-        "designation": "UI/UX Designer",
-        "Image": "https://cdn.easyfrontend.com/pictures/testimonial/testimonial_square_1.jpeg  ",
+        "name": "MD Sakib",
+        "designation": "Software Engineer",
+        "Image": "https://media.licdn.com/dms/image/v2/D5603AQFUkPFXrhh8yQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1681406507415?e=1730332800&v=beta&t=TCy989yvAswrs31tZKccDV4ctFQiMyjrO6pWwdHwHF8 ",
+        "linkedinLink": "https://www.linkedin.com/in/sakib999",
+        "twiterLink": "https://twitter.com/alicejohnson"
+    },
+    {
+        "id": 5,
+        "name": "Tamim Khan",
+        "designation": "Senior Executive",
+        "Image": "https://i.ibb.co.com/GxMCnCR/Tamim.jpg",
         "linkedinLink": "https://www.linkedin.com/in/dianawhite",
         "twiterLink": "https://twitter.com/dianawhite"
     },
     {
-        "id": 5,
-        "name": "Prantica ",
-        "designation": "Marketing Specialist",
-        "Image": "https://cdn.easyfrontend.com/pictures/testimonial/testimonial_square_1.jpeg ",
-        "linkedinLink": "https://www.linkedin.com/in/evandavis",
+        "id": 6,
+        "name": "Saiful Islam",
+        "designation": "Graphic Designer",
+        "Image": "https://i.ibb.co.com/3mNqM8w/Saiful-Alam-Image.jpg",
+        "linkedinLink": "https://www.linkedin.com/in/saifulalam1321",
+        "twiterLink": "https://x.com/saifulalam1321"
+    },
+    {
+        "id": 7,
+        "name": "Ripon Barua",
+        "designation": "Junior Executive",
+        "Image": "https://i.ibb.co.com/MhnCm8h/Ripon.jpg",
+        "linkedinLink": "https://www.linkedin.com/",
         "twiterLink": "https://twitter.com/evandavis"
     },
     {
-        "id": 6,
-        "name": "Tushar Imran",
-        "designation": "Eeam Lead",
-        "Image": "https://cdn.easyfrontend.com/pictures/testimonial/testimonial_square_1.jpeg ",
-        "linkedinLink": "https://www.linkedin.com/in/fionagreen",
-        "twiterLink": "https://twitter.com/fionagreen"
+        "id": 8,
+        "name": "MD Kawsar Ahmed",
+        "designation": "Junior Exicutive",
+        "Image": "https://i.ibb.co.com/pZCQ42F/kwasar.jpg ",
+        "linkedinLink": "https://www.linkedin.com/in/kawsar-ahmed-shawon-6bb609294",
+        "twiterLink": "#"
+    },
+    {
+        "id": 9,
+        "name": "Prantica Chowdhury ",
+        "designation": "Sales Executive",
+        "Image": " ",
+        "linkedinLink": "https://www.linkedin.com/in/kawsar-ahmed-shawon-6bb609294",
+        "twiterLink": "#"
+    },
+    {
+        "id": 10,
+        "name": "Arpita Devi",
+        "designation": "Senior Designer",
+        "Image": " ",
+        "linkedinLink": "https://www.linkedin.com/in/kawsar-ahmed-shawon-6bb609294",
+        "twiterLink": "#"
+    },
+    {
+        "id": 11,
+        "name": "Farhana Islam ",
+        "designation": "Junior Sales Executive",
+        "Image": "",
+        "linkedinLink": "https://www.linkedin.com/in/kawsar-ahmed-shawon-6bb609294",
+        "twiterLink": "#"
     }
 ]

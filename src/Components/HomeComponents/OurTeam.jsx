@@ -4,8 +4,8 @@ import { FaLinkedin, FaTwitter } from "react-icons/fa";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
-import "swiper/css/autoplay"
-import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import "swiper/css/autoplay";
+import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
 const OurTeam = () => {
   const [membersData, setMembersData] = useState([]);
@@ -25,8 +25,8 @@ const OurTeam = () => {
         </p>
         <p className="md:w-[50%] w-[90%] mx-auto mb-20 text-center text-slate-500 ">
           Service is professional offerings provided by businesses to meet
-          specific needs or solve problems for their customers. Services can range
-          from your budget.
+          specific needs or solve problems for their customers. Services can
+          range from your budget.
         </p>
 
         <Swiper
@@ -36,7 +36,6 @@ const OurTeam = () => {
           autoplay={{
             delay: 2500,
             disableOnInteraction: false,
-
           }}
           pagination={{
             clickable: true,
@@ -66,9 +65,9 @@ const OurTeam = () => {
                   className="bg-white dark:bg-slate-800 shadow-xl  hover:shadow-orange-200 hover:shadow-lg relative flex items-end justify-center min-h-[185px] rounded-t-[30px] rounded-b-[5px] border dark:border-slate-700 "
                 >
                   <div>
-                    <div className="absolute -top-[75px] z-10 left-1/2 -translate-x-1/2 bg-white dark:bg-slate-800 border-2 dark:border-slate-700 rounded-full flex justify-center items-center h-32 w-32  ">
+                    <div className="absolute -top-[75px] z-10 left-1/2 -translate-x-1/2 bg-white dark:bg-slate-800 border-2 dark:border-slate-700 rounded-full flex justify-center items-center h-32 w-32  overflow-hidden p- ">
                       <img
-                        src="https://media.licdn.com/dms/image/v2/D5603AQFUkPFXrhh8yQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1681406507415?e=1730332800&v=beta&t=TCy989yvAswrs31tZKccDV4ctFQiMyjrO6pWwdHwHF8"
+                        src={members.Image}
                         alt=""
                         className="w-full rounded-full"
                       />
@@ -76,11 +75,26 @@ const OurTeam = () => {
                     <p className="text-xl font-medium text-center">
                       {members.name}
                     </p>
-                    <p className="text-lg font-normal mb-1 text-center">{members.designation}</p>
+                    <p className="text-lg font-normal mb-1 text-center">
+                      {members.designation}
+                    </p>
                     <hr className="w-full border-b-2" />
                     <div className="my-3 text-xl flex justify-evenly">
-                      <FaLinkedin className="hover:text-blue-600" />
-                      <FaTwitter className="hover:text-blue-600" />
+                      <a
+                        href={members.linkedinLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <FaLinkedin className="hover:text-blue-600" />
+                      </a>
+
+                      <a
+                        href={members.twitterLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <FaTwitter className="hover:text-blue-600" />
+                      </a>
                     </div>
                   </div>
                 </Link>
