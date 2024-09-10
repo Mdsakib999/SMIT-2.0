@@ -17,16 +17,16 @@ const Banner = () => {
         {/* Gradient div */}
         <div className="background-gradient-blue w-80 h-80 absolute top-0 right-[-10%] rounded-full"></div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2  h-full section-container scale-x-[-1]">
+        <div className="grid grid-cols-1 md:grid-cols-2  h-full section-container scale-x-[-1] md:mt-4 ">
           <div className=" flex items-center ">
-            <div className="text-center md:text-left">
+            <div className="text-center md:text-left ">
               <h1 className="text-xl md:text-3xl font-bold ">
                 <span className=" font-manrope  leading-snug text-transparent bg-clip-text bg-gradient-to-r from-orange-400 via-orange-600 to-amber-400">
                   SM IT Solution
                 </span>{" "}
                 Your Trusted Partner in Digital Innovation!
               </h1>
-              <p className="text-sm mt-4">
+              <p className=" mt-4">
                 At SM IT SOLUTION, you can discover state-of-the-art
                 technological solutions that will propel your company to new
                 heights. Our goal is to help businesses succeed in the digital
@@ -44,7 +44,7 @@ const Banner = () => {
                   </span>
                 </button>
 
-                <p className="flex items-center gap-2 font-bold text-base cursor-pointer">
+                <p className="flex items-center text-base md:text-xl gap-2 font-bold cursor-pointer mt-5 md:mt-0">
                   Learn More{" "}
                   <FaArrowRightLong className="text-orange-400"></FaArrowRightLong>
                 </p>
@@ -63,13 +63,15 @@ const Banner = () => {
               </div>
             </div >
           </div >
-          <div className="relative">
+          <div className="relative ">
             {/* here include image */}
             <Lottie animationData={animation} className=" h-fit" />
-            <span className="absolute right-[10%] top-[15%] animate-bounce"><FaCode className="text-4xl"></FaCode></span>
+            <span className="absolute right-[10%] top-[15%] animate-bounce"><FaCode className="text-4xl text-orange-500"></FaCode></span>
           </div>
         </div>
       </div >
+
+      
 
       <div className="mdmt-[-100px] ">
         <svg

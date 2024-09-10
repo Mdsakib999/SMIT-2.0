@@ -26,21 +26,20 @@ const CountIngDiv = () => {
       style={{ backgroundImage: `url(${img})` }}>
 
       {/* gradient */}
-      <div className="background-gradient-count hidden md:block w-80 h-96 absolute top-[0px] right-[0px] rounded-full "></div>
+      <div className="background-gradient-count hidden md:block w-80 h-96 absolute top-[60px] right-[0px] rounded-full "></div>
       <div className=" background-gradient-count w-56 h-56 md:w-80 md:h-80 absolute top-[50%] right-[-25%]  md:bottom-0 md:left-[0%] rounded-full "></div>
 
       <div className="max-w-4xl mx-auto">
         {/* Header Section */}
-        <h2 className="text-3xl font-bold text-gray-800 mb-4">
+        <h2 className="md:text-3xl text-2xl font-bold text-gray-800 mb-4 px-4 md:px-0">
           We Always Try To Understand Users Expectation
         </h2>
         <div className="flex justify-center items-center mb-6">
           <FaRegDotCircle className="text-2xl text-orange-600"></FaRegDotCircle>
           <span className="w-24 h-1 bg-orange-500 inline-block"></span>
         </div>
-        <p className="text-gray-500 mb-12 max-w-xl mx-auto">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        <p className="text-gray-500 mb-12 max-w-xl mx-auto px-5 md:px-0">
+        Together, we combine expertise and passion to create cutting-edge solutions that inspire growth and lead to lasting success.
         </p>
         {/* Count Items Section */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">

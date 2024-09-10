@@ -37,12 +37,12 @@ const Augment = () => {
 
   
   return (
-    <div className=" pt-10 pb-6">
+    <div className=" pt-10 pb-6 ">
       <SectionTitle
         title={"Our Features"}
         description={"What Makes Us The Preferred Choice?"}
       />
-      <div className="max-w-7xl mx-auto pt-12 pb-20 ">
+      <div className="max-w-7xl mx-auto pt-12 md:pb-20 px-4 md:px-0">
       <div className="flex flex-col md:flex-row md:justify-between gap-x-6">
         {timelineData.map((step, index) => (
           <div key={index} className="flex flex-col items-center mb-10 md:mb-0 md:flex-1 py-4 px-2 rounded-tr-[40px] rounded-b-[35px] border shadow-lg shadow-orange-100 hover:-translate-y-2 duration-500 hover:shadow-md ">

@@ -15,7 +15,7 @@ const HomeFAQ = () => {
 
 
   return (
-    <section className="py-20 bg-neutral-50 ">
+    <section className="py-20 bg-neutral-50">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 ">
         <div className="mb-16">
           <SectionTitle title={"Your Queries, Our Priority"}
@@ -25,9 +25,9 @@ const HomeFAQ = () => {
 
         </div>
 
-        <div className='flex flex-col md:flex-row  items-center gap-6'>
+        <div className='md:flex items-center gap-6 overflow-hidden md:overflow-visible'>
 
-          <div className=' md:w-[40%] relative'>
+          <div className='w-[60%] mx-auto md:w-[40%] relative'>
             <img className='animate-pulse' src={img} alt="" />
             <img className='absolute animate-ping top-0 left-[-19%]' src={img1} alt="" />
           </div>

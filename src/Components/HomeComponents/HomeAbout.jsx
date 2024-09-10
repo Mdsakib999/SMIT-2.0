@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 const HomeAbout = () => {
   return (
-    <div className="w-full  md:mt-[-70px]">
-      <section className="overflow-hidden w-[90%] mx-auto pt-20 pb-4 lg:pt-0 ">
+    <div className="w-full  mt-[-70px]">
+      <section className="md:overflow-hidden w-[90%] mx-auto pt-20 pb-4 lg:pt-0 ">
         <div className="container mx-auto">
           <div className="flex flex-wrap items-center justify-between -mx-4">
             <div className="w-full px-4 lg:w-6/12">
@@ -43,8 +43,8 @@ const HomeAbout = () => {
 
             <div className="w-full px-4 lg:w-1/2 xl:w-5/12 ">
               <div className="mt-10 lg:mt-0">
-                <div className="relative   mb-4  text-primary font-bold">
-                  <h1 className="text-2xl  font-bold mt-7">
+                <div className="relative   mb-4  text-primary font-bold ">
+                  <h1 className="text-2xl  font-bold mt-7 ">
                     ABOUT{" "}
                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 via-orange-600 to-amber-500 ">
                       US_
