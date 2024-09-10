@@ -19,10 +19,10 @@ const HomeFAQ = () => {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 ">
         <div className="mb-16">
           <SectionTitle title={"Your Queries, Our Priority"}
-        description={"Quick and Clear Answers to Help You Navigate Our Tech Services."}>
+            description={"Quick and Clear Answers to Help You Navigate Our Tech Services."}>
 
           </SectionTitle>
-          
+
         </div>
 
         <div className='md:flex items-center gap-6 overflow-hidden md:overflow-visible'>
