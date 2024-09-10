@@ -17,7 +17,7 @@ const Blog = () => {
         <div
             // style={{ background: 'url("/public/Round BG.png") no-repeat center center / cover' }} 
 
-            className="section-container pb-8  md:py-10 ">
+            className="section-container pb-8  md:py-10">
             <div>
                 <p className="bg-[#a0e3fbb7] inline-block px-4 py-1 rounded-full">
                     <span className="size bg-orange-400 size-3 inline-block  rotate-45"></span> <span className="text-sm font-semibold ml-1">BLOG</span>
