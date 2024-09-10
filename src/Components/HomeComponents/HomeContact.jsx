@@ -6,7 +6,7 @@
 
 const HomeContact = () => {
   return (
-    <div className="overflow-x-hidden relative  ">
+    <div className="overflow-x-hidden relative">
       {/* Gradient div */}
       <div className="background-gradient hidden md:block w-72 h-72 absolute top-[10px] right-[-50px] rounded-full "></div>
 
@@ -14,7 +14,7 @@ const HomeContact = () => {
 
       <div className="section-container">
         <div className="text-center mt-16 mb-10 ">
-          <h1 className="text-3xl lg:text-5xl font-bold animate-fade-up tracking-wide">
+          <h1 className="text-2xl lg:text-5xl font-bold animate-fade-up tracking-wide">
             Have Any Project ? <span className="leading-snug text-transparent bg-clip-text bg-gradient-to-r from-orange-400 via-orange-600 to-amber-400">Let’s Talk </span>
           </h1>
           <p className="text-lg text-gray-500 pt-4  lg:w-[50%] w-[95%] m-auto ">

@@ -18,7 +18,7 @@ const OurTeam = () => {
   console.log(membersData);
 
   return (
-    <div className="bg-gradient-to-b from-[#fff] via-[#f3cf9427] to-[#fff]   my-16">
+    <div className="bg-gradient-to-b from-[#fff] via-[#f3cf9427] to-[#fff] my-16">
       <div className="  mx-auto  section-container">
         
 
@@ -30,8 +30,7 @@ const OurTeam = () => {
           <span className="w-24 h-1 bg-orange-500 inline-block"></span>
         </div>
         <p className="text-gray-500  max-w-xl text-center md:w-[50%] w-[90%] mx-auto mb-20">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Our expert team, united by vision and expertise, is committed to shaping innovative solutions and driving meaningful change.
         </p>
 
         <Swiper
