@@ -3,15 +3,15 @@
         "id": 1,
         "name": "Shahriar Rahaman",
         "designation": "CEO",
-        "Image": " ",
-        "linkedinLink": "https://www.linkedin.com/in/bobsmith",
-        "twiterLink": "https://twitter.com/bobsmith"
+        "Image": "https://media.licdn.com/dms/image/v2/D5603AQHWGYVBMZV4xA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1719636752528?e=1731542400&v=beta&t=fgWvCDv9fFW18SF2kX6qNshbba9ZSTuFXg2nSQzxwkM",
+        "linkedinLink": "https://www.linkedin.com/in/shariar-rahman/",
+        "twiterLink": "https://twitter.com/"
     },
     {
         "id": 2,
         "name": "Tariqul Hayat Shuvo",
         "designation": "Senior Executive",
-        "Image": "https://i.ibb.co.com/kqpnftH/Tariqul.jpg ",
+        "Image": "https://i.ibb.co.com/yWtk48N/Tariqul.jpg ",
         "linkedinLink": "https://www.linkedin.com/in/charliebrown",
         "twiterLink": "https://twitter.com/charliebrown"
     },
@@ -19,7 +19,7 @@
         "id": 3,
         "name": "Abdul Nur Tushar ",
         "designation": "Tech Team Lead",
-        "Image": "https://i.ibb.co.com/zGtWJKh/tushar.jpg",
+        "Image": "https://i.ibb.co.com/sHZjM3c/Tushar.jpg",
         "linkedinLink": "https://www.linkedin.com/in/charliebrown",
         "twiterLink": "https://twitter.com/charliebrown"
     },
@@ -35,7 +35,7 @@
         "id": 5,
         "name": "Tamim Khan",
         "designation": "Senior Executive",
-        "Image": "https://i.ibb.co.com/GxMCnCR/Tamim.jpg",
+        "Image": "https://i.ibb.co.com/sPFD1Wt/Tamim-Khan.jpg",
         "linkedinLink": "https://www.linkedin.com/in/dianawhite",
         "twiterLink": "https://twitter.com/dianawhite"
     },
@@ -43,7 +43,7 @@
         "id": 6,
         "name": "Saiful Islam",
         "designation": "Graphic Designer",
-        "Image": "https://i.ibb.co.com/3mNqM8w/Saiful-Alam-Image.jpg",
+        "Image": "https://i.ibb.co.com/PFc62Ws/Saiful.jpg",
         "linkedinLink": "https://www.linkedin.com/in/saifulalam1321",
         "twiterLink": "https://x.com/saifulalam1321"
     },
@@ -53,13 +53,13 @@
         "designation": "Junior Executive",
         "Image": "https://i.ibb.co.com/MhnCm8h/Ripon.jpg",
         "linkedinLink": "https://www.linkedin.com/",
-        "twiterLink": "https://twitter.com/evandavis"
+        "twiterLink": "#"
     },
     {
         "id": 8,
         "name": "MD Kawsar Ahmed",
         "designation": "Junior Exicutive",
-        "Image": "https://i.ibb.co.com/pZCQ42F/kwasar.jpg ",
+        "Image": "https://i.ibb.co.com/0yWCtVT/Kawsar.jpg ",
         "linkedinLink": "https://www.linkedin.com/in/kawsar-ahmed-shawon-6bb609294",
         "twiterLink": "#"
     },
@@ -68,7 +68,7 @@
         "name": "Prantica Chowdhury ",
         "designation": "Sales Executive",
         "Image": " ",
-        "linkedinLink": "https://www.linkedin.com/in/kawsar-ahmed-shawon-6bb609294",
+        "linkedinLink": "https://www.linkedin.com/4",
         "twiterLink": "#"
     },
     {
@@ -76,7 +76,7 @@
         "name": "Arpita Devi",
         "designation": "Senior Designer",
         "Image": " ",
-        "linkedinLink": "https://www.linkedin.com/in/kawsar-ahmed-shawon-6bb609294",
+        "linkedinLink": "https://www.linkedin.com/",
         "twiterLink": "#"
     },
     {
@@ -84,7 +84,7 @@
         "name": "Farhana Islam ",
         "designation": "Junior Sales Executive",
         "Image": "",
-        "linkedinLink": "https://www.linkedin.com/in/kawsar-ahmed-shawon-6bb609294",
+        "linkedinLink": "https://www.linkedin.com/",
         "twiterLink": "#"
     }
 ]

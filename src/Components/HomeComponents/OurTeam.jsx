@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaLinkedin, FaRegDotCircle, FaTwitter } from "react-icons/fa";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -18,15 +18,20 @@ const OurTeam = () => {
   console.log(membersData);
 
   return (
-    <div className="bg-gradient-to-b from-[#fff] via-[#f3cf9427] to-[#fff]   my-12">
+    <div className="bg-gradient-to-b from-[#fff] via-[#f3cf9427] to-[#fff]   my-16">
       <div className="  mx-auto  section-container">
-        <p className="md:text-5xl text-3xl font-semibold md:mb-5 mb-6 text-center">
-          Our Expert Team
-        </p>
-        <p className="md:w-[50%] w-[90%] mx-auto mb-20 text-center text-slate-500 ">
-          Service is professional offerings provided by businesses to meet
-          specific needs or solve problems for their customers. Services can
-          range from your budget.
+        
+
+        <h2 className=" text-gray-800  md:text-5xl text-3xl font-semibold md:mb-8 mb-6 text-center">
+        Our Expert Team
+        </h2>
+        <div className="flex justify-center items-center mb-6">
+          <FaRegDotCircle className="text-2xl text-orange-600"></FaRegDotCircle>
+          <span className="w-24 h-1 bg-orange-500 inline-block"></span>
+        </div>
+        <p className="text-gray-500  max-w-xl text-center md:w-[50%] w-[90%] mx-auto mb-20">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
 
         <Swiper
@@ -36,6 +41,7 @@ const OurTeam = () => {
           autoplay={{
             delay: 2500,
             disableOnInteraction: false,
+            pauseOnMouseEnter: true
           }}
           pagination={{
             clickable: true,
@@ -60,19 +66,22 @@ const OurTeam = () => {
           {membersData?.map((members, index) => (
             <SwiperSlide key={index}>
               <div className="my-20 hover:-translate-y-2 duration-500 ">
-                <Link
-                  to="/"
-                  className="bg-white dark:bg-slate-800 shadow-xl  hover:shadow-orange-200 hover:shadow-lg relative flex items-end justify-center min-h-[185px] rounded-t-[30px] rounded-b-[5px] border dark:border-slate-700 "
-                >
-                  <div>
-                    <div className="absolute -top-[75px] z-10 left-1/2 -translate-x-1/2 bg-white dark:bg-slate-800 border-2 dark:border-slate-700 rounded-full flex justify-center items-center h-32 w-32  overflow-hidden p- ">
+                <div className="bg-white dark:bg-slate-800 shadow-xl hover:shadow-orange-200 hover:shadow-lg relative flex items-end justify-center min-h-[185px] rounded-t-[30px] rounded-b-[5px] border dark:border-slate-700">
+                  <Link
+                    to="/"
+                    className="absolute inset-0 z-0"
+                  >
+                    {/* Invisible layer to make the entire card clickable for internal navigation */}
+                  </Link>
+                  <div className="relative z-10">
+                    <div className="absolute -top-[100px] z-10 left-1/2 -translate-x-1/2 bg-white dark:bg-slate-800 border-2 dark:border-slate-700 rounded-full flex justify-center items-center h-32 w-32 overflow-hidden">
                       <img
                         src={members.Image}
-                        alt=""
+                        alt={members.name}
                         className="w-full rounded-full"
                       />
                     </div>
-                    <p className="text-xl font-medium text-center">
+                    <p className="text-xl font-medium text-center mt-10">
                       {members.name}
                     </p>
                     <p className="text-lg font-normal mb-1 text-center">
@@ -84,23 +93,27 @@ const OurTeam = () => {
                         href={members.linkedinLink}
                         target="_blank"
                         rel="noopener noreferrer"
+                        aria-label="LinkedIn Profile"
+                        className="hover:text-blue-600 transition-colors duration-300"
                       >
-                        <FaLinkedin className="hover:text-blue-600" />
+                        <FaLinkedin />
                       </a>
-
                       <a
-                        href={members.twitterLink}
+                        href={members.twiterLink}
                         target="_blank"
                         rel="noopener noreferrer"
+                        aria-label="Twitter Profile"
+                        className="hover:text-blue-600 transition-colors duration-300"
                       >
-                        <FaTwitter className="hover:text-blue-600" />
+                        <FaTwitter />
                       </a>
                     </div>
                   </div>
-                </Link>
+                </div>
               </div>
             </SwiperSlide>
           ))}
+
         </Swiper>
       </div>
     </div>

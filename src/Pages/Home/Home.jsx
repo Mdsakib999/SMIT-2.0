@@ -21,10 +21,10 @@ const Home = () => {
 
             <HomeAbout></HomeAbout>
 
-            <ServiceSection></ServiceSection>
-
             {/* Dynamic countup number */}
             <CountIngDiv></CountIngDiv>
+
+            <ServiceSection></ServiceSection>
 
             <Augment />
 

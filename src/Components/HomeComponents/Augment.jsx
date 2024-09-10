@@ -37,7 +37,7 @@ const Augment = () => {
 
   
   return (
-    <div className=" pt-10 pb-6">
+    <div className=" pt-10 pb-6 ">
       <SectionTitle
         title={"Our Features"}
         description={"What Makes Us The Preferred Choice?"}
