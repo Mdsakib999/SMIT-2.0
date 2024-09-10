@@ -19,13 +19,13 @@ const HomeFAQ = () => {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 ">
         <div className="mb-16">
           <SectionTitle title={"Your Queries, Our Priority"}
-        description={"Quick and Clear Answers to Help You Navigate Our Tech Services."}>
+            description={"Quick and Clear Answers to Help You Navigate Our Tech Services."}>
 
           </SectionTitle>
-          
+
         </div>
 
-        <div className='flex items-center gap-6'>
+        <div className='flex flex-col md:flex-row  items-center gap-6'>
 
           <div className=' md:w-[40%] relative'>
             <img className='animate-pulse' src={img} alt="" />
