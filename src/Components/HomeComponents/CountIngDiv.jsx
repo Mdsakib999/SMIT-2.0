@@ -39,8 +39,7 @@ const CountIngDiv = () => {
           <span className="w-24 h-1 bg-orange-500 inline-block"></span>
         </div>
         <p className="text-gray-500 mb-12 max-w-xl mx-auto">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Together, we combine expertise and passion to create cutting-edge solutions that inspire growth and lead to lasting success.
         </p>
         {/* Count Items Section */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">

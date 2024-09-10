@@ -129,7 +129,7 @@ const Footer = () => {
           </svg>
         </span>
       </div>
-      <p className="text-center lg:mt-5 mt-3 font-semibold">
+      <p className="text-center lg:mt-5 mt-3 md:font-semibold">
         Copyright © SM IT Solution 2024. All rights reserved.
       </p>
     </footer>
