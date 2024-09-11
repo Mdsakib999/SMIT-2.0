@@ -3,14 +3,14 @@ import { Link } from "react-router-dom";
 
 const HomeAbout = () => {
   return (
-    <div className="w-full  mt-[-70px]">
-      <section className="md:overflow-hidden w-[90%] mx-auto pt-20 pb-4 lg:pt-0 ">
+    <div className="w-full mt-[-70px]">
+      <section className=" w-[90%] mx-auto pt-20 pb-4 lg:pt-0 ">
         <div className="container mx-auto">
           <div className="flex flex-wrap items-center justify-between -mx-4">
             <div className="w-full px-4 lg:w-6/12">
               <div className="flex items-center -mx-3 sm:-mx-4 relative ">
                 {/* Circle */}
-                <span className=" bg-orange-400 size-24 rounded-full bg-opacity-50 absolute top-[45%] left-[-6%] animate-pulse z-[-5]"></span>
+                <span className=" bg-orange-400 size-24 rounded-full bg-opacity-50 absolute md:top-[45%] left-[-6%] animate-pulse z-[-5]"></span>
 
                 <div className="w-full px-3 sm:px-4 xl:w-1/2">
                   <div className="py-3 sm:py-4 ">

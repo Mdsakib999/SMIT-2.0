@@ -7,9 +7,9 @@ import useDocumentTitle from "../../Hooks/useDocumentTitle";
 
 const Service = () => {
   useDocumentTitle(`Service | SM IT Solution `);
-  // useEffect(() => {
-  //     window.scrollTo({ top: 0 });
-  // }, [])
+  useEffect(() => {
+      window.scrollTo({ top: 0 });
+  }, [])
   return (
     <div className="">
       <div className="relative w-full h-[50vh] md:h-[70vh] -mt-32">

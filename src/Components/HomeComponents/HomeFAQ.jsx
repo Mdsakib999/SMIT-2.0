@@ -27,7 +27,7 @@ const HomeFAQ = () => {
 
         <div className='md:flex items-center gap-6 overflow-hidden md:overflow-visible'>
 
-          <div className='w-[60%] mx-auto md:w-[40%] relative'>
+          <div className='w-[60%] mx-auto md:mx-0 md:w-[40%] relative'>
             <img className='animate-pulse' src={img} alt="" />
             <img className='absolute animate-ping top-0 left-[-19%]' src={img1} alt="" />
           </div>

@@ -85,7 +85,7 @@ const ServiceSection = () => {
         <div className="md:mb-12">
             <div className=" bg-neutral-50 pb-36">
                 <div className="grid items-center grid-cols-1 md:grid-cols-2 section-container py-20 gap-x-5 ">
-                    <div className="h-fit overflow-hidden py-10 md:py-0">
+                    <div className="h-fit overflow-hidden md:overflow-visible py-10 md:py-0">
                         {/* here include image  */}
                         <div className="flex justify-center items-center relative ">
                             <img className="z-10" src={img} alt="Development" />

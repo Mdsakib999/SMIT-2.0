@@ -8,7 +8,7 @@ const HomeContact = () => {
   return (
     <div className="overflow-x-hidden relative">
       {/* Gradient div */}
-      <div className="background-gradient hidden md:block w-72 h-72 absolute top-[10px] right-[-50px] rounded-full "></div>
+      <div className="background-gradient hidden md:block w-72 h-72 absolute top-[10px] right-[-50px] rounded-full"></div>
 
       <div className="background-gradient-blue w-80 h-80 absolute top-[10%] left-[-35%] md:top-[10%] md:left-[-10%] rounded-full"></div>
 
