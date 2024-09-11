@@ -26,7 +26,7 @@ const Navbar = () => {
                 </Link>
 
                 {/* Desktop Navigation */}
-                <ul className='hidden md:flex'>
+                <ul className='hidden md:flex items-center'>
                     {navData?.map(item => (
 
                         <li key={item.id} className="relative group px-3 py-2">
@@ -73,12 +73,23 @@ const Navbar = () => {
 
 
                     ))}
-                    <Link
+                    {/* <Link
                         className="ms-6 -mb-[6px] rounded-lg flex justify-center items-center text-orange-500 px-6 py-2 border border-orange-500 bg-white shadow-md hover:bg-orange-500 hover:text-white transition-colors duration-300 ease-in-out transform hover:translate-y-[-2px] focus:outline-none"
                         to={`/contact`}
                     >
                         <span className="mr-2">Contact</span>
                         <span className="text-lg">→</span>
+                    </Link> */}
+                    <Link to={`/contact`} className="p-4 flex flex-col items-center justify-center">
+                        <div className="cursor-pointer">
+                            <button className="relative inline-flex items-center justify-center px-6 py-3 overflow-hidden font-medium text-orange-600 transition duration-300 ease-out border-2 border-orange-500 rounded-full shadow-md group">
+                                <span className="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-orange-500 group-hover:translate-x-0 ease">
+                                    <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                                </span>
+                                <span className="absolute flex items-center justify-center w-full h-full text-orange-500 transition-all duration-300 transform group-hover:translate-x-full ease">Contact</span>
+                                <span className="relative invisible">Contact</span>
+                            </button>
+                        </div>
                     </Link>
 
 
@@ -154,12 +165,16 @@ const Navbar = () => {
 
                             </li>
                         ))}
-                        <Link
-                            className="lg:ms-6 lg:-mb-[6px] rounded-lg flex justify-center items-center text-orange-500 px-6 py-2 border border-orange-500 bg-white shadow-md hover:bg-orange-500 hover:text-white transition-colors duration-300 ease-in-out transform hover:translate-y-[-2px] focus:outline-none"
-                            to={`/contact`}
-                        >
-                            <span className="mr-2">Contact</span>
-                            <span className="text-lg">→</span>
+                        <Link onClick={() => setNav(!nav)} to={`/contact`} className="p-4 flex flex-col items-center justify-center">
+                            <div className="cursor-pointer">
+                                <button className="relative inline-flex items-center justify-center px-6 py-3 overflow-hidden font-medium text-orange-600 transition duration-300 ease-out border-2 border-orange-500 rounded-full shadow-md group">
+                                    <span className="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-orange-500 group-hover:translate-x-0 ease">
+                                        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                                    </span>
+                                    <span className="absolute flex items-center justify-center w-full h-full text-orange-500 transition-all duration-300 transform group-hover:translate-x-full ease">Contact</span>
+                                    <span className="relative invisible">Contact</span>
+                                </button>
+                            </div>
                         </Link>
                     </div>
                 </ul>
