@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable react/no-unknown-property */
 
 import { FaLocationDot } from "react-icons/fa6";
@@ -21,11 +22,11 @@ const Contact = () => {
       </div>
 
       <div className="lg:w-[35%]  mx-auto">
-            <img
-              src="https://i.ibb.co/k9ybqq6/flat-man-illustration-customer-support-23-2148889244.jpg"
-              alt=""
-            />
-        </div>
+        <img
+          src="https://i.ibb.co/k9ybqq6/flat-man-illustration-customer-support-23-2148889244.jpg"
+          alt=""
+        />
+      </div>
 
       {/* Gradient div */}
       <div className="background-gradient w-72 h-72 absolute top-[10px] right-[-50px] rounded-full "></div>
@@ -143,7 +144,7 @@ const Contact = () => {
           <iframe
             className="w-full h-full"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d922.4512217194696!2d91.8140612695338!3d22.360994938988757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30acd88d0af07d61%3A0xbbf9590c4e77a64d!2sRoad%20No.%201%2C%20Chittagong!5e0!3m2!1sen!2sbd!4v1714885505967!5m2!1sen!2sbd"
-            allowfullscreen=""
+            // allowfullscreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>

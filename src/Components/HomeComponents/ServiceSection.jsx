@@ -80,7 +80,6 @@ const ServiceSection = () => {
         }
     ];
     const sliceServiceData = services.slice(2, 5)
-    console.log(sliceServiceData);
     return (
         <div className="md:mb-28">
             <div className="  bg-neutral-50 pb-36">

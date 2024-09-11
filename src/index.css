@@ -4,7 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @layer utilities {
   .spin-slow {
     animation: spin 10s linear infinite;
