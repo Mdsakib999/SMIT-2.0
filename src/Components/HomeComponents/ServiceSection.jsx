@@ -89,7 +89,7 @@ const ServiceSection = () => {
     ];
     const sliceServiceData = services.slice(2, 5)
     return (
-        <div className="md:mb-28">
+        <div className="md:mb-6 ">
             <div className="  bg-neutral-50 pb-36">
                 <div className="grid items-center grid-cols-1 md:grid-cols-2 section-container py-20 gap-x-5 ">
                     <motion.div
@@ -97,7 +97,7 @@ const ServiceSection = () => {
                         whileInView="visible"
                         variants={sectionVariants}
                         viewport={{ once: false }}
-                        className="h-fit">
+                        className="h-fit overflow-hidden md:overflow-visible py-10 md:py-0">
                         {/* here include image  */}
                         <div className="flex justify-center items-center relative ">
                             <img className="z-10" src={img} alt="Development" />
@@ -180,7 +180,7 @@ const ServiceSection = () => {
                 </div>
 
             </div>
-            <div className="section-container -mt-[170px]">
+            <div className="section-container -mt-[120px] ">
                 <div className=" grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid gap-4">
                     {
                         sliceServiceData.map((item, index) => (
@@ -192,7 +192,7 @@ const ServiceSection = () => {
                                     {item.description}
                                 </p>
 
-                                <Link to={`/service/${item.title.split(' ').join('-').toLowerCase()}`} className=" mt-4 flex items-center gap-x-2 font-bold text-transparent bg-clip-text bg-gradient-to-r from-orange-500 from-10%  to-yellow-300 to-90% ">
+                                <Link to={`/service/${item.title.split(' ').join('-').toLowerCase()}`} className=" mt-4 flex items-center gap-x-2 font-bold text-transparent bg-clip-text bg-gradient-to-r from-orange-500 from-10%  to-yellow-300 to-90%">
                                     Read More{" "}
                                     <FaArrowRightLong className="text-orange-400 mt-[0.20rem]" />
                                 </Link>
@@ -201,7 +201,7 @@ const ServiceSection = () => {
                     }
                 </div>
 
-                <Link to={'/services'} className="p-4 flex flex-col items-end justify-end">
+                <Link to={'/services'} className="p-4 flex flex-col items-end justify-end mr-1 mt-8">
                     <div className="cursor-pointer">
                         <button className="relative inline-flex items-center justify-center px-6 py-3 overflow-hidden font-medium text-orange-600 transition duration-300 ease-out border-2 border-orange-500 rounded-full shadow-md group">
                             <span className="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-orange-500 group-hover:translate-x-0 ease">

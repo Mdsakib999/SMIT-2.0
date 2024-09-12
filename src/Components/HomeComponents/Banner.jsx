@@ -15,17 +15,18 @@ const Banner = () => {
         }}
       >
         {/* Gradient div */}
-        <div className="background-gradient-blue w-80 h-80 absolute top-0 right-[-10%] rounded-full"></div>
+        <div className="background-gradient-blue w-80 h-80 absolute top-0 right-[-40%] md:right-[-10%] rounded-full "></div>
 
         <div className="grid grid-cols-1 md:grid-cols-2  h-full section-container scale-x-[-1] md:mt-4 ">
           <div className=" flex items-center ">
-            <div className="text-center md:text-left ">
-              <h1 className="text-xl md:text-3xl font-bold ">
-                <span className=" font-manrope  leading-snug text-transparent bg-clip-text bg-gradient-to-r from-orange-400 via-orange-600 to-amber-400">
+            <div className="text-center md:text-left  md:mt-10">
+              <p className="font-semibold text-2xl mb-6 font-mono">Are You Looking For Qualified IT Service Provider<span className="text-red-600">?</span></p>
+              <p className="text-xl md:text-3xl font-bold ">
+                <span className="text-xl md:text-4xl font-manrope  leading-snug text-transparent bg-clip-text bg-gradient-to-r from-orange-400 via-orange-600 to-amber-400 uppercase ">
                   SM IT Solution
                 </span>{" "}
                 Your Trusted Partner in Digital Innovation!
-              </h1>
+              </p>
               <p className=" mt-4">
                 At SM IT SOLUTION, you can discover state-of-the-art
                 technological solutions that will propel your company to new
@@ -36,7 +37,7 @@ const Banner = () => {
               <div className="mt-8 flex  flex-col md:flex-row  justify-start md:justify-normal items-center space-x-6">
                 <button
                   type="submit"
-                  className="group mt-2 border-orange-400 hover:border-2 relative h-12 w-44 overflow-hidden rounded-ss-xl rounded-ee-xl font-bold text-lg shadow-lg shadow-orange-100 hover:shadow-lg"
+                  className="group mt-2 border-orange-400 hover:border-2 relative h-10 md:h-12 w-32 md:w-44 overflow-hidden rounded-ss-xl rounded-ee-xl font-bold md:text-lg shadow-lg shadow-orange-100 hover:shadow-lg"
                 >
                   <div className="absolute inset-0 group-hover:w-3 bg-gradient-to-r from-orange-500 to-yellow-300 transition-all duration-[350ms] ease-out w-full"></div>
                   <span className="relative group-hover:text-black text-white">
@@ -73,7 +74,7 @@ const Banner = () => {
 
       
 
-      <div className="mdmt-[-100px] ">
+      <div className=" ">
         <svg
           width="100%"
           height="10%"

@@ -13,13 +13,13 @@ const MissionAndVision = () => {
         {
             id: '1',
             title: "Our Mission",
-            description: "At SM IT Solution, our mission is to empower businesses by providing innovative, reliable, and tailored IT solutions that cater to the unique needs of our clients. We believe in the transformative power of technology and are committed to delivering high-quality services that drive efficiency, enhance productivity, and foster growth. Our team of dedicated professionals works tirelessly to understand the challenges and opportunities facing our clients in the ever-evolving digital landscape. We aim to provide solutions that not only meet but exceed expectations, enabling businesses to achieve their goals and maintain a competitive edge in their respective industries. By leveraging the latest advancements in technology, we strive to create long-lasting value for our clients, ensuring their success today and in the future. Our mission is rooted in a deep commitment to excellence, integrity, and customer satisfaction, and we continuously seek to innovate and improve our offerings to better serve our clients' needs.",
+            description: "At SM IT Solutions, our goal is to offer businesses modern and dependable digital tools that are customized to fit their needs. We work to make technology easier to understand, helping our clients thrive in the fast-changing digital world through our unique services in web development, e-commerce, digital marketing, and custom apps.",
             image: img1
         },
         {
             id: '2',
             title: "Our Vision",
-            description: "Our vision at SM IT Solution is to be recognized as a global leader in the IT industry, renowned for our unwavering commitment to excellence, innovation, and customer satisfaction. We envision a future where businesses of all sizes can access cutting-edge technology solutions that empower them to reach new heights of success. As we continue to grow and expand our capabilities, we aim to build lasting partnerships with our clients, based on trust, transparency, and mutual respect. Our goal is to be the go-to partner for businesses seeking to navigate the complexities of the digital age, offering solutions that are not only effective but also sustainable. We aspire to lead by example, setting new standards for quality and service in the IT sector, while staying true to our core values of integrity, collaboration, and continuous improvement. By fostering a culture of innovation and learning within our organization, we are committed to driving positive change and making a meaningful impact in the lives of our clients and the communities we serve.",
+            description: "Our vision is to be a global leader in digital transformation, driving the success of businesses worldwide with cutting-edge technology and unparalleled service. We aim to foster lasting partnerships by continually delivering impactful, customer-centric solutions that fuel growth, efficiency, and innovation.",
             image: img2
         }
     ];

@@ -9,10 +9,9 @@ const sectionVariants2 = {
 
 const OurStory = () => {
     const smItSolutionOurStory = [
-        "SM IT Solution began with a mission to revolutionize businesses through innovative technology. Starting with a small team, we've grown into a leading provider of IT solutions, driven by a commitment to excellence and customer satisfaction.",
-        "Our journey at SM IT Solution is one of passion and growth. What started as a vision to empower businesses with technology has evolved into a trusted partnership, delivering tailored IT services that meet the diverse needs of our clients.",
-        "From our humble beginnings, SM IT Solution has become a key player in the IT industry. We are dedicated to offering cutting-edge solutions, ensuring our clients stay ahead in the ever-changing digital landscape while maintaining our core values of integrity and innovation.",
-        "At SM IT Solution, our story is about relentless pursuit of innovation. We started small but with big dreams, and today we stand proud, helping businesses achieve their goals through technology, with a focus on quality and long-lasting relationships."
+        "At SM IT Solutions, we make technology work for you. Our goal is simple: to provide smart, reliable, and innovative IT solutions that help your business succeed. Whether you need a stunning website, a powerful e-commerce platform, or customized digital tools, we’ve got you covered.",
+        "We don’t just offer services—we offer solutions. Our team listens, understands your needs, and delivers tailored results that exceed expectations. From digital marketing and web development to application support and more, we make sure your business stays ahead in the digital world.",
+        "Let’s grow together. We’re here to simplify your digital journey and unlock new opportunities for your business. Partner with us and experience how easy and impactful digital transformation can be."
     ];
 
     return (
@@ -22,15 +21,23 @@ const OurStory = () => {
             whileInView="visible"
             variants={sectionVariants2}
             viewport={{ once: false }}
-            className="mt-8 section-container bg-gray-50 dark:bg-gray-800 py-12 px-6 md:px-12 rounded-lg shadow-md">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            className="section-container  dark:bg-gray-800 py-12 px-6 md:px-12 rounded-lg">
+            <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
                 <div>
-                    <h1 className="text-4xl font-bold text-orange-500 mb-6">Our Story</h1>
+                <div className="relative   mb-4  text-primary font-bold ">
+                  <h1 className="text-3xl  font-bold mt-7 ">
+                    ABOUT{" "}
+                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 via-orange-600 to-amber-500 ">
+                      US_
+                    </span>
+                  </h1>
+                  <span className="inline-block bg-orange-400 size-10 rounded-full bg-opacity-60 absolute top-[-12px] left-[-26px] animate-pulse "></span>
+                </div>
                     <div className="space-y-6">
                         {smItSolutionOurStory.map((item, index) => (
                             <p
                                 key={index}
-                                className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed transition duration-500 ease-in-out transform hover:scale-105">
+                                className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed ">
                                 {item}
                             </p>
                         ))}

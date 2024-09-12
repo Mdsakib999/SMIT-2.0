@@ -85,15 +85,14 @@ const Award = () => {
                     variants={sectionVariants1}
                     viewport={{ once: false }}
                 >
-                    <small className='text-gray-500 font-bold ' >Achievements</small>
-                    <h1 className='text-3xl font-bold'>Award & Recognition</h1>
+                    <p className='md:text-3xl text-2xl  font-bold'>Achievements & Recognition</p>
                     <div className='mt-4'>
                         {
                             achievement.map(item => (
                                 <div key={item.id} className="flex items-start justify-center gap-6 mb-6">
                                     {/* Icon Section */}
-                                    <div className="flex-shrink-1">
-                                        <span className="bg-orange-500 w-12 h-12 flex justify-center items-center rounded-full">
+                                    <div className="flex-shrink-1 ">
+                                        <span className="bg-orange-500 opacity-70 w-8 h-8 md:w-12 md:h-12 flex justify-center items-center rounded-full">
                                             <FaCheck className="text-white text-2xl" />
                                         </span>
                                     </div>

@@ -54,7 +54,7 @@ const Navbar = () => {
                                                                 <li key={i.id}>
                                                                     <NavLink
                                                                         to={i.link}
-                                                                        className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                                                        className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-orange-50 hover:to-orange-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
                                                                     >
                                                                         {i.title}
                                                                     </NavLink>
