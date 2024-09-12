@@ -1,4 +1,15 @@
 import { FaAward, FaRegHandshake, FaBullhorn, FaGlobe, FaCheck } from 'react-icons/fa';
+import { motion } from 'framer-motion';
+
+const sectionVariants1 = {
+    hidden: { opacity: 0, x: 50 },  // Slide in from the right
+    visible: { opacity: 1, x: 0, transition: { duration: 0.6, delay: .9 } }
+};
+const sectionVariants = {
+    hidden: { opacity: 0, x: -50 },  // Slide in from the left
+    visible: { opacity: 1, x: 0, transition: { duration: 0.6, delay: .9 } }
+};
+
 
 
 const Award = () => {
@@ -46,10 +57,17 @@ const Award = () => {
         }
     ];
 
+
     return (
         <div className="mt-8 section-container  p-8">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
-                <div className="grid grid-cols-2 md:grid-cols-2  shadow-md bg-white">
+                <motion.div
+                    className="grid grid-cols-2 md:grid-cols-2  shadow-md bg-white"
+                    initial="hidden"
+                    whileInView="visible"
+                    variants={sectionVariants}
+                    viewport={{ once: false }}
+                >
                     {awardArray.map((item) => (
                         <div
                             key={item.id}
@@ -60,8 +78,13 @@ const Award = () => {
                             <p className="text-sm text-center text-gray-500">{item.subtitle}</p>
                         </div>
                     ))}
-                </div>
-                <div>
+                </motion.div>
+                <motion.div
+                    initial="hidden"
+                    whileInView="visible"
+                    variants={sectionVariants1}
+                    viewport={{ once: false }}
+                >
                     <small className='text-gray-500 font-bold ' >Achievements</small>
                     <h1 className='text-3xl font-bold'>Award & Recognition</h1>
                     <div className='mt-4'>
@@ -85,7 +108,7 @@ const Award = () => {
                         }
 
                     </div>
-                </div>
+                </motion.div>
             </div>
         </div>
     );
