@@ -3,8 +3,8 @@ import img2 from '../../assets/missionAndVision/400.jpg';
 import { motion } from 'framer-motion';
 
 const sectionVariants = id => ({
-    hidden: { opacity: 0, x: id % 2 === 0 ? 50 : -100 },  // Even IDs slide in from the right, odd IDs from the left
-    visible: { opacity: 1, x: 0, transition: { duration: .9 } }
+    hidden: { opacity: 0, x: id % 2 === 0 ? 50 : -50 },  // Even IDs slide in from the right, odd IDs from the left
+    visible: { opacity: 1, x: 0, transition: { duration: .9, delay: .1 } }
 });
 
 

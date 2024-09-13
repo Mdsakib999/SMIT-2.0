@@ -1,6 +1,11 @@
 import img1 from '../../assets/our story/business-people-standing-row-with-thumbs-up.jpg';
 import img2 from '../../assets/our story/2149008873.jpg';
 import img3 from '../../assets/our story/1968.jpg';
+import { motion } from 'framer-motion';
+const sectionVariants2 = {
+    hidden: { opacity: 0, scale: 0.8 },  // Scale up effect
+    visible: { opacity: 1, scale: 1, transition: { duration: 0.6 } }
+};
 
 const OurStory = () => {
     const smItSolutionOurStory = [
@@ -10,8 +15,14 @@ const OurStory = () => {
     ];
 
     return (
-        <div className=" section-container  dark:bg-gray-800 py-12 px-6 md:px-12 rounded-lg">
-            <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8 ">
+        <motion.div
+            initial="hidden"
+            animate={{ pathLength: 1 }}
+            whileInView="visible"
+            variants={sectionVariants2}
+            viewport={{ once: false }}
+            className="section-container  dark:bg-gray-800 py-12 px-6 md:px-12 rounded-lg">
+            <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
                 <div>
                 <div className="relative   mb-4  text-primary font-bold ">
                   <h1 className="text-3xl  font-bold mt-7 ">
@@ -40,7 +51,7 @@ const OurStory = () => {
                 </div>
 
             </div>
-        </div>
+        </motion.div>
     );
 };
 
