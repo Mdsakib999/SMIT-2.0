@@ -12,16 +12,16 @@
         "name": "Tariqul Hayat Shuvo",
         "designation": "Senior Executive",
         "Image": "https://i.ibb.co.com/yWtk48N/Tariqul.jpg ",
-        "linkedinLink": "https://www.linkedin.com/in/charliebrown",
-        "twiterLink": "https://twitter.com/charliebrown"
+        "linkedinLink": "https://www.linkedin.com/in/",
+        "twiterLink": "https://twitter.com/"
     },
     {
         "id": 3,
         "name": "Abdul Nur Tushar ",
         "designation": "Tech Team Lead",
         "Image": "https://i.ibb.co.com/sHZjM3c/Tushar.jpg",
-        "linkedinLink": "https://www.linkedin.com/in/charliebrown",
-        "twiterLink": "https://twitter.com/charliebrown"
+        "linkedinLink": "https://www.linkedin.com/in/",
+        "twiterLink": "https://twitter.com/"
     },
     {
         "id": 4,
@@ -29,15 +29,15 @@
         "designation": "Software Engineer",
         "Image": "https://media.licdn.com/dms/image/v2/D5603AQFUkPFXrhh8yQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1681406507415?e=1730332800&v=beta&t=TCy989yvAswrs31tZKccDV4ctFQiMyjrO6pWwdHwHF8 ",
         "linkedinLink": "https://www.linkedin.com/in/sakib999",
-        "twiterLink": "https://twitter.com/alicejohnson"
+        "twiterLink": "https://twitter.com/sakibabrar999"
     },
     {
         "id": 5,
         "name": "Tamim Khan",
         "designation": "Senior Executive",
         "Image": "https://i.ibb.co.com/sPFD1Wt/Tamim-Khan.jpg",
-        "linkedinLink": "https://www.linkedin.com/in/dianawhite",
-        "twiterLink": "https://twitter.com/dianawhite"
+        "linkedinLink": "https://www.linkedin.com/",
+        "twiterLink": "https://twitter.com/"
     },
     {
         "id": 6,
@@ -67,15 +67,15 @@
         "id": 9,
         "name": "Prantica Chowdhury ",
         "designation": "Sales Executive",
-        "Image": " ",
-        "linkedinLink": "https://www.linkedin.com/4",
+        "Image": "https://cdn-icons-png.flaticon.com/512/4441/4441034.png",
+        "linkedinLink": "https://www.linkedin.com/",
         "twiterLink": "#"
     },
     {
         "id": 10,
         "name": "Arpita Devi",
         "designation": "Senior Designer",
-        "Image": " ",
+        "Image": "https://cdn-icons-png.flaticon.com/512/4441/4441034.png",
         "linkedinLink": "https://www.linkedin.com/",
         "twiterLink": "#"
     },
@@ -83,7 +83,7 @@
         "id": 11,
         "name": "Farhana Islam ",
         "designation": "Junior Sales Executive",
-        "Image": "",
+        "Image": "https://cdn-icons-png.flaticon.com/512/4441/4441034.png",
         "linkedinLink": "https://www.linkedin.com/",
         "twiterLink": "#"
     }
