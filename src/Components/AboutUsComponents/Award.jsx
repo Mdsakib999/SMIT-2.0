@@ -16,43 +16,44 @@ const Award = () => {
     const awardArray = [
         {
             id: '1',
-            subtitle: 'Over 10 Awards',
-            title: 'Award-Winning Company',
+            subtitle: 'All Over World',
+            title: '95% Client Retention Rate',
             icon: FaAward
         },
         {
             id: '2',
-            subtitle: 'Diverse Event Sponsor',
-            title: 'Sponsored 10+ Events',
+            subtitle: 'Sponsored 5+ Events ',
+            title: 'Community Engagement',
             icon: FaBullhorn
         },
         {
             id: '3',
-            subtitle: 'Multi-Brands United',
-            title: '12+ Brand Partners',
+            subtitle: 'Globally Trusted',
+            title: 'Customer Satisfaction',
+            
             icon: FaRegHandshake
         },
         {
             id: '4',
-            subtitle: 'Globally Trusted',
-            title: '50K Live Customers',
+            subtitle: 'Multi-Brands United',
+            title: 'Trusted by Leading Brands',
             icon: FaGlobe
         },
     ];
     const achievement = [
         {
             id: '1',
-            title: '50K+ Happy Clients',
+            title: '50+ Happy Clients',
             description: "Our dedication to client satisfaction has resulted in over 50,000 happy clients worldwide, trusting our services for their business success."
         },
         {
             id: '2',
-            title: '100+ Projects Delivered',
+            title: '15+ Projects Delivered',
             description: "With a proven track record, we have successfully delivered over 100 projects across various industries, ensuring top-notch quality and innovation."
         },
         {
             id: '3',
-            title: '10+ Years in Business',
+            title: '3+ Years in Business',
             description: "Established over a decade ago, we have consistently evolved and adapted to the ever-changing tech landscape, solidifying our position as an industry leader."
         }
     ];

@@ -44,9 +44,9 @@ const Footer = () => {
               <p className="mb-6 text-lg font-semibold text-dark dark:text-white ">
                 Company
               </p>
-              <p className="mt-3">About SM IT </p>
-              <p className="mt-3">Services</p>
-              <p className="mt-3">Our Team</p>
+              <Link to="/about" className="mt-3 block">About SM IT </Link>
+              <Link to="/services" className="mt-3 block">Services</Link>
+              <p className="mt-3 ">Our Team</p>
               <p className="mt-3">Career</p>
             </div>
 

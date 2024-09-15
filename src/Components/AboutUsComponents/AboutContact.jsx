@@ -31,7 +31,7 @@ const AboutContact = () => {
       {/* Text and button */}
       <div className="text-center relative z-10">
         <h1 className="text-xl md:text-4xl font-bold text-gray-800">
-          Have Any Idea? <span className="text-orange-600">Hire Us Today!</span>
+          Have Any Idea? <span className="text-orange-600">Let’s Turn it Into Reality.</span>
         </h1>
         <Link
           to="/contact"

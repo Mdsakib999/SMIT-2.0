@@ -18,7 +18,7 @@ const CountIngDiv = () => {
     { end: 50, label: "Happy Clients" },
     { end: 15, label: "Finished Projects" },
     { end: 14, label: "Team Members" },
-    { end: 5, label: "Years Of Experience" },
+    { end: 3, label: "Years Of Experience" },
   ];
 
   return (
