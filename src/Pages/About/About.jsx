@@ -4,9 +4,13 @@ import OurStory from "../../Components/AboutUsComponents/OurStory";
 import Award from "../../Components/AboutUsComponents/Award";
 import MissionAndVision from "../../Components/AboutUsComponents/MissionAndVisson";
 import AboutCEO from "../../Components/AboutUsComponents/AboutCEO";
+import { useEffect } from "react";
 
 const About = () => {
-    useDocumentTitle(`About | SM IT Solution`)
+    useDocumentTitle(`About | SM IT Solution`);
+    useEffect(() => {
+        window.scrollTo({ top: 0 });
+    }, [])
     return (
         <div className="-mt-12 py-12">
             

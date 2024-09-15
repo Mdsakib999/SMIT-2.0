@@ -5,15 +5,19 @@ import { FaLocationDot } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { BiSolidPhoneCall } from "react-icons/bi";
 import useDocumentTitle from "../Hooks/useDocumentTitle";
+import { useEffect } from "react";
 
 const Contact = () => {
   useDocumentTitle("Contact | Sm It Solution");
+  useEffect(() => {
+    window.scrollTo({ top: 0 });
+}, [])
   return (
     <div className="overflow-x-hidden relative">
       <div className="text-center mt-16 mb-10">
-        <h1 className="text-3xl lg:text-5xl font-bold animate-fade-up tracking-wide">
+        <p className="text-3xl lg:text-5xl font-bold animate-fade-up tracking-wide">
           Contact Us
-        </h1>
+        </p>
         <p className="text-lg text-gray-500 pt-4  lg:w-[50%] w-[95%] m-auto ">
           From Seed to Success, We're Here to Help. To make the future brighter
           and more connected, let's work together to bring out the best in your
