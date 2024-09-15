@@ -15,7 +15,7 @@ const HomeFAQ = () => {
 
 
   return (
-    <section className="py-20 bg-neutral-50">
+    <section className="py-20 bg-neutral-50 ">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 ">
         <div className="mb-16">
           <SectionTitle title={"Your Queries, Our Priority"}
@@ -35,9 +35,14 @@ const HomeFAQ = () => {
           <div className="accordion-group  md:w-[60%]">
             {[
               {
-                question: "How do I update my billing information?",
+                question: "What can I expect from your web design & development services? ",
                 answer:
-                  "To update your billing information, go to the billing section of your account settings and update your payment details.",
+                  "We create customized, user-friendly websites that are visually appealing and responsive on all devices, tailored specifically to your brand.",
+              },
+              {
+                question: "What is Conversion Rate Optimization (CRO)?",
+                answer:
+                  "CRO involves enhancing your website’s design and user experience to convert more visitors into customers, maximizing the value of your traffic.",
               },
               {
                 question: "How can I contact customer support?",
@@ -45,14 +50,14 @@ const HomeFAQ = () => {
                   "To contact customer support, look for a 'Contact us' or 'Help' button or link on the website or platform. You may be able to email, call, or chat with customer support for assistance.",
               },
               {
-                question: "How do I update my profile information?",
+                question: "How can you help grow my brand?",
                 answer:
-                  "To update your profile information, navigate to your profile settings and edit your personal details there.",
+                  "We can develop your brand’s identity, voice, and digital presence to increase awareness and loyalty across all digital platforms.",
               },
               {
                 question: "How do I find my purchase history?",
                 answer:
-                  "You can find your purchase history in the orders section of your account dashboard.",
+                  "You can find your purchase history in the orders section of your account.",
               },
             ].map((item, index) => (
               <div

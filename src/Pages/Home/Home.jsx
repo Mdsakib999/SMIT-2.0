@@ -16,7 +16,7 @@ import "./Home.css";
 const Home = () => {
     useDocumentTitle('Home | SM IT Solution')
     return (
-        <div>
+        <div className="overflow-hidden">
             <CustomCursor></CustomCursor>
 
             
@@ -38,8 +38,7 @@ const Home = () => {
 
             {/* Out team */}
             <OurTeam></OurTeam>
-
-
+            
             <Blog />
             <Testimonials />
             {/* Contact */}

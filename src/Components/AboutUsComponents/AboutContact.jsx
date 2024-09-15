@@ -1,4 +1,4 @@
-import React from "react";
+
 import { FaLightbulb } from "react-icons/fa"; // Importing icons for the lightbulbs
 import { BsQuestionCircle } from "react-icons/bs"; // Importing icons for the question marks
 import { Link } from "react-router-dom";
@@ -29,16 +29,18 @@ const AboutContact = () => {
       <BsQuestionCircle className="absolute bottom-2 right-[30%] md:bottom-10  md:right-[10%] -rotate-45 text-green-300 opacity-50 text-4xl md:text-8xl" />
 
       {/* Text and button */}
-      <div className="text-center">
+      <div className="text-center relative z-10">
         <h1 className="text-xl md:text-4xl font-bold text-gray-800">
-          Have Any Idea? <span className="text-orange-600">Hire Us Today!</span>
+          Have Any Idea? <span className="text-orange-600">Let’s Turn it Into Reality.</span>
         </h1>
-        <Link to="/contact">
-          <button className="mt-10  bg-gradient-to-r from-orange-500 to-yellow-300  text-white font-bold py-3 px-6 rounded-ss-xl rounded-ee-xl focus:outline-none focus:shadow-outline ">
-            Contact Now
-          </button>
+        <Link
+          to="/contact"
+          className="mt-10 bg-gradient-to-r from-orange-500 to-yellow-300 text-white font-bold py-3 px-6 rounded-ss-xl rounded-ee-xl hover:from-orange-600 hover:to-yellow-400 focus:outline-none focus:ring-4 focus:ring-orange-300 focus:ring-opacity-50 transition duration-300 ease-in-out inline-block"
+        >
+          Contact Now
         </Link>
       </div>
+
     </div>
   );
 };
