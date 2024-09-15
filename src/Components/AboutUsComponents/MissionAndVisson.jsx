@@ -1,5 +1,5 @@
-import img1 from '../../assets/missionAndVision/1041954_96924-OKN4LJ-249.jpg';
-import img2 from '../../assets/missionAndVision/400.jpg';
+import img1 from '../../assets/missionAndVision/MISSION.png';
+import img2 from '../../assets/missionAndVision/VISION.png';
 import { motion } from 'framer-motion';
 
 const sectionVariants = id => ({
@@ -26,7 +26,7 @@ const MissionAndVision = () => {
 
 
     return (
-        <div className="mt-12 section-container space-y-16">
+        <div className="mt-20 section-container space-y-16 px-6 md:px-0">
             {missionAndVision.map(item => (
                 <motion.div
                     key={item.id}
@@ -40,28 +40,28 @@ const MissionAndVision = () => {
                         <>
                             {/* Text First, Image Second */}
                             <div>
-                                <h1 className="text-4xl font-bold">
+                                <p className="md:text-4xl text-2xl font-bold">
                                     {item.title.split(' ').slice(0, -1).join(' ')}{' '}
                                     <span className="text-orange-500">
                                         {item.title.split(' ').slice(-1)}
                                     </span>
-                                </h1>
-                                <p className="mt-6">{item.description}</p>
+                                </p>
+                                <p className="mt-6 md:text-lg">{item.description}</p>
                             </div>
-                            <img src={item.image} className="rounded-tr-[800px]" alt={item.title} />
+                            <img src={item.image} className=" w-[300px] md:w-[500px]  " alt={item.title} />
                         </>
                     ) : (
                         <>
                             {/* Image First, Text Second */}
-                            <img src={item.image} className=" rounded-md order-last md:order-first" alt={item.title} />
-                            <div>
-                                <h1 className="text-4xl font-bold">
+                            <img src={item.image} className=" rounded-md w-[300px] md:w-[500px]  order-last md:order-first" alt={item.title} />
+                            <div className='md:mt-20'>
+                                <p className="md:text-4xl text-2xl font-bold">
                                     {item.title.split(' ').slice(0, -1).join(' ')}{' '}
                                     <span className="text-orange-500">
                                         {item.title.split(' ').slice(-1)}
                                     </span>
-                                </h1>
-                                <p className="mt-6">{item.description}</p>
+                                </p>
+                                <p className="mt-6 md:text-lg">{item.description}</p>
                             </div>
                         </>
                     )}

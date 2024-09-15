@@ -1,4 +1,5 @@
 // import Augment from "../../Components/HomeComponents/Augment";
+import CustomCursor from "../../Components/CustomCursor";
 import Augment from "../../Components/HomeComponents/Augment";
 import Banner from "../../Components/HomeComponents/Banner";
 import Blog from "../../Components/HomeComponents/Blog";
@@ -15,7 +16,10 @@ import "./Home.css";
 const Home = () => {
     useDocumentTitle('Home | SM IT Solution')
     return (
-        <div>
+        <div className="overflow-hidden">
+            <CustomCursor></CustomCursor>
+
+            
             <Banner />
 
 
@@ -34,8 +38,7 @@ const Home = () => {
 
             {/* Out team */}
             <OurTeam></OurTeam>
-
-
+            
             <Blog />
             <Testimonials />
             {/* Contact */}

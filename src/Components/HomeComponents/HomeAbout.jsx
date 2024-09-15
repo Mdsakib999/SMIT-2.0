@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const HomeAbout = () => {
   return (
-    <div className="w-full mt-[-70px]">
+    <div className="w-full mt-[-70px] ">
       <section className=" w-[90%] mx-auto pt-20 pb-4 lg:pt-0 ">
         <div className="container mx-auto">
           <div className="flex flex-wrap items-center justify-between -mx-4">
