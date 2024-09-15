@@ -41,7 +41,7 @@ const CustomCursor = () => {
             <div className="relative">
                 {/* Outer Ring */}
                 <div
-                    className={`w-10 h-10 border-2 border-orange-400 rounded-full transition-transform duration-300 ${isHovering ? "scale-150 opacity-75" : "scale-100 opacity-50"
+                    className={`w-7 h-7 border-2 border-orange-400 rounded-full transition-transform duration-300 ${isHovering ? "scale-150 opacity-75" : "scale-100 opacity-50"
                         }`}
                 ></div>
                 {/* Inner Dot */}

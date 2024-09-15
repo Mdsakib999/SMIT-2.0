@@ -1,4 +1,5 @@
 // import Augment from "../../Components/HomeComponents/Augment";
+import CustomCursor from "../../Components/CustomCursor";
 import Augment from "../../Components/HomeComponents/Augment";
 import Banner from "../../Components/HomeComponents/Banner";
 import Blog from "../../Components/HomeComponents/Blog";
@@ -16,6 +17,9 @@ const Home = () => {
     useDocumentTitle('Home | SM IT Solution')
     return (
         <div>
+            <CustomCursor></CustomCursor>
+
+            
             <Banner />
 
 
