@@ -34,24 +34,24 @@ export const benefitsData = [
     description:
       "We use the latest tech stacks, mobile and cloud technologies, including micro-service architecture and CI/CD pipelines, to deliver scalable and robust solutions.",
   },
-  {
-    icon: FaHandshake,
-    title: "Culture Based on Trust",
-    description:
-      "Our culture is heavily influenced by Norwegian values, promoting a flat structure with empowered colleagues and decision-making by consensus.",
-  },
-  {
-    icon: FaPlane,
-    title: "International Training and Traveling",
-    description:
-      "You'll have the opportunity to travel for business trips and conferences, gaining international exposure through various workshops and assignments.",
-  },
-  {
-    icon: FaBook,
-    title: "Schooling & Knowledge Sharing",
-    description:
-      "We invest in keeping our software engineers up-to-date with industry practices through internal and external training, courses, and workshops.",
-  },
+  // {
+  //   icon: FaHandshake,
+  //   title: "Culture Based on Trust",
+  //   description:
+  //     "Our culture is heavily influenced by Norwegian values, promoting a flat structure with empowered colleagues and decision-making by consensus.",
+  // },
+  // {
+  //   icon: FaPlane,
+  //   title: "International Training and Traveling",
+  //   description:
+  //     "You'll have the opportunity to travel for business trips and conferences, gaining international exposure through various workshops and assignments.",
+  // },
+  // {
+  //   icon: FaBook,
+  //   title: "Schooling & Knowledge Sharing",
+  //   description:
+  //     "We invest in keeping our software engineers up-to-date with industry practices through internal and external training, courses, and workshops.",
+  // },
   {
     icon: FaChartLine,
     title: "Career Growth & Development",
@@ -64,12 +64,12 @@ export const benefitsData = [
     description:
       "Our performance appraisal process recognizes your work and provides suggestions for improvement, ensuring growth within the company.",
   },
-  {
-    icon: FaBalanceScale,
-    title: "Sound Work-Life Balance",
-    description:
-      "We emphasize a healthy work-life balance, with flexible working hours and vacation/leave days including parental leaves.",
-  },
+  // {
+  //   icon: FaBalanceScale,
+  //   title: "Sound Work-Life Balance",
+  //   description:
+  //     "We emphasize a healthy work-life balance, with flexible working hours and vacation/leave days including parental leaves.",
+  // },
   {
     icon: FaUtensils,
     title: "Bottomless Food & Drinks",
