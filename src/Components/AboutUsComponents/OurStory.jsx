@@ -1,5 +1,5 @@
 import img1 from '../../assets/our story/business-people-standing-row-with-thumbs-up.jpg';
-import img2 from '../../assets/our story/2149008873.jpg';
+import img2 from '../../assets/our story/1968.jpg';
 import img3 from '../../assets/our story/1968.jpg';
 import { motion } from 'framer-motion';
 const sectionVariants2 = {
