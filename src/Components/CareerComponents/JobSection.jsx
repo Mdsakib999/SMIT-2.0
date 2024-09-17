@@ -11,7 +11,7 @@ const JobSection = () => {
                 <h1 className="text-2xl font-semibold"> SM IT SOLUTION Job Openings</h1>
                 <p className="mt-4 font-semibold">Be A Part of Our Growing Team</p>
             </div >
-            <div className="max-w-6xl mx-auto px-4">
+            <div className="max-w-6xl mx-auto px-4 mt-9">
                 {
                     jobData.map((item, index) => (
                         <div key={index} className="bg-gray-100 p-6 rounded-lg shadow-lg mb-8 flex flex-col md:flex-row justify-between items-start md:items-center transition hover:shadow-xl">

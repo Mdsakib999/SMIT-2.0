@@ -71,6 +71,10 @@ const JobDetails = () => {
                                 <span>{job.jobTitle}</span>
                             </p>
                             <p className="flex justify-between text-gray-600">
+                                <span className="font-semibold"> Salary:</span>
+                                <span>{job.salary} k</span>
+                            </p>
+                            <p className="flex justify-between text-gray-600">
                                 <span className="font-semibold">Location:</span>
                                 <span>{job.location}</span>
                             </p>
