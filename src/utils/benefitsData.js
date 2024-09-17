@@ -46,12 +46,12 @@ export const benefitsData = [
   //   description:
   //     "You'll have the opportunity to travel for business trips and conferences, gaining international exposure through various workshops and assignments.",
   // },
-  // {
-  //   icon: FaBook,
-  //   title: "Schooling & Knowledge Sharing",
-  //   description:
-  //     "We invest in keeping our software engineers up-to-date with industry practices through internal and external training, courses, and workshops.",
-  // },
+  {
+    icon: FaBook,
+    title: "Schooling & Knowledge Sharing",
+    description:
+      "We invest in keeping our software engineers up-to-date with industry practices through internal and external training, courses, and workshops.",
+  },
   {
     icon: FaChartLine,
     title: "Career Growth & Development",
@@ -64,24 +64,19 @@ export const benefitsData = [
     description:
       "Our performance appraisal process recognizes your work and provides suggestions for improvement, ensuring growth within the company.",
   },
-  // {
-  //   icon: FaBalanceScale,
-  //   title: "Sound Work-Life Balance",
-  //   description:
-  //     "We emphasize a healthy work-life balance, with flexible working hours and vacation/leave days including parental leaves.",
-  // },
+  {
+    icon: FaBalanceScale,
+    title: "Sound Work-Life Balance",
+    description:
+      "We emphasize a healthy work-life balance, with flexible working hours and vacation/leave days including parental leaves.",
+  },
   {
     icon: FaUtensils,
-    title: "Bottomless Food & Drinks",
+    title: "Full Subsidize Lunch & Unlimited Tea, Coffee",
     description:
       "We provide in-house cooked meals, breakfast, snacks, drinks, and seasonal fruits from Monday through Friday to ensure healthy, nutritious options.",
   },
-  {
-    icon: FaHeartbeat,
-    title: "Life & Health Insurance Coverage",
-    description:
-      "All employees have comprehensive health and life insurance coverage, which includes both in-patient and out-patient care for you and your family.",
-  },
+
   {
     icon: FaGift,
     title: "Bonuses and Allowances",
@@ -100,10 +95,5 @@ export const benefitsData = [
     description:
       "We offer paid vacation days and leave policies that include maternity, paternity, and other essential breaks, ensuring a balanced life.",
   },
-  {
-    icon: FaUsers,
-    title: "Company Outings and Events",
-    description:
-      "Our team enjoys regular outings, dinners, and movie events to celebrate milestones and relax outside of work hours.",
-  },
+
 ];
