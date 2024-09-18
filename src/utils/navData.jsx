@@ -47,6 +47,11 @@ export const navData = [
     //   },
     // ],
   },
+  {
+    id: "4",
+    title: "Career",
+    link: "/career",
+  }
 
   // {
   //   id: "4",

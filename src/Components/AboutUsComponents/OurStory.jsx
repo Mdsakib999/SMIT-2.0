@@ -9,7 +9,7 @@ const sectionVariants2 = {
 
 const OurStory = () => {
     const smItSolutionOurStory = [
-        "At SM IT Solutions, we make technology work for you. Our goal is simple: to provide smart, reliable, and innovative IT solutions that help your business succeed. Whether you need a stunning website, a powerful e-commerce platform, or customized digital tools, we’ve got you covered.",
+        "At SM IT Solution, we make technology work for you. Our goal is simple: to provide smart, reliable, and innovative IT solutions that help your business succeed. Whether you need a stunning website, a powerful e-commerce platform, or customized digital tools, we’ve got you covered.",
         "We don’t just offer services—we offer solutions. Our team listens, understands your needs, and delivers tailored results that exceed expectations. From digital marketing and web development to application support and more, we make sure your business stays ahead in the digital world.",
         "Let’s grow together. We’re here to simplify your digital journey and unlock new opportunities for your business. Partner with us and experience how easy and impactful digital transformation can be."
     ];
