@@ -38,7 +38,7 @@ const CustomCursor = () => {
                 transform: `translate3d(${position.x}px, ${position.y}px, 0)`,
             }}
         >
-            <div className="relative">
+            <div className="relative hidden md:block">
                 {/* Outer Ring */}
                 <div
                     className={`w-7 h-7 border-2 border-orange-400 rounded-full transition-transform duration-300 ${isHovering ? "scale-150 opacity-75" : "scale-100 opacity-50"
