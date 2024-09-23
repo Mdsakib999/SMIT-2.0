@@ -174,7 +174,7 @@ const ServiceSection = () => {
                         {/* Lottie animation for digital marketing */}
                         <div className="flex justify-center items-center">
                             <img className="z-10 mt-6 md:mt-0" src={img2} alt="Digital Marketing" />
-                            <img className="absolute spin-slow w-[60%] md:w-[33%] mt-5 md:mt-0" src={img4} alt="spin" />
+                            <img className="absolute spin-slow w-[60%] md:w-[28%] mt-5 md:mt-0" src={img4} alt="spin" />
                         </div>
                     </motion.div>
                 </div>

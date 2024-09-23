@@ -74,9 +74,9 @@ const JobSection = () => {
                     </svg>
                   </span>
                   <span className="absolute flex items-center justify-center w-full h-full text-orange-500 transition-all duration-300 transform group-hover:translate-x-full ease">
-                    Apply Now
+                  View Details
                   </span>
-                  <span className="relative invisible">Apply Now</span>
+                  <span className="relative invisible">View Details</span>
                 </button>
               </Link>
             </div>

@@ -24,7 +24,7 @@ const Footer = () => {
                 <img
                   src="https://i.ibb.co/tP79HPK/SMIt-Solution-Logo-removebg-preview.png"
                   alt="logo"
-                  className="max-w-full dark:hidden"
+                  className="max-w-full"
                 />
                 {/* <img
       src="https://cdn.tailgrids.com/2.0/image/assets/images/logo/logo-white.svg"

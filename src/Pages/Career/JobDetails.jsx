@@ -17,9 +17,9 @@ const JobDetails = () => {
             <div className="max-w-7xl mx-auto p-6 grid grid-cols-1 lg:grid-cols-3 gap-8 ">
                 {/* Left Section: Job Details */}
                 <div className="lg:col-span-2 bg-white  rounded-lg p-6 ">
-                    <div className="mb-4 flex gap-x-4">
-                    <p className="text-3xl font-bold ">{job.jobTitle}</p>
-                    <span className="bg-orange-50 text-xs md:text-sm rounded-2xl mb-2 border border-red-400 text-red-600 px-2 py-1 font-semibold">
+                    <div className="mb-4 md:flex gap-x-4">
+                    <p className="md:text-3xl text-2xl font-bold mb-3 md:mb-0">{job.jobTitle}</p>
+                    <span className="bg-orange-50 text-xs md:text-sm rounded-2xl mb-2 border border-red-400 text-red-600 px-2 py-1 font-semibold bb">
                   {job.jobType}
                 </span>
                     </div>
