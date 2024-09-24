@@ -13,8 +13,8 @@ const Testimonials = () => {
     return (
         <div className="section-container ">
             <SectionTitle
-                title={"Testimonials"}
-                description={"What our client say (Review)"}
+                title={"Voices of Trust"}
+                description={"Client Testimonials That Tell the Whole Story"}
             />
             <div>
                 <Swiper

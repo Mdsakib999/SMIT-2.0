@@ -12,7 +12,7 @@ import {
 
 export const services = [
   {
-    title: "Web Development (MERN)",
+    title: "Web Development",
     logo: FaReact,
     category: "Development",
     description:
@@ -84,7 +84,7 @@ export const services = [
 
     relatedServices: [
       {
-        title: "Web Development (MERN)",
+        title: "Web Development",
         logo: FaReact,
         link: "/service/web-development-(mern)",
       },
@@ -112,7 +112,7 @@ export const services = [
 
     relatedServices: [
       {
-        title: "Web Development (MERN)",
+        title: "Web Development",
         logo: FaReact,
         link: "/service/web-development-(mern)",
       },
@@ -201,7 +201,7 @@ export const services = [
         link: "/service/cybersecurity-services",
       },
       {
-        title: "Web Development (MERN)",
+        title: "Web Development",
         logo: FaReact,
         link: "/service/web-development-(mern)",
       },
@@ -229,7 +229,7 @@ export const services = [
         link: "/service/cloud-solutions",
       },
       {
-        title: "Web Development (MERN)",
+        title: "Web Development",
         logo: FaReact,
         link: "/service/web-development-(mern)",
       },

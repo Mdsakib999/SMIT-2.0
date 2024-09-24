@@ -21,7 +21,7 @@ const OurStory = () => {
             whileInView="visible"
             variants={sectionVariants2}
             viewport={{ once: false }}
-            className="section-container  dark:bg-gray-800 py-12 px-6 md:px-12 rounded-lg">
+            className="section-container py-12 px-6 md:px-12 rounded-lg">
             <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
                 <div>
                 <div className="relative   mb-4  text-primary font-bold ">
@@ -37,7 +37,7 @@ const OurStory = () => {
                         {smItSolutionOurStory.map((item, index) => (
                             <p
                                 key={index}
-                                className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed ">
+                                className="text-lg text-gray-700 leading-relaxed ">
                                 {item}
                             </p>
                         ))}
