@@ -22,11 +22,7 @@ const Home = () => {
     return (
         <div className="overflow-hidden">
             <CustomCursor></CustomCursor>
-
-            
             <Banner />
-
-
             <HomeAbout></HomeAbout>
 
             {/* Dynamic countup number */}

@@ -12,8 +12,8 @@ const About = () => {
         window.scrollTo({ top: 0 });
     }, [])
     return (
-        <div className="-mt-12 py-12">
-            
+        <div className="md:py-12  pt-24 overflow-hidden">
+
             <OurStory />
             <Award />
             <MissionAndVision />

@@ -24,15 +24,15 @@ const OurStory = () => {
             className="section-container py-12 px-6 md:px-12 rounded-lg">
             <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8 mt-[-60px] md:mt-0">
                 <div>
-                <div className="relative mb-4  text-primary font-bold ">
-                  <h1 className="text-3xl  font-bold mt-7 ">
-                    ABOUT{" "}
-                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 via-orange-600 to-amber-500 ">
-                      US_
-                    </span>
-                  </h1>
-                  <span className="inline-block bg-orange-400 size-10 rounded-full bg-opacity-60 absolute top-[-12px] left-[-26px] animate-pulse "></span>
-                </div>
+                    <div className="relative mb-4  text-primary font-bold ">
+                        <h1 className="text-3xl  font-bold mt-7 ">
+                            ABOUT{" "}
+                            <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 via-orange-600 to-amber-500 ">
+                                US_
+                            </span>
+                        </h1>
+                        <span className="inline-block bg-orange-400 size-10 rounded-full bg-opacity-60 absolute top-[-12px] left-[-26px] animate-pulse "></span>
+                    </div>
                     <div className="space-y-6">
                         {smItSolutionOurStory.map((item, index) => (
                             <p

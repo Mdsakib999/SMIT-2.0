@@ -18,7 +18,7 @@ const Career = () => {
   };
 
   return (
-    <div className="-mt-16 pt-12">
+    <div className=" pt-28">
       <CareerBanner scrollToJob={scrollToJobSection} />
       <CareerWithCountless />
 
