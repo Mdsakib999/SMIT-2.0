@@ -19,7 +19,7 @@ const ServiceDetails = () => {
     }
 
     return (
-        <div className="bg-gray-100 min-h-screen p-4 md:p-8 -mt-12 py-32">
+        <div className="bg-gray-100 min-h-screen p-4 md:p-8 md:mt-20  py-32">
             <div className="max-w-6xl  mx-auto bg-white shadow-lg rounded-lg p-8">
                 {/* Service Overview */}
                 <div className="flex items-center mb-8">

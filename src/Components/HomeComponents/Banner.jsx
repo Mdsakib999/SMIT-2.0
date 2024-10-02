@@ -9,7 +9,7 @@ const Banner = () => {
     <>
       {/* h-[calc(100vh-100px)] */}
       <div
-        className=" lg:h-[70vh] scale-x-[-1] mt-0 md:-mt-[65px] relative overflow-hidden"
+        className="lg:min-h-[100vh] scale-x-[-1] pt-32 md:pt-20  relative overflow-hidden"
         style={{
           background: `url("") no-repeat center center / cover opacity-5`,
         }}
@@ -17,7 +17,7 @@ const Banner = () => {
         {/* Gradient div */}
         <div className="background-gradient-blue w-80 h-80 absolute top-0 right-[-40%] md:right-[-10%] rounded-full "></div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2  h-full section-container scale-x-[-1] md:mt-4 ">
+        <div className="grid grid-cols-1 md:grid-cols-2 place-items-center  h-full section-container scale-x-[-1] md:mt-4 ">
           <div className=" flex items-center ">
             <div className="text-center md:text-left  md:mt-10">
               <p className="font-semibold text-2xl mb-6 font-mono">Are You Looking For Qualified IT Service Provider<span className="text-red-600">?</span></p>
@@ -72,7 +72,7 @@ const Banner = () => {
         </div>
       </div >
 
-      
+
 
       <div className=" ">
         <svg
