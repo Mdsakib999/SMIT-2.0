@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "name": "Shahriar Rahaman",
+        "name": "Shariar Rahaman",
         "designation": "CEO",
         "Image": "https://media.licdn.com/dms/image/v2/D5603AQHWGYVBMZV4xA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1719636752528?e=1731542400&v=beta&t=fgWvCDv9fFW18SF2kX6qNshbba9ZSTuFXg2nSQzxwkM",
         "linkedinLink": "https://www.linkedin.com/in/shariar-rahman/",
@@ -41,7 +41,7 @@
     },
     {
         "id": 6,
-        "name": "Saiful Islam",
+        "name": "Saiful Alam",
         "designation": "Graphic Designer",
         "Image": "https://i.ibb.co.com/PFc62Ws/Saiful.jpg",
         "linkedinLink": "https://www.linkedin.com/in/saifulalam1321",

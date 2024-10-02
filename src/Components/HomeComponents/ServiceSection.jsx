@@ -110,14 +110,14 @@ const ServiceSection = () => {
                         variants={sectionVariants1}
                         viewport={{ once: false }}
                     >
-                        <div className="relative  mb-1">
+                        <div className="relative  mb-1 px-2 md:px-0">
                             <h1 className="text-2xl  font-bold mt-7">Our Ser<span className="text-orange-400 " >vic</span>e</h1>
-                            <span className="inline-block bg-orange-400 size-8 rounded-full bg-opacity-60 absolute top-[-10px] left-[-23px] animate-pulse "></span>
+                            <span className="inline-block bg-orange-400 size-8 rounded-full bg-opacity-60 absolute top-[-10px] left-[-10px] md:left-[-23px] animate-pulse "></span>
 
                         </div>
-                        <h1 className="text-2xl md:text-4xl font-bold">Design & Development</h1>
-                        <p className="mt-6 text-sm text-gray-500">Web development is the process of building and maintaining websites, involving coding, design, and ensuring functionality and user experience</p>
-                        <div className="grid grid-cols-1 md:grid-cols-2 mt-10 gap-5">
+                        <h1 className="text-2xl md:text-4xl font-bold px-2 md:px-0">Design & Development</h1>
+                        <p className="mt-6 text-sm text-gray-500 px-2 md:px-0">Web development is the process of building and maintaining websites, involving coding, design, and ensuring functionality and user experience</p>
+                        <div className="grid grid-cols-1 md:grid-cols-2 mt-10 gap-5 px-2 md:px-0">
                             {mernFeatures.map((item, index) => (
                                 <div
                                     key={index}
@@ -134,7 +134,7 @@ const ServiceSection = () => {
 
                     </motion.div>
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-2 place-items-center section-container py-20  gap-x-5">
+                <div className="grid grid-cols-1 md:grid-cols-2 place-items-center section-container py-10 md:py-20 mb-6 md:mb-0  gap-x-5 ">
 
                     <motion.div
                         initial="hidden"
@@ -142,16 +142,16 @@ const ServiceSection = () => {
                         variants={sectionVariants}
                         viewport={{ once: false }}
                     >
-                        <div className="relative  mb-3 ">
+                        <div className="relative  mb-3 px-2 md:px-0 ">
                             <h1 className="text-2xl  font-bold mt-7">Our Ser<span className="text-orange-400 " >vic</span>e</h1>
-                            <span className="inline-block bg-orange-400 size-8 rounded-full bg-opacity-60 absolute top-[-10px] left-[-23px] animate-pulse "></span>
+                            <span className="inline-block bg-orange-400 size-8 rounded-full bg-opacity-60 absolute top-[-10px] left-[-10px] md:left-[-23px] animate-pulse "></span>
 
                         </div>
-                        <h1 className="text-2xl md:text-4xl font-bold">Digital Marketing</h1>
-                        <p className="mt-6 text-sm text-black">
+                        <h1 className="text-2xl md:text-4xl font-bold px-2 md:px-0">Digital Marketing</h1>
+                        <p className="mt-6 text-sm text-black px-2 md:px-0">
                             Digital marketing involves leveraging data and technology to promote brands, engage audiences, and drive business growth through various online channels.
                         </p>
-                        <div className="grid grid-cols-1 md:grid-cols-2 mt-10 gap-5">
+                        <div className="grid grid-cols-1 md:grid-cols-2 mt-10 gap-5  px-2 md:px-0">
                             {marketingFeatures.map((item, index) => (
                                 <div
                                     key={index}
@@ -174,7 +174,7 @@ const ServiceSection = () => {
                         {/* Lottie animation for digital marketing */}
                         <div className="flex justify-center items-center">
                             <img className="z-10 mt-6 md:mt-0" src={img2} alt="Digital Marketing" />
-                            <img className="absolute spin-slow w-[60%] md:w-[28%] mt-5 md:mt-0" src={img4} alt="spin" />
+                            <img className="absolute spin-slow w-[60%] md:w-[31%] mt-5 md:mt-0 " src={img4} alt="spin" />
                         </div>
                     </motion.div>
                 </div>

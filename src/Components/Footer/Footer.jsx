@@ -29,10 +29,10 @@ const Footer = () => {
                 {/* <img
       src="https://cdn.tailgrids.com/2.0/image/assets/images/logo/logo-white.svg"
       alt="logo"
-      className="max-w-full hidden dark:block"
+      className="max-w-full hidden "
     /> */}
               </a>
-              <p className="mb-7 text-base text-body-color dark:text-dark-6">
+              <p className="mb-7 text-base text-body-color text-center">
                 Our core principle is providing exceptional service to fuel our
                 clients' business growth.
               </p>
@@ -41,7 +41,7 @@ const Footer = () => {
 
           <div className="w-full md:w-5/12 px-4 flex md:justify-evenly justify-between mb-8 ">
             <div>
-              <p className="mb-6 text-lg font-semibold text-dark dark:text-white ">
+              <p className="mb-6 text-lg font-semibold text-white">
                 Company
               </p>
               <Link to="/about" className="mt-3 block">About SM IT </Link>
@@ -51,7 +51,7 @@ const Footer = () => {
             </div>
 
             <div>
-              <p className="mb-6  text-lg font-semibold text-dark dark:text-white ">
+              <p className="mb-6  text-lg font-semibold text-white ">
                 Quick Links
               </p>
               <p className="mt-3">Premium Support</p>
@@ -64,7 +64,7 @@ const Footer = () => {
           {/* Icon div */}
           <div className=" w-full px-4 sm:w-1/2 lg:w-3/12 ">
             <div className="mb-4 w-full ">
-              <p className="mb-6 text-lg font-semibold text-dark dark:text-white ">
+              <p className="mb-6 text-lg font-semibold text-white ">
                 Address
               </p>
               <div className=" ">
@@ -129,7 +129,7 @@ const Footer = () => {
           </svg>
         </span>
       </div>
-      <p className="text-center lg:mt-5 mt-3 md:font-semibold">
+      <p className="text-center text-sm md:text-base lg:mt-5 mt-3 md:font-semibold">
         Copyright © SM IT Solution 2024. All rights reserved.
       </p>
     </footer>
