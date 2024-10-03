@@ -86,7 +86,7 @@ export const services = [
       {
         title: "Web Development",
         logo: FaReact,
-        link: "/service/web-development-(mern)",
+        link: "/service/web-development",
       },
       {
         title: "Digital Marketing",
@@ -114,7 +114,7 @@ export const services = [
       {
         title: "Web Development",
         logo: FaReact,
-        link: "/service/web-development-(mern)",
+        link: "/service/web-development",
       },
       {
         title: "Cloud Solutions",
@@ -203,7 +203,7 @@ export const services = [
       {
         title: "Web Development",
         logo: FaReact,
-        link: "/service/web-development-(mern)",
+        link: "/service/web-developmen",
       },
     ],
   },
@@ -231,7 +231,7 @@ export const services = [
       {
         title: "Web Development",
         logo: FaReact,
-        link: "/service/web-development-(mern)",
+        link: "/service/web-development",
       },
     ],
   },
