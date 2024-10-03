@@ -42,14 +42,18 @@ const Testimonials = () => {
                             spaceBetween: 40,
                         },
                         1024: {
+                            slidesPerView: 3,
+                            spaceBetween: 40,
+                        },
+                        1280: {
                             slidesPerView: 4,
-                            spaceBetween: 50,
+                            spaceBetween: 30,
                         },
                     }}
                 >
                     {testimonials.map(({ id, name, position, image, testimonial }) => (
                         <SwiperSlide key={id}>
-                            <div className="border h-[360px] p-6 my-10 mx-3 rounded-xl shadow-xl flex flex-col justify-between transform transition-transform hover:-translate-y-3 duration-500  hover:shadow-orange-100 ">
+                            <div className="border h-[360px]  p-6 my-10 mx-3 rounded-xl shadow-xl flex flex-col justify-between transform transition-transform hover:-translate-y-3 duration-500  hover:shadow-orange-100 ">
                                 <div className="mb-6 ">
                                     <FaQuoteLeft className="text-[#f6682782] mb-4 animate-shake" size={36} />
                                     <p className="text-gray-700 font-light italic leading-relaxed text-lg">

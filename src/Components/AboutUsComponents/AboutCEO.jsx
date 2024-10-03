@@ -5,7 +5,7 @@ const AboutCEO = () => {
   return (
     <div className="flex flex-col items-center md:mt-20 mt-12 mb-12 ">
       {/* Header Text */}
-      <h1 className="text-2xl md:text-5xl w-[80%] md:w-[50%] mx-auto text-center font-semibold text-gray-900 md:leading-[60px]">
+      <h1 className="text-2xl md:text-4xl lg:text-4xl w-[80%] md:w-[65%] lg:w-[50%] mx-auto text-center font-semibold text-gray-900 md:leading-[60px]">
       Introducing the Visionary  <span className="text-orange-500">Behind Our Success!</span>
       </h1>
       
@@ -26,9 +26,9 @@ const AboutCEO = () => {
         </div>
         
         {/* Right side: Text and Icon */}
-        <div className="flex flex-col md:w-1/2 lg:ml-10 md:mt-6 lg:mt-0 ">
+        <div className="flex flex-col md:w-[70%] lg:w-1/2 lg:ml-10 md:mt-6 lg:mt-0 ">
           {/* Quote Icon */}
-          <FaQuoteLeft className="text-orange-300 opacity-40 text-4xl md:text-6xl -mb-9 -ml-5"/>
+          <FaQuoteLeft className="text-orange-300 opacity-40 text-4xl md:text-5xl lg:text-6xl -mb-6 -ml-5"/>
           
           {/* Text */}
           <p className=" md:text-lg text-gray-700">
@@ -36,7 +36,7 @@ const AboutCEO = () => {
           </p>
           
           {/* CEO Details */}
-          <p className="mt-5 font-bold text-xl text-gray-900">Shahriar Rahaman</p>
+          <p className="mt-5 font-bold text-xl text-gray-900">Shariar Rahaman</p>
           <p className="text-gray-600">Founder & CEO</p>
           <p className="text-gray-600">SM IT SOLUTION</p>
         </div>

@@ -74,9 +74,9 @@ const Award = () => {
                             key={item.id}
                             className={`flex flex-col justify-center items-center p-4 border ${item.id === '1' ? 'border-b-2 ' : ''} ${item.id === '2' ? 'border-b-2 border-r-2 ' : ''} ${item.id === '3' ? 'border-t-2 md:border-t-0' : ''} ${item.id === '4' ? 'border-t-2 md:border-t-0 border-r-0' : ''}`}
                         >
-                            <item.icon className="text-7xl text-orange-400 mb-4" />
+                            <item.icon className="text-5xl md:text-5xl lg:text-7xl text-orange-400 mb-4" />
                             <h3 className="text-xl font-semibold text-center">{item.title}</h3>
-                            <p className="text-sm text-center text-gray-500">{item.subtitle}</p>
+                            <p className="text-sm text-center text-gray-500 mt-2">{item.subtitle}</p>
                         </div>
                     ))}
                 </motion.div>

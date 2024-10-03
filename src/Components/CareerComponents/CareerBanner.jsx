@@ -10,36 +10,36 @@ const CareerBanner = ({ scrollToJob }) => {
             <img
                 src={img1}
                 alt="Image 1"
-                className="absolute top-4 left-[10%] w-16 h-16 md:w-20 md:h-20 object-cover rounded-md animate-shake"
+                className="absolute top-4 left-[10%] w-16 h-16 md:w-20 md:h-20 object-cover rounded-md animate-shake "
             />
             <img
                 src={img2}
                 alt="Image 2"
-                className=" absolute top-[15%] md:right-[15%] right-[10%] w-16 h-16 md:w-20 md:h-20 object-cover rounded-md animate-shake2"
+                className=" absolute top-[10%] md:right-[15%] right-[10%] w-16 h-16 md:w-20 md:h-20 object-cover rounded-md animate-shake2 "
             />
             <img
                 src={img3}
                 alt="Image 3"
-                className="absolute bottom-[15%] left-[8%] w-16 h-16 md:w-20 md:h-20 object-cover rounded-md animate-shake2"
+                className="absolute bottom-[15%] left-[8%] w-16 h-16 md:w-20 md:h-20 object-cover rounded-md animate-shake2 "
             />
             <img
                 src={img1}
                 alt="Image 4"
-                className="absolute bottom-[5%] right-[8%] w-16 h-16 md:w-20 md:h-20 object-cover rounded-md animate-shake"
+                className="absolute bottom-[5%] right-[8%] w-16 h-16 md:w-20 md:h-20 object-cover rounded-md animate-shake "
             />
             <img
                 src={img2}
                 alt="Image 5"
-                className=" absolute top-1 md:top-[1%] left-[50%] transform translate-x-[-50%] translate-y-[-50%] w-16 h-16 md:w-20 md:h-20 object-cover rounded-md animate-shake"
+                className=" absolute top-0 md:top-[1%] left-[50%] transform translate-x-[-50%] translate-y-[-50%] w-16 h-16 md:w-20 md:h-20 object-cover rounded-md animate-shake "
             />
 
             {/* Text Content */}
-            <p className="text-2xl md:text-4xl">Join Our Journey,</p>
-            <h1 className="text-2xl md:text-4xl font-bold mt-4 md:mt-6">
+            <p className="text-xl md:text-2xl lg:text-4xl">Join Our Journey,</p>
+            <h1 className="text-xl md:text-2xl lg:text-4xl font-bold mt-4 md:mt-6">
                 <span className="text-orange-400">Where Your Excellence </span>
                 <span>Leads the Way!</span>
             </h1>
-            <p className="text-sm md:text-base lg:w-[60%] mx-auto my-6 md:my-8">
+            <p className="text-sm md:text-base lg:w-[60%] mx-auto my-6 md:my-8 px-3 md:px-0">
             Ready to leave your mark? This is your chance to join our expanding team and make an impact. Explore opportunities at 6amTech and find the perfect role that matches your unique talents.
             </p>
 
