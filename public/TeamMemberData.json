@@ -48,6 +48,14 @@
         "twiterLink": "https://x.com/saifulalam1321"
     },
     {
+        "id": 12,
+        "name": "Jafor Ahmmed",
+        "designation": "Digital Marketing Executive",
+        "Image": "https://i.ibb.co.com/PWvw03S/Jafor.jpg",
+        "linkedinLink": "https://www.linkedin.com/in/jahmmed/",
+        "twiterLink": "#"
+    },
+    {
         "id": 7,
         "name": "Ripon Barua",
         "designation": "Junior Executive",
@@ -68,7 +76,7 @@
         "name": "Prantica Chowdhury ",
         "designation": "Sales Executive",
         "Image": "https://cdn-icons-png.flaticon.com/512/4441/4441034.png",
-        "linkedinLink": "https://www.linkedin.com/",
+        "linkedinLink": "https://www.linkedin.com/in/prantica-chowdhury-a660131b2/",
         "twiterLink": "#"
     },
     {
@@ -81,7 +89,7 @@
     },
     {
         "id": 11,
-        "name": "Farhana Islam ",
+        "name": "Farhana Islam",
         "designation": "Junior Sales Executive",
         "Image": "https://cdn-icons-png.flaticon.com/512/4441/4441034.png",
         "linkedinLink": "https://www.linkedin.com/",

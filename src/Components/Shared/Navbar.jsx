@@ -109,7 +109,7 @@ const Navbar = () => {
                     }
                 >
                     {/* Mobile Logo */}
-                    <Link to="/" className='flex justify-center items-center gap-2'>
+                    <Link to="/" className='flex justify-center items-center gap-2 pt-5'>
                         <img src={logo} alt="img" className='size-10  rounded-full' />
                         <p className='font-manrope font-bold leading-snug text-transparent bg-clip-text bg-gradient-to-r from-orange-400 via-orange-600 to-amber-400'>SM IT SOLUTION</p>
                     </Link>

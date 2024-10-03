@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const AboutContact = () => {
   return (
-    <div className="md:mb-20 md:mt-32 w-[90%] md:w-[80%] mx-auto rounded-md shadow-orange-100 shadow-xl relative bg-orange-50 py-16 px-5 flex items-center justify-center overflow-hidden">
+    <div className="md:mb-20 md:mt-32 w-[90%] md:w-[80%] mx-auto rounded-md shadow-orange-100 shadow-xl relative bg-orange-50 py-16 px-5 flex items-center justify-center overflow-hidden ">
       {/* Dotted SVGs on both sides */}
       <div
         className="absolute inset-y-0 left-0 w-20 md:w-full h-full bg-cover bg-left opacity-40"
@@ -30,7 +30,7 @@ const AboutContact = () => {
 
       {/* Text and button */}
       <div className="text-center relative z-10">
-        <h1 className="text-xl md:text-4xl font-bold text-gray-800">
+        <h1 className="text-xl md:text-2xl lg:text-4xl font-bold text-gray-800">
           Have Any Idea? <span className="text-orange-600">Let’s Turn it Into Reality.</span>
         </h1>
         <Link
