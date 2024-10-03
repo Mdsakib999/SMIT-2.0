@@ -53,7 +53,7 @@ const Augment = () => {
       />
       <div
 
-        className="max-w-7xl mx-auto pt-12 md:pb-20 px-4 md:px-0">
+        className="max-w-7xl mx-auto pt-12 md:pb-20 px-4 md:px-3">
         <div className="flex flex-col md:flex-row md:justify-between gap-x-6">
           {timelineData.map((step, index) => (
             <motion.div

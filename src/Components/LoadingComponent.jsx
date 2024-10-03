@@ -10,7 +10,7 @@ const LoadingComponent = () => {
             alt="SM IT Logo"
           />
           
-            <p className="self-center text-center font-mono whitespace-nowrap text-xl mt-4 lg:text-5xl font-semibold dark:text-white text-transparent bg-clip-text bg-gradient-to-r from-orange-500 from-10%  to-yellow-300 to-90% animate-pulse animate-infinite">
+            <p className="self-center text-center font-mono whitespace-nowrap text-xl mt-4 lg:text-5xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-orange-500 from-10%  to-yellow-300 to-90% animate-pulse animate-infinite">
             SM IT SOLUTION
           </p>
             </div>

@@ -15,7 +15,7 @@ const OurTeam = () => {
       .then((res) => res.json())
       .then((data) => setMembersData(data));
   }, []);
-  console.log(membersData);
+
 
   return (
     <div className="bg-gradient-to-b from-[#fff] via-[#f3cf9427] to-[#fff] my-16 ">

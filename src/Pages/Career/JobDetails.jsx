@@ -7,7 +7,7 @@ import { useEffect } from "react";
 
 const JobDetails = () => {
     const { title } = useParams()
-    console.log(title);
+    // console.log(title);
     const job = jobData.find(item => item.jobTitle === title);
     useEffect(() => {
         window.scrollTo({ top: 0 });
