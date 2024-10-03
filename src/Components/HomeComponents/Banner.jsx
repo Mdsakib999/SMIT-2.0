@@ -9,7 +9,7 @@ const Banner = () => {
     <>
       {/* h-[calc(100vh-100px)] */}
       <div
-        className="lg:min-h-[100vh] scale-x-[-1] pt-32 md:pt-20  relative overflow-hidden"
+        className="lg:min-h-[100vh] 2xl:min-h-[80vh] scale-x-[-1] pt-32 md:pt-20  relative overflow-hidden  xl:pr-5"
         style={{
           background: `url("") no-repeat center center / cover opacity-5`,
         }}
@@ -20,9 +20,9 @@ const Banner = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 place-items-center  h-full section-container scale-x-[-1] md:mt-4 ">
           <div className=" flex items-center ">
             <div className="text-center md:text-left  md:mt-10">
-              <p className="font-semibold text-2xl mb-6 font-mono">Are You Looking For Qualified IT Service Provider<span className="text-red-600">?</span></p>
-              <p className="text-xl md:text-3xl font-bold ">
-                <span className="text-xl md:text-4xl font-manrope  leading-snug text-transparent bg-clip-text bg-gradient-to-r from-orange-400 via-orange-600 to-amber-400 uppercase ">
+              <p className="font-semibold md:text-xl text-2xl lg:text-2xl mb-6 font-mono">Are You Looking For Qualified IT Service Provider<span className="text-red-600">?</span></p>
+              <p className="text-xl md:text-2xl xl:text-3xl font-bold ">
+                <span className="text-xl md:text-3xl xl:text-4xl font-manrope  leading-snug text-transparent bg-clip-text bg-gradient-to-r from-orange-400 via-orange-600 to-amber-400 uppercase ">
                   SM IT Solution
                 </span>{" "}
                 Your Trusted Partner in Digital Innovation!

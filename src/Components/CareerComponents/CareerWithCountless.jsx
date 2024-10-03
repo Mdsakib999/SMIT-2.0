@@ -18,7 +18,7 @@ const CareerWithCountless = () => {
                         const color = index % 2 === 0 ? 'text-orange-500' : 'text-green-600';
 
                         return (
-                            <div key={index} className="flex items-center bg-slate-100 shadow-md p-4 rounded-lg shadow-blue-50 hover:shadow-lg transition-shadow duration-300 w-full sm:w-[30%] lg:w-[22%]">
+                            <div key={index} className="flex items-center bg-slate-100 shadow-md p-4 rounded-lg shadow-blue-50 hover:shadow-lg transition-shadow duration-300 w-full sm:w-[30%] lg:w-[25%] ">
                                 {/* Icon */}
                                 <div className={`${color} text-3xl mr-4 bg-white p-4 rounded-full`}>
                                     <item.icon />

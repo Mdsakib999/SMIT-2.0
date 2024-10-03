@@ -13,7 +13,7 @@ const Contact = () => {
     window.scrollTo({ top: 0 });
 }, [])
   return (
-    <div className="overflow-x-hidden relative">
+    <div className="overflow-x-hidden relative mt-12 md:mt-20">
       <div className="text-center mt-16 mb-10">
         <p className="text-3xl lg:text-5xl font-bold animate-fade-up tracking-wide">
           Contact Us
@@ -47,8 +47,8 @@ const Contact = () => {
               <p className="font-bold text-xl lg:mt-7 mt-4 mb-4">
                 Email Address
               </p>
-              <p className="text-lg">shariar@smitsolution.com.bd</p>
-              <p className="text-lg">shariar.smitsolution@gmail.com</p>
+              <p className="text-lg">smitsolutionbd01@gmail.com</p>
+              {/* <p className="text-lg">shariar.smitsolution@gmail.com</p> */}
             </div>
 
             <div>
