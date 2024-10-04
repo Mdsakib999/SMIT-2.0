@@ -87,9 +87,9 @@ const JobDetails = () => {
 
                 {/* Right Section: Job Summary */}
                 <div>
-                    <div className="bg-white shadow-xl hover:shadow-orange-50 rounded-lg p-6">
+                    <div className="bg-white shadow-xl hover:shadow-orange-50 rounded-lg p-6 ">
                         <h2 className="text-2xl font-bold mb-4">Job Summary</h2>
-                        <div className="space-y-4">
+                        <div className="space-y-4 overflow-auto">
                             <p className="flex justify-between text-gray-600">
                                 <span className="font-semibold">Job Title:</span>
                                 <span>{job.jobTitle}</span>
@@ -128,7 +128,7 @@ const JobDetails = () => {
                             </p>
                             <p className="flex justify-between text-gray-600">
                                 <span className="font-semibold">Apply:</span>
-                                recruit.smitsolution@gmail.com
+                                <p className="inline-block">recruit.smitsolution@gmail.com</p>
                             </p>
                         </div>
 
@@ -141,14 +141,14 @@ const JobDetails = () => {
                     </div>
                 </div>
             </div>
-            <div className="b bg-black text-white md:w-[50%] mx-auto h-auto p-16 flex flex-col text-xl font-semibold my-8 rounded-lg justify-center items-center shadow-lg leading-10">
-                <p className="w-full text-center ">
+            <div className="bg-black text-white w-full md:w-[75%] lg:w-[50%] mx-auto h-auto p-8 md:p-12 lg:p-16 flex flex-col text-base md:text-lg lg:text-xl font-semibold my-8 rounded-lg justify-center items-center shadow-lg leading-7 md:leading-8 lg:leading-10">
+                <p className="w-full text-center">
                     Apply now by sending your CV to
-                    <span className="text-orange-500 font-bold"> recruit.smitsolution@gmail.com
-                    </span>{" "}
+                    <span className="text-orange-500 font-bold"> recruit.smitsolution@gmail.com</span>{" "}
                     and don’t forget to include the job title in the email subject line.
                 </p>
             </div>
+
 
         </div>
     );
