@@ -44,7 +44,7 @@ const OurStory = () => {
                     </div>
                 </div>
                 <div className="hidden md:flex relative justify-center items-center space-x-4 ">
-                    <img src={img2} alt="" className="w-44 h-32 -mb-64 -mr-24 hover:z-20 object-cover rounded-lg shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out rounded-bl-[80px] hover:rounded-bl-lg hidden lg:block b" />
+                    <img src={img2} alt="" className="w-44 h-32 -mb-64 -mr-24 hover:z-20 object-cover rounded-lg shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out rounded-bl-[80px] hover:rounded-bl-lg hidden lg:block " />
                     {/* Optionally add an image or a decorative element here */}
                     <img src={img1} alt="" className="w-80 z-10  object-cover rounded-lg shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out" />
                     <img src={img3} alt="" className=" w-56 h-36 absolute -mb-64 md:right-1 lg:right-0 hover:z-20 object-cover rounded-lg shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out" />

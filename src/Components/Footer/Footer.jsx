@@ -70,7 +70,7 @@ const Footer = () => {
               <div className=" ">
                 <p className="flex items-center gap-x-2">
                   <FiMail className="text-xl"></FiMail>{" "}
-                  shariar@smitsolution.com.bd
+                  smitsolutionbd01@gmail.com
                 </p>
                 <p className="flex items-center gap-x-2 mt-2">
                   <BiPhoneCall className="text-xl"></BiPhoneCall> +88
