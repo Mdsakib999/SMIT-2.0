@@ -100,7 +100,7 @@ const Award = () => {
 
                                     {/* Text Content */}
                                     <div>
-                                        <h1 className="text-lg font-bold text-gray-800">{item.title}</h1>
+                                        <p className="text-lg font-bold text-gray-800">{item.title}</p>
                                         <p className="text-gray-600 mt-1">{item.description}</p>
                                     </div>
                                 </div>

@@ -35,7 +35,7 @@ const BlogDetails = () => {
                     <span className="uppercase rounded-md bg-[#EB3B84] text-white px-4 py-1 font-bold">
                         {filterData.department}
                     </span>
-                    <h1 className="text-2xl font-bold mt-4">{filterData.title}</h1>
+                    <p className="text-2xl font-bold mt-4">{filterData.title}</p>
                     <img
                         src={filterData.img}
                         className="h-[300px] w-full mt-4 rounded-xl object-cover"
@@ -82,7 +82,7 @@ const BlogDetails = () => {
                                     <p className="">
                                         <span className={`inline-block ${backgroundColors[index % backgroundColors.length]} text-[#160f3a] text-sm font-semibold px-4 rounded-full py-1`}>{item.department}</span> -
                                         <small> {item.date}</small></p>
-                                    <h1 className="text-xl font-bold">{item.title}</h1>
+                                    <p className="text-xl font-bold">{item.title}</p>
                                 </div>
                             </Link>
                         ))

@@ -4,7 +4,7 @@ const CareerWithCountless = () => {
     return (
         <div>
             <div className="text-center mt-10">
-                <h1 className="md:text-4xl text-2xl font-semibold">A Career With Countless Perks</h1>
+                <p className="md:text-4xl text-2xl font-semibold">A Career With Countless Perks</p>
                 <p className="md:max-w-[50%] mx-auto mt-4 px-5 md:px-0">At SM IT Solution, we believe that a team's strength lies in its people. That's why we prioritize your well-being and growth. Every member of our team at SM IT Solutions enjoys the following benefits</p>
             </div>
             <div className="flex flex-wrap justify-center gap-6 md:gap-10 p-4 mt-8">

@@ -24,7 +24,7 @@ const ServiceDetails = () => {
                 {/* Service Overview */}
                 <div className="flex items-center mb-8">
                     <service.logo className="text-orange-400 text-5xl mr-4" />
-                    <h1 className="text-xl md:text-4xl font-bold text-gray-800">{service.title}</h1>
+                    <p className="text-xl md:text-4xl font-bold text-gray-800">{service.title}</p>
                 </div>
                 <p className="text-lg text-gray-600 mb-6">{service.description}</p>
                 <p className="text-base text-gray-700 leading-relaxed mb-8">{service.details}</p>

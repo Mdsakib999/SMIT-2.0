@@ -115,7 +115,7 @@ const ServiceSection = () => {
                             <span className="inline-block bg-orange-400 size-8 rounded-full bg-opacity-60 absolute top-[-10px] left-[-10px] md:left-[-23px] animate-pulse "></span>
 
                         </div>
-                        <h1 className="text-2xl md:text-4xl font-bold px-2 md:px-0">Design & Development</h1>
+                        <p className="text-2xl md:text-4xl font-bold px-2 md:px-0">Design & Development</p>
                         <p className="mt-6 text-sm text-gray-500 px-2 md:px-0">Web development is the process of building and maintaining websites, involving coding, design, and ensuring functionality and user experience</p>
                         <div className="grid grid-cols-1 md:grid-cols-2 mt-10 gap-5 px-2 md:px-0">
                             {mernFeatures.map((item, index) => (
@@ -147,7 +147,7 @@ const ServiceSection = () => {
                             <span className="inline-block bg-orange-400 size-8 rounded-full bg-opacity-60 absolute top-[-10px] left-[-10px] md:left-[-23px] animate-pulse "></span>
 
                         </div>
-                        <h1 className="text-2xl md:text-4xl font-bold px-2 md:px-0">Digital Marketing</h1>
+                        <p className="text-2xl md:text-4xl font-bold px-2 md:px-0">Digital Marketing</p>
                         <p className="mt-6 text-sm text-black px-2 md:px-0">
                             Digital marketing involves leveraging data and technology to promote brands, engage audiences, and drive business growth through various online channels.
                         </p>
@@ -187,7 +187,7 @@ const ServiceSection = () => {
                             <div key={index} className=" border bg-white shadow-xl p-8 rounded-lg hover:shadow-lg hover:shadow-orange-300">
                                 {/* <TbWorldDollar className="lg:text-6xl text-5xl text-orange-500" /> */}
                                 <item.logo className="lg:text-6xl text-5xl text-orange-500" />
-                                <h1 className="my-5  font-bold text-2xl lg:text-3xl">{item.title}</h1>
+                                <p className="my-5  font-bold text-2xl lg:text-3xl">{item.title}</p>
                                 <p>
                                     {item.description}
                                 </p>

@@ -14,9 +14,9 @@ const HomeContact = () => {
 
       <div className="section-container">
         <div className="text-center mt-16 mb-10 ">
-          <h1 className="text-2xl lg:text-5xl font-bold animate-fade-up tracking-wide">
+          <p className="text-2xl lg:text-5xl font-bold animate-fade-up tracking-wide">
             Have Any Project ? <span className="leading-snug text-transparent bg-clip-text bg-gradient-to-r from-orange-400 via-orange-600 to-amber-400">Let’s Talk </span>
-          </h1>
+          </p>
           <p className="text-lg text-gray-500 pt-4  lg:w-[50%] w-[95%] m-auto ">
             Have any idea or project, Let your dreams code true. From Seed to Success, We're Here to Help. To make the future brighter
             and more connected, let's work together to bring out the best in your

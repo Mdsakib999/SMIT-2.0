@@ -9,7 +9,7 @@ const JobSection = () => {
   return (
     <div className=" mt-16 pb-16 bg-gray-50">
       <div className="text-center  ">
-        <h1 className="md:text-5xl pt-12 text-2xl font-semibold mb-4"> Open Job Positions</h1>
+        <p className="md:text-5xl pt-12 text-2xl font-semibold mb-4"> Open Job Positions</p>
         <div className="flex justify-center items-center">
           <FaRegDotCircle className="text-2xl text-orange-600 animate-pulse"></FaRegDotCircle>
           <span className="w-24 h-1 bg-orange-500 inline-block"></span>

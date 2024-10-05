@@ -45,12 +45,12 @@ const HomeAbout = () => {
             <div className="w-full px-4 lg:w-1/2 xl:w-5/12 ">
               <div className="mt-10 lg:mt-0">
                 <div className="relative   mb-4  text-primary font-bold ">
-                  <h1 className="text-2xl  font-bold mt-7 ">
+                  <p className="text-2xl  font-bold mt-7 ">
                     ABOUT{" "}
                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 via-orange-600 to-amber-500 ">
                       US_
                     </span>
-                  </h1>
+                  </p>
                   <span className="inline-block bg-orange-400 size-8 rounded-full bg-opacity-60 absolute top-[-10px] left-[-23px] animate-pulse "></span>
                 </div>
                 <h2 className="mb-5 text-xl md:text-2xl lg:text-3xl font-bold text-black  sm:text-[40px]/[48px] animate-fade-right animate-once animate-delay-1000 animate-ease-in">
