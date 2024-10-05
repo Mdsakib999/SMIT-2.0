@@ -94,5 +94,13 @@
         "Image": "https://cdn-icons-png.flaticon.com/512/4441/4441034.png",
         "linkedinLink": "https://www.linkedin.com/",
         "twiterLink": "#"
+    },
+    {
+        "id": 13,
+        "name": "Sadika Rahman",
+        "designation": "Junior Web Developer",
+        "Image": "https://cdn-icons-png.flaticon.com/512/4441/4441034.png",
+        "linkedinLink": "https://www.linkedin.com/in/sadika-rahman/",
+        "twiterLink": "https://x.com/sadikatanisha"
     }
 ]

@@ -9,19 +9,19 @@ const JobDetails = () => {
     const { title } = useParams()
     // console.log(title);
     const job = jobData.find(item => item.jobTitle === title);
-    useEffect(() => {
-        window.scrollTo({ top: 0 });
-    }, [])
+    // useEffect(() => {
+    //     window.scrollTo({ top: 0 });
+    // }, [])
     return (
-        <div className="mt-12 md:mt-20 ">
+        <div className="mt-16 md:mt-20 ">
             <div className="max-w-7xl mx-auto p-6 grid grid-cols-1 lg:grid-cols-3 gap-8 ">
                 {/* Left Section: Job Details */}
                 <div className="lg:col-span-2 bg-white  rounded-lg p-6 ">
                     <div className="mb-4 md:flex gap-x-4">
-                    <p className="md:text-3xl text-2xl font-bold mb-3 md:mb-0">{job.jobTitle}</p>
-                    <span className="bg-orange-50 text-xs md:text-sm rounded-2xl mb-2 border border-red-400 text-red-600 px-2 py-1 font-semibold bb">
-                  {job.jobType}
-                </span>
+                        <p className="md:text-3xl text-2xl font-bold mb-3 md:mb-0">{job.jobTitle}</p>
+                        <span className="bg-orange-50 text-xs md:text-sm rounded-2xl mb-2 border border-red-400 text-red-600 px-2 py-1 font-semibold bb">
+                            {job.jobType}
+                        </span>
                     </div>
 
                     {/* Job Meta Data */}
@@ -57,7 +57,7 @@ const JobDetails = () => {
                     <div className="mb-6">
                         <h2 className="text-2xl font-bold mb-2">Educational Requirements</h2>
                         <p className="text-gray-700">{job.education}</p>
-                        
+
                     </div>
 
                     {/* Qualifications */}
@@ -74,22 +74,22 @@ const JobDetails = () => {
                     <div className="mb-6">
                         <h2 className="text-2xl font-bold mb-2">Other Benefits</h2>
                         <ul className="list-disc ml-5 space-y-2 text-gray-700">
-                        <li>Yearly two festival bonuses (According to company's policy).</li> 
-                        <li>Fully-subsidized lunch.</li>
-                        <li>Unlimited tea and coffee.</li>
-                        <li>Training and learning materials to improve skills.</li>
-                        <li>Knowledge Sharing Session</li>
-                        <li>Annual retreat.</li>
-                        <li>Fun, Relaxed Working Environment.</li>
+                            <li>Yearly two festival bonuses (According to company's policy).</li>
+                            <li>Fully-subsidized lunch.</li>
+                            <li>Unlimited tea and coffee.</li>
+                            <li>Training and learning materials to improve skills.</li>
+                            <li>Knowledge Sharing Session</li>
+                            <li>Annual retreat.</li>
+                            <li>Fun, Relaxed Working Environment.</li>
                         </ul>
                     </div>
                 </div>
 
                 {/* Right Section: Job Summary */}
                 <div>
-                    <div className="bg-white shadow-xl hover:shadow-orange-50 rounded-lg p-6">
+                    <div className="bg-white shadow-xl hover:shadow-orange-50 rounded-lg p-6 ">
                         <h2 className="text-2xl font-bold mb-4">Job Summary</h2>
-                        <div className="space-y-4">
+                        <div className="space-y-4 overflow-auto">
                             <p className="flex justify-between text-gray-600">
                                 <span className="font-semibold">Job Title:</span>
                                 <span>{job.jobTitle}</span>
@@ -128,7 +128,7 @@ const JobDetails = () => {
                             </p>
                             <p className="flex justify-between text-gray-600">
                                 <span className="font-semibold">Apply:</span>
-                                recruit.smitsolution@gmail.com
+                                <p className="inline-block">recruit.smitsolution@gmail.com</p>
                             </p>
                         </div>
 
@@ -141,14 +141,14 @@ const JobDetails = () => {
                     </div>
                 </div>
             </div>
-            <div className="b bg-black text-white md:w-[50%] mx-auto h-auto p-16 flex flex-col text-xl font-semibold my-8 rounded-lg justify-center items-center shadow-lg leading-10">
-                <p className="w-full text-center ">
-                Apply now by sending your CV to 
-                    <span className="text-orange-500 font-bold"> recruit.smitsolution@gmail.com
-                    </span>{" "}
+            <div className="bg-black text-white w-[90%] md:w-[75%] lg:w-[50%] mx-auto h-auto p-8 md:p-12 lg:p-16 flex flex-col text-base md:text-lg lg:text-xl font-semibold my-8 rounded-lg justify-center items-center shadow-lg leading-7 md:leading-8 lg:leading-10 ">
+                <p className="w-full text-center">
+                    Apply now by sending your CV to
+                    <span className="text-orange-500 font-bold"> recruit.smitsolution@gmail.com</span>{" "}
                     and don’t forget to include the job title in the email subject line.
                 </p>
             </div>
+
 
         </div>
     );

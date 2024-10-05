@@ -29,7 +29,7 @@ const BlogDetails = () => {
 
     };
     return (
-        <div className="bg-[#F8F8FA] w-full  -mt-32 py-32 ">
+        <div className="bg-[#F8F8FA] w-full   py-32 ">
             <div className="w-[95%] lg:w-[60%] bg-white h-fit rounded-xl mx-auto shadow-lg">
                 <div className="p-8">
                     <span className="uppercase rounded-md bg-[#EB3B84] text-white px-4 py-1 font-bold">
