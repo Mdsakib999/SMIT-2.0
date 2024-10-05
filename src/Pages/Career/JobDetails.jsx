@@ -9,9 +9,9 @@ const JobDetails = () => {
     const { title } = useParams()
     // console.log(title);
     const job = jobData.find(item => item.jobTitle === title);
-    // useEffect(() => {
-    //     window.scrollTo({ top: 0 });
-    // }, [])
+    useEffect(() => {
+        window.scrollTo({ top: 0 });
+    }, [])
     return (
         <div className="mt-16 md:mt-20 ">
             <div className="max-w-7xl mx-auto p-6 grid grid-cols-1 lg:grid-cols-3 gap-8 ">
