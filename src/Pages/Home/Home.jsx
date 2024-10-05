@@ -36,7 +36,7 @@ const Home = () => {
 
 
 
-            {/* Out team */}
+            {/* Out team member*/}
             <OurTeam></OurTeam>
 
             <Blog />

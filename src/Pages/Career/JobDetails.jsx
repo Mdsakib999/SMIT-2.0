@@ -13,7 +13,7 @@ const JobDetails = () => {
         window.scrollTo({ top: 0 });
     }, [])
     return (
-        <div className="pt-20">
+        <div className="mt-16 md:mt-20 ">
             <div className="max-w-7xl mx-auto p-6 grid grid-cols-1 lg:grid-cols-3 gap-8 ">
                 {/* Left Section: Job Details */}
                 <div className="lg:col-span-2 bg-white  rounded-lg p-6 ">
@@ -141,7 +141,7 @@ const JobDetails = () => {
                     </div>
                 </div>
             </div>
-            <div className="bg-black text-white w-full md:w-[75%] lg:w-[50%] mx-auto h-auto p-8 md:p-12 lg:p-16 flex flex-col text-base md:text-lg lg:text-xl font-semibold my-8 rounded-lg justify-center items-center shadow-lg leading-7 md:leading-8 lg:leading-10">
+            <div className="bg-black text-white w-[90%] md:w-[75%] lg:w-[50%] mx-auto h-auto p-8 md:p-12 lg:p-16 flex flex-col text-base md:text-lg lg:text-xl font-semibold my-8 rounded-lg justify-center items-center shadow-lg leading-7 md:leading-8 lg:leading-10 ">
                 <p className="w-full text-center">
                     Apply now by sending your CV to
                     <span className="text-orange-500 font-bold"> recruit.smitsolution@gmail.com</span>{" "}

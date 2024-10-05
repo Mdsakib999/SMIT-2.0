@@ -35,10 +35,10 @@ const CareerBanner = ({ scrollToJob }) => {
 
             {/* Text Content */}
             <p className="text-xl md:text-2xl lg:text-4xl">Join Our Journey,</p>
-            <h1 className="text-xl md:text-2xl lg:text-4xl font-bold mt-4 md:mt-6">
+            <p className="text-xl md:text-2xl lg:text-4xl font-bold mt-4 md:mt-6">
                 <span className="text-orange-400">Where Your Excellence </span>
                 <span>Leads the Way!</span>
-            </h1>
+            </p>
             <p className="text-sm md:text-base lg:w-[60%] mx-auto my-6 md:my-8 px-3 md:px-0">
             Ready to leave your mark? This is your chance to join our expanding team and make an impact. Explore opportunities at 6amTech and find the perfect role that matches your unique talents.
             </p>
