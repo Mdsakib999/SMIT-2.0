@@ -14,7 +14,7 @@ const Testimonials = () => {
         <div className="section-container ">
             <SectionTitle
                 title={"Voices of Trust"}
-                description={"Client Testimonials That Tell the Whole Story"}
+                description={"Client Testimonials That Tell The Whole Story"}
             />
             <div>
                 <Swiper

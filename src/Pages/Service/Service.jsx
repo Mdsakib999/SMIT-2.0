@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 // import bgImage from '../../assets/pexels-pixabay-327533.jpg';
-import bgImage from "../../assets/pexels-pixabay-327533.jpg";
 import { services } from "../../utils/service";
 import { useEffect } from "react";
 import useDocumentTitle from "../../Hooks/useDocumentTitle";
@@ -12,19 +11,21 @@ const Service = () => {
   }, [])
   return (
     <div className="">
-      <div className="relative w-full h-[70vh] pt-32 ">
+      <div className="relative w-full md:h-[55vh] pt-32 text-center overflow-hidden ">
+
+        {/* Gradient div */}
+        <div className="background-gradient-blue w-56 h-56 md:w-96 md:h-80 absolute top-[-5%] right-[25%] md:top-[-1%] md:right-[-5%] rounded-full"></div>
+
         {/* Background Image */}
-        <div
-          className="absolute inset-0 bg-cover bg-center"
-          style={{
-            backgroundImage: `url('http://surl.li/iuitbt')`,
-            backgroundRepeat: "no-repeat", // Prevents the image from repeating
-            height: "100%", // Sets height to 100% of the parent
-          }}
-        >
-          <div className="absolute inset-0 bg-black opacity-60"></div>{" "}
-          {/* Optional overlay for better text visibility */}
-        </div>
+        <p className="text-2xl md:text-2xl lg:text-4xl font-semibold">Our Services</p>
+            <p className="text-xl md:text-2xl lg:text-4xl px-8 md:px-0 font-semibold md:font-bold mt-4 md:mt-6">
+                <span className="text-orange-400">Your growth is our strategy, </span>
+                <span>your success is our goal.</span>
+            </p>
+            <p className="text-sm md:text-base mx-auto my-6 md:my-8 px-3 md:px-5 lg:w-[50%]">
+            Empowering your business with a team of seasoned professionals,
+            committed to delivering excellence through innovative thinking.
+            </p>
 
         {/* Centered Text */}
         <div className="relative flex justify-center flex-col items-center h-full">
@@ -32,12 +33,11 @@ const Service = () => {
             Our Services
           </h1>
           <p className="text-slate-300 mt-4 md:w-[50%] hover:text-white text-center px-3 md:px-0">
-            Empowering your business with a team of seasoned professionals,
-            committed to delivering excellence through innovative thinking.
+            
           </p>
         </div>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 px-6 pt-12 pb-32 relative ">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-8 gap-y-20  px-6 pb-32 relative">
         {/* Gradient div */}
         <div className="background-gradient-blue w-56 h-56 md:w-96 md:h-80 absolute bottom-[-2%] right-[25%] md:bottom-[-15%] md:right-[40%] rounded-full"></div>
 
@@ -69,7 +69,6 @@ const Service = () => {
             >
               See Details
             </Link>
-            {/* <div className="absolute inset-0 bg-gradient-to-br from-pink-400 to-orange-400 opacity-0 group-hover:opacity-10 transition-opacity duration-300 ease-in-out rounded-2xl"></div> */}
           </div>
         ))}
       </div>

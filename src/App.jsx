@@ -14,7 +14,7 @@ function App() {
     // Creating a timeout within the useEffect hook
     const timeout = setTimeout(() => {
       setIsLoading(false);
-    }, 2000);
+    }, 1000);
 
     // Cleanup function to clear the timeout
     return () => clearTimeout(timeout);

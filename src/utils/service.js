@@ -18,12 +18,18 @@ export const services = [
     description:
       "Building modern, scalable web applications using MongoDB, Express.js, React.js, and Node.js for full-stack development.",
     details:
-      "Our MERN stack development service offers end-to-end solutions for creating powerful web applications. We specialize in crafting responsive frontends with React, robust backends with Node.js and Express.js, and scalable databases with MongoDB. Whether you're starting a new project or scaling an existing one, our expertise ensures your application is built to perform and grow.",
+      "Full-stack development of modern, scalable web applications with cutting-edge technologies is what we do best. Our Web development agency is one of the top software companies in Bangladesh that provides complete end-to-end web solutions, which consist of a reactive and dynamic front end with a powerful and secure back end, and the databases are also scalable.",
     features: [
-      "Custom web applications tailored to your business needs",
-      "Scalable architecture to handle growing user bases",
-      "Responsive design for optimal user experience across devices",
-      "Seamless integration with third-party APIs and services",
+      "Custom Software: Tailed solutions to fit in perfectly with what your business requires to achieve its goals.",
+      "Scalable Architecture: constructed to maintain satisfactory performance when scaling from user bases to traffic volume.",
+      "Responsive Design: ensures your software will run all in one place, whether on desktops or smartphones.",
+      "Intuitive User Interface: We assure you that user experience is a priority to us, and your software will have an engaging and user-friendly interface.",
+      "Third-Party Integrations: Allow easy integration with external services and APIs like payment gateways, CRM systems and analytics platforms.",
+      "Fast Development Time: We can deliver projects on time, and processes make it possible for us to go to market quickly. ",
+      "Affordable Pricing: Great value for a high-quality product at a competitive pricing structure. 24/7.",
+      "Enhanced Security: All projects have special security protocols built in to keep your data safe.",
+      "One-stop Solution: We provide an all-in-one development service from concept to deployment and support.",
+      "Client Support: We give you round-the-clock support to run your software without any interruption.",
     ],
 
     relatedServices: [
@@ -72,14 +78,19 @@ export const services = [
     logo: FaPaintBrush,
     category: "Design",
     description:
-      "Create intuitive and engaging user interfaces with a focus on UX and visual design.",
+      "Create intuitive and engaging user interfaces that deliver seamless user experiences and eye-catching visual designs.",
     details:
-      "Our UI/UX Design service focuses on creating user-centered designs that are both beautiful and functional. We prioritize the user's experience, ensuring that every interaction is intuitive and enjoyable. From wireframes to final designs, we work closely with you to bring your vision to life with a focus on aesthetics and usability.",
+      "Our UI/UX design services prioritize user-centered design principles, ensuring that every interaction is easy to understand, enjoyable, and efficient. From custom wireframes to final polished designs, we work closely with you through a collaborative design process, incorporating your feedback to bring your vision to life. Our designs not only look beautiful but are also optimized for usability and engagement, ensuring users stay connected with your product.",
     features: [
-      "User-centered design approach for optimal usability",
-      "Custom wireframes and prototypes to visualize concepts",
-      "Collaborative design process with client feedback",
-      "Aesthetic designs that enhance user engagement",
+      "User-Centered Design: Designed tailored interfaces that simplify things making the whole seem comfortable and an engaging experience.",
+      "Scalable Design Systems: Flexible design systems that scale with your product, with the consistency to maintain when you do.",
+      "Responsive Layouts: A user experience which is flawless no matter what device one is using; desktops, tablets or smartphones.",
+      "Intuitive User Flow: Above all, make sure it works just right, so you can navigate and interact with it as if you already know it.",
+      "Intuitive User Flow: Prioritize ease of use, ensuring that navigation and interactions are smooth and straightforward.",
+      "Cost-Effective Solutions: Competitive pricing for high-quality designs that deliver both form and function.",
+      "Design Support: Ongoing support to address any design-related needs or changes, ensuring your interface stays optimized.",
+      "End-to-End Design Process: From initial concept to final product, we offer a comprehensive design service that covers all your needs.",
+      
     ],
 
     relatedServices: [
@@ -128,14 +139,17 @@ export const services = [
     logo: FaShoppingCart,
     category: "Development",
     description:
-      "Robust e-commerce platforms with seamless payment integration and user-friendly interfaces.",
+      "Our goal is to provide e-commerce solutions that meet the technical requirements and drive your business forward.",
     details:
-      "Our E-commerce Solutions service is designed to create powerful online stores that drive sales and enhance customer experience. We build e-commerce platforms with features like seamless payment integration, inventory management, and a user-friendly interface. Our solutions are scalable and customizable to fit your business needs.",
+      "At the heart of our E-commerce Solutions is the commitment to building online stores that drive sales and offer a seamless, engaging experience for your customers. We specialize in developing robust e-commerce platforms that simplify everything from payment integration to inventory management, ensuring your store operates smoothly and efficiently. Whether you're just starting or looking to expand, our solutions are designed to grow your business and adapt to your needs.",
     features: [
-      "Custom-built online stores with unique features",
-      "Secure payment gateways for safe transactions",
-      "User-friendly interfaces that encourage sales",
-      "Scalable solutions to accommodate growing businesses",
+      "Custom-Built Stores: We design unique, feature-rich online stores tailored to your specific business needs, helping you stand out in a crowded marketplace.",
+      "Seamless Payment Integration: With secure, easy-to-use payment gateways, we ensure transactions are smooth and worry-free for you and your customers.",
+      "Inventory Management: Keep track of your stock effortlessly with integrated inventory management tools that help you stay organized and avoid stock issues.",
+      "User-Friendly Interface: We prioritize the customer experience by designing intuitive, easy-to-navigate interfaces that encourage shopping and drive conversions.",
+      "Mobile-Optimized Designs: Our e-commerce platforms are fully responsive, ensuring your store looks and functions flawlessly on any device, from desktops to smartphones.",
+      "Advanced Analytics: We integrate analytics tools so you can track customer behavior, sales performance, and trends, empowering you to make data-driven decisions.",
+      "Scalability: Built to grow with your business, our e-commerce solutions are highly scalable, allowing you to add new products, features, or services without disruption.",
     ],
 
     relatedServices: [

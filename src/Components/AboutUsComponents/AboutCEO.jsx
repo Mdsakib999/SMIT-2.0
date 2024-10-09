@@ -5,7 +5,7 @@ const AboutCEO = () => {
   return (
     <div className="flex flex-col items-center md:mt-20 mt-12 mb-12 ">
       {/* Header Text */}
-      <p className="text-2xl md:text-4xl lg:text-4xl w-[80%] md:w-[65%] lg:w-[50%] mx-auto text-center font-semibold text-gray-900 md:leading-[60px]">
+      <p className="text-2xl md:text-4xl lg:text-4xl w-[80%] md:w-[65%] lg:w-[40%] lg:leading-[45px] mx-auto text-center font-semibold text-gray-900 md:leading-[60px]">
       Introducing the Visionary  <span className="text-orange-500">Behind Our Success!</span>
       </p>
       

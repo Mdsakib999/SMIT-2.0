@@ -11,7 +11,7 @@ const Contact = () => {
   useDocumentTitle("Contact | Sm It Solution");
   useEffect(() => {
     window.scrollTo({ top: 0 });
-}, [])
+  }, []);
   return (
     <div className="overflow-x-hidden relative mt-12 md:mt-20">
       <div className="text-center mt-16 mb-10">
@@ -47,8 +47,8 @@ const Contact = () => {
               <p className="font-bold text-xl lg:mt-7 mt-4 mb-4">
                 Email Address
               </p>
-              <p className="text-lg">smitsolutionbd01@gmail.com</p>
-              {/* <p className="text-lg">shariar.smitsolution@gmail.com</p> */}
+              <p className="text-lg hover:underline">info@smitsolution.com.bd</p>
+              <p className="text-lg hover:underline">smitsolutionbd01@gmail.com</p>
             </div>
 
             <div>
@@ -56,7 +56,7 @@ const Contact = () => {
               <p className="font-bold text-xl lg:mt-7 mt-4 mb-4">
                 Phone Number
               </p>
-              <p className="text-lg">+88 01842113575</p>
+              <p className="text-lg">+88 01711646758</p>
               <p className="text-lg">+88 01312113575</p>
             </div>
 
@@ -69,9 +69,9 @@ const Contact = () => {
                 Nasirabad Properties Road 1, House B5 <br /> Chittagong,
                 Bangladesh.
               </p>
-              <p className="text-lg mt-2">
-                JBS Holdings Ltd. 300/I, 14 Block-A, Bashundhara <br /> Dhaka,
-                Bangladesh.
+              <p className="text-lg mt-2 ">
+              House - NE(B) 2/1, Road- 71, Gulshan-02, <br /> Dhaka, Bangladesh.
+
               </p>
             </div>
           </div>

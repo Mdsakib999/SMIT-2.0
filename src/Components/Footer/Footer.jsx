@@ -3,7 +3,7 @@ import { FiMail } from "react-icons/fi";
 import { BiPhoneCall } from "react-icons/bi";
 import { SlLocationPin } from "react-icons/sl";
 import { FaFacebookF } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { Link } from "react-router-dom";
@@ -11,7 +11,6 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <footer className="overflow-hidden relative z-10 bg-black text-white pb-10 pt-20 lg:pt-[80px] ">
-
       {/* Gradient circle */}
       <div className="background-gradient-footer w-56 h-56 md:w-80 md:h-80 absolute top-[50%] right-[-25%]  md:top-[50%] md:left-[-8%] rounded-full "></div>
 
@@ -41,13 +40,17 @@ const Footer = () => {
 
           <div className="w-full md:w-5/12 px-4 flex md:justify-evenly justify-between mb-8 ">
             <div>
-              <p className="mb-6 text-lg font-semibold text-white">
-                Company
-              </p>
-              <Link to="/about" className="mt-3 block">About SM IT </Link>
-              <Link to="/services" className="mt-3 block">Services</Link>
+              <p className="mb-6 text-lg font-semibold text-white">Company</p>
+              <Link to="/about" className="mt-3 block">
+                About SM IT{" "}
+              </Link>
+              <Link to="/services" className="mt-3 block">
+                Services
+              </Link>
               <p className="mt-3 ">Our Team</p>
-              <p className="mt-3"><Link to="/career">Career</Link> </p>
+              <p className="mt-3">
+                <Link to="/career">Career</Link>{" "}
+              </p>
             </div>
 
             <div>
@@ -55,18 +58,17 @@ const Footer = () => {
                 Quick Links
               </p>
               <p className="mt-3">Premium Support</p>
-              <p className="mt-3">Terms & Condition</p>
-              <p className="mt-3">Contact Us</p>
-              <p className="mt-3">Latest News</p>
+              <p className="mt-3"> <Link to="/termsConditions">Terms & Condition</Link></p>
+              <p className="mt-3"><Link to="/privacy">Privacy Policy</Link></p>
+              
+              <p className="mt-3"> <Link to="/contact">Contact Us</Link></p>
             </div>
           </div>
 
           {/* Icon div */}
           <div className=" w-full px-4 sm:w-1/2 lg:w-3/12 ">
             <div className="mb-4 w-full ">
-              <p className="mb-6 text-lg font-semibold text-white ">
-                Address
-              </p>
+              <p className="mb-6 text-lg font-semibold text-white ">Address</p>
               <div className=" ">
                 <p className="flex items-center gap-x-2">
                   <FiMail className="text-xl"></FiMail>{" "}
@@ -74,11 +76,11 @@ const Footer = () => {
                 </p>
                 <p className="flex items-center gap-x-2 mt-2">
                   <BiPhoneCall className="text-xl"></BiPhoneCall> +88
-                  01842113575
+                  01711646758
                 </p>
                 <p className="flex  gap-x-2 mt-2">
-                  <SlLocationPin className="text-3xl"></SlLocationPin> JBS
-                  Holdings Ltd. Block-A, Bashundhara Dhaka, Bangladesh.
+                  <SlLocationPin className="text-3xl"></SlLocationPin> House - NE(B) 2/1, Road- 71, Gulshan-02, Dhaka, Bangladesh.
+
                 </p>
                 <p className="flex  gap-x-2 mt-2">
                   <SlLocationPin className="text-2xl"></SlLocationPin> Nasirabad
@@ -87,14 +89,30 @@ const Footer = () => {
               </div>
 
               <div className="flex mt-5 gap-x-4">
-                <Link to="https://www.facebook.com/smitsolution.uae" target="_blank">
-                  <FaFacebookF className="border rounded-full p-1 text-3xl hover:border-blue-500"></FaFacebookF>
+                <Link
+                  to="https://www.facebook.com/smitsolution.uae"
+                  target="_blank"
+                >
+                  <FaFacebookF className="border rounded-full p-1 text-3xl hover:text-blue-500 hover:border-blue-500"></FaFacebookF>
                 </Link>
-                <Link to="https://www.linkedin.com/company/smitsolution/" target="_blank">
-                  <FaLinkedin className="border rounded-full p-1 text-3xl hover:border-blue-500"></FaLinkedin>
+                <Link
+                  to="https://www.linkedin.com/company/smitsolution/"
+                  target="_blank"
+                >
+                  <FaLinkedin className="border rounded-full p-1 text-3xl hover:text-blue-500 hover:border-blue-500"></FaLinkedin>
                 </Link>
-                <FaTwitter className="border rounded-full p-1 text-3xl hover:border-blue-500"></FaTwitter>
-                <FaInstagram className="border rounded-full p-1 text-3xl hover:border-orange-500"></FaInstagram>
+                <Link
+                  to="https://x.com/smitsolutionuae"
+                  target="_blank"
+                >
+                  <FaXTwitter className="border rounded-full p-1 text-3xl hover:text-gray-400 hover:border-blue-500"></FaXTwitter>
+                </Link>
+                <Link
+                  to="https://www.instagram.com/smitsolution.uae/"
+                  target="_blank"
+                >
+                  <FaInstagram className="border rounded-full p-1 text-3xl hover:text-pink-600 hover:border-orange-600"></FaInstagram>
+                </Link>
               </div>
             </div>
           </div>

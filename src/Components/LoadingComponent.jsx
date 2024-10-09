@@ -1,11 +1,12 @@
 import React from 'react';
+import logo from '../assets/SMIT_LOGO.png';
 
 const LoadingComponent = () => {
     return (
         <div>
             <div className='bg-black h-[100vh] flex flex-col justify-center items-center '>
             <img
-            src="https://i.ibb.co/Wzty2sw/SMIt-Solution-Logo.jpg"
+            src={logo}
             className="lg:w-[250px] w-[100px] rounded-full animate-pulse animate-infinite"
             alt="SM IT Logo"
           />

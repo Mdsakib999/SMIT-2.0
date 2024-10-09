@@ -25,7 +25,7 @@ export const jobData = [
     jobCategory: "Full Time",
     experience: " 1 + years",
     workDays: "Sat - Thu (Friday Off)",
-    deadline: "31 September, 2024",
+    deadline: "30 October, 2024",
     salary: "TK 25-60K (Based on experience)",
     location: "Chittagong, Bangladesh",
   },
@@ -55,7 +55,7 @@ export const jobData = [
     jobCategory: "Full Time",
     experience: " 2 years",
     workDays: "Sat - Thu (Friday Off)",
-    deadline: "31 September, 2024",
+    deadline: "30 October, 2024",
     location: "Chittagong, Bangladesh",
   },
   {
@@ -86,7 +86,7 @@ export const jobData = [
     experience: " 1 years",
     salary: "Negotiable",
     workDays: "Sat - Thu (Friday Off)",
-    deadline: "20 October, 2024",
+    deadline: "26 October, 2024",
     location: "Chittagong, Bangladesh",
   },
 ];
