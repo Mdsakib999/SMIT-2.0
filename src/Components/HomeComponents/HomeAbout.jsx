@@ -57,23 +57,21 @@ const HomeAbout = () => {
                   Empowering your digital journey with precision solutions.
                 </h2>
                 <p className="mb-5 text-base text-body-color ">
-                  At SM IT Solutions, we believe that innovation drives success.
-                  We specialize in specialized IT services that utilize
-                  cutting-edge technologies. Our devoted teams collaborate
-                  closely with customers to understand their requirements and
-                  provide dependable, effective solutions that surpass
-                  expectations. Our passion for finding solutions and our
-                  commitment to providing innovative IT services drive us as a
-                  quick-witted company, ensuring companies thrive in the modern
-                  digital landscape.
+                  SM IT Solution is dedicated to leveraging technology to
+                  enhance your business's success by offering dependable and
+                  innovative IT solutions. Our expertise spans from designing
+                  engaging websites to developing sophisticated e-commerce
+                  platforms and tailored digital tools, all aimed at fulfilling
+                  your unique requirements. We go beyond merely providing services, we deliver customized solutions.
                 </p>
                 <p className="mb-8 text-base text-body-color ">
-                  We are more than just service providers, we are also partners
-                  in digital transformation. Join us and discover the power of
-                  innovation firsthand. Join us on this exciting journey as we
-                  transform the way businesses use technology. Let's bring out
-                  the best in your business together, so that the future is
-                  brighter and more interconnected.
+                   Our team takes the time to comprehend your needs
+                  and produces outcomes that surpass your expectations. With
+                  services such as web development, digital marketing, and app
+                  maintenance, we ensure your business remains competitive in
+                  the ever-changing digital landscape. Let us advance together.
+                  We are here to guide you on your digital journey and uncover
+                  new possibilities for your organization.
                 </p>
 
                 {/* <button className="my-5 bg-gradient-to-r from-orange-500 to-yellow-300 hover:from-yellow-300 hover:to-orange-500 text-white font-bold py-2 px-6 rounded-ss-xl rounded-ee-xl focus:outline-none focus:shadow-outline" >Get In Touch</button> */}

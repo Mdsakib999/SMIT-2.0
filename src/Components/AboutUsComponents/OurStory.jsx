@@ -21,7 +21,7 @@ const OurStory = () => {
             whileInView="visible"
             variants={sectionVariants2}
             viewport={{ once: false }}
-            className="section-container py-12 px-6 md:px-12 rounded-lg">
+            className="section-container py-16 px-6 md:px-12 rounded-lg">
             <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8 mt-[-60px] md:mt-0">
                 <div>
                     <div className="relative mb-4  text-primary font-bold ">

@@ -21,7 +21,7 @@ const sectionVariants = {
 const ServiceSection = () => {
     const marketingFeatures = [
         {
-            feature: "Data-Driven Marketing Strategies",
+            feature: "Facebook & Instagram Ads Management",
             icon: FaChartLine
         },
         {
@@ -33,7 +33,7 @@ const ServiceSection = () => {
             icon: SiSocialblade
         },
         {
-            feature: "Advanced Google Analytics Integration",
+            feature: "Advanced Google Analytics & Ads Integration",
             icon: SiGoogleanalytics
         },
         {
@@ -49,7 +49,7 @@ const ServiceSection = () => {
             icon: FaHandshake
         },
         {
-            feature: "UX/UI Design for Digital Campaigns",
+            feature: "Online Reputation Management",
             icon: SiAdobexd
         }
     ];
@@ -71,7 +71,7 @@ const ServiceSection = () => {
             icon: FaReact
         },
         {
-            feature: "Scalable NoSQL Databases with MongoDB",
+            feature: "Scalable Databases Integration",
             icon: SiMongodb
         },
         {
@@ -79,11 +79,11 @@ const ServiceSection = () => {
             icon: FaDatabase
         },
         {
-            feature: "State Management with Redux",
+            feature: "Custom Web Development Solutions",
             icon: SiRedux
         },
         {
-            feature: "Secure Authentication with JWT and OAuth",
+            feature: "Secure Authentication with Maintenance & Support",
             icon: FaLock
         }
     ];

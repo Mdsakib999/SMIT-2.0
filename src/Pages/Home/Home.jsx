@@ -15,7 +15,7 @@ import useDocumentTitle from "../../Hooks/useDocumentTitle";
 import "./Home.css";
 
 const Home = () => {
-    useDocumentTitle('Home | SM IT Solution')
+    useDocumentTitle('Home | SM IT Solution - Web & Software Development Experts in Bangladesh')
     useEffect(() => {
         window.scrollTo({ top: 0 });
     }, [])

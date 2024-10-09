@@ -13,13 +13,13 @@ const MissionAndVision = () => {
         {
             id: '1',
             title: "Our Mission",
-            description: "At SM IT Solutions, our goal is to offer businesses modern and dependable digital tools that are customized to fit their needs. We work to make technology easier to understand, helping our clients thrive in the fast-changing digital world through our unique services in web development, e-commerce, digital marketing, and custom apps.",
+            description: "At SM IT Solutions, we aim to provide businesses with cutting-edge and reliable digital tools tailored to their specific needs. Our mission is to simplify technology, enabling our clients to succeed in the rapidly evolving digital landscape with our specialized services in web development, e-commerce, digital marketing, and custom apps.",
             image: img1
         },
         {
             id: '2',
             title: "Our Vision",
-            description: "Our vision is to be a global leader in digital transformation, driving the success of businesses worldwide with cutting-edge technology and unparalleled service. We aim to foster lasting partnerships by continually delivering impactful, customer-centric solutions that fuel growth, efficiency, and innovation.",
+            description: "We want to be at the forefront of digital transformation on a global scale, helping businesses everywhere thrive with top-notch technology and exceptional service. Our goal is to build strong, lasting partnerships by consistently providing effective, customer-focused solutions that boost growth, efficiency, and innovation.",
             image: img2
         }
     ];
@@ -40,7 +40,7 @@ const MissionAndVision = () => {
                         <>
                             {/* Text First, Image Second */}
                             <div>
-                                <p className="md:text-4xl text-2xl font-bold">
+                                <p className="text-2xl md:text-3xl lg:text-4xl font-bold">
                                     {item.title.split(' ').slice(0, -1).join(' ')}{' '}
                                     <span className="text-orange-500">
                                         {item.title.split(' ').slice(-1)}
@@ -48,12 +48,12 @@ const MissionAndVision = () => {
                                 </p>
                                 <p className="mt-6 md:text-lg">{item.description}</p>
                             </div>
-                            <img src={item.image} className=" w-[300px] md:w-[500px]  " alt={item.title} />
+                            <img src={item.image} className=" w-[300px] md:w-[550px]  " alt={item.title} />
                         </>
                     ) : (
                         <>
                             {/* Image First, Text Second */}
-                            <img src={item.image} className=" rounded-md w-[300px] md:w-[500px]  order-last md:order-first" alt={item.title} />
+                            <img src={item.image} className=" rounded-md w-[300px] md:w-[550px]  order-last md:order-first" alt={item.title} />
                             <div className='md:mt-20'>
                                 <p className="md:text-4xl text-2xl font-bold">
                                     {item.title.split(' ').slice(0, -1).join(' ')}{' '}

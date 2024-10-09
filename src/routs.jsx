@@ -8,6 +8,8 @@ import ServiceDetails from './Pages/Service/ServiceDetails';
 import About from './Pages/About/About';
 import Career from './Pages/Career/Career';
 import JobDetails from './Pages/Career/JobDetails';
+import Privacy from './Pages/Privacy Policy/Privacy';
+import TermsCondition from './Pages/Terms and Conditions/TermsCondition';
 
 
 export const router = createBrowserRouter([
@@ -35,6 +37,14 @@ export const router = createBrowserRouter([
             {
                 path: '/services',
                 element: <Service />
+            },
+            {
+                path: '/privacy',
+                element: <Privacy></Privacy>
+            },
+            {
+                path: '/termsConditions',
+                element: <TermsCondition></TermsCondition>
             },
             {
                 path: '/service/:title',
