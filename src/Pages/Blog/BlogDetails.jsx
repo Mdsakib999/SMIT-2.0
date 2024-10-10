@@ -30,17 +30,19 @@ const BlogDetails = () => {
     };
     return (
         <div className="bg-[#F8F8FA] w-full   py-32 ">
-            <div className="w-[95%] lg:w-[60%] bg-white h-fit rounded-xl mx-auto shadow-lg">
+            <div className="w-[95%] lg:w-[60%] bg-white h-fit rounded-xl mx-auto shadow-lg ">
                 <div className="p-8">
                     <span className="uppercase rounded-md bg-[#EB3B84] text-white px-4 py-1 font-bold">
                         {filterData.department}
                     </span>
                     <p className="text-2xl font-bold mt-4">{filterData.title}</p>
+                    <div className="h-[300px]">
                     <img
                         src={filterData.img}
-                        className="h-[300px] w-full mt-4 rounded-xl object-cover"
+                        className="h-full w-full mt-6 rounded-xl object-cover"
                         alt=""
                     />
+                    </div>
 
                     <div className="flex justify-between items-center mt-4 pb-4 border-b ">
                         <div className="flex items-center space-x-2">
